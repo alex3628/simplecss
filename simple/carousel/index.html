@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]>    <html class="no-js iem7" ng-app> <![endif]-->
+<!--[if (gt IEMobile 7)|!(IEMobile)]><!--> <html class="no-js" ng-app  ng-controller="pageCtrl"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <title>Carousel | Simple CSS | AKQA</title>
+    <meta name="author" content="AKQA Shanghai technology Team" />
+    <meta name="copyright" content="AKQA Inc." />
+
+    <meta name="keywords" content="AKQA" />
+    <meta name="description" content="AKQA is an independent, ideas-led agency and we work with the world’s leading consumer brands." />
+
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <meta http-equiv="cleartype" content="on">
+    <meta name="msapplication-TileImage" content="/images/touch/apple-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileColor" content="#333333">
+    <meta http-equiv="imagetoolbar" content="no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/touch/apple-touch-icon-144x144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/images/touch/apple-touch-icon-114x114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/images/touch/apple-touch-icon-72x72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/images/touch/apple-touch-icon-57x57-precomposed.png">
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="shortcut icon" href="/images/favicon.ico"/>
+    <!-- CSS link here -->
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+
+
+<!-- hidden input -->
+<div class="hidden-input">
+    <input type="hidden" value="">
+    <input type="hidden" value="">
+</div>
+
+
+<!-- html5 -->
+<div class="wrapper">
+
+    <aside>
+    </aside>
+
+    <nav>
+        <a href="{{logo.link}}" class="logo" title="{{logo.name}}">{{logo.name}}</a>
+        <input type="text" ng-model="search.name" placeholder="search the ex." class="search">
+        <ul>
+            <li ng-repeat="page in pages | filter:search:strict">
+                <a href="{{page.link}}" title="{{page.name}}">{{page.name}}</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <header>
+            <div class="container">
+                <h1 class="title">Carousel</h1>
+                <h2 class="describe">SlidesJS is a responsive slideshow plug-in for jQuery (1.7.1+) with features like touch and CSS3 transitions.</h2>
+                <!--<code class="box-margin">
+                    <p>View on official website: <a target="_blank" href="http://slidesjs.com/" class="active">http://slidesjs.com/</a></p>
+                </code>-->
+            </div>
+        </header>
+
+        <article id="page-content">
+            <div class="container">
+                <div class="pure-g">
+                    <div class="pure-u-1">
+                        <h3 class="subtitle">Overview</h3>
+                        <p>SlidesJS is a simple slideshow plugin for jQuery. Packed with a useful set of features to help novice and advanced developers alike create elegant and user-friendly slideshows.<br/>
+                           SlidesJS is provided with limited support but if you find a bug please submit an Issue with a brief description of the bug and a link to where it can be reviewed.<br/>
+                           For general support please visit the SlidesJS User Group.<br/>
+                           SlidesJS is compatible with all modern web browsers and jQuery versions 1.7-1.9.x.</p>
+                    </div>
+                </div>
+                <div class="pure-g box-margin">
+                    <div class="pure-u-1-2">
+                        <p class="lead"><i class="icon-resize-full"></i> Responsive</p>
+                        <p>Create dynamic slideshows that adapt to any screen.</p>
+                        <p></p>
+                    </div>
+                    <div class="pure-u-1-2">
+                        <p class="lead"><i class="icon-hand-up"></i> Touch</p>
+                        <p>Swipe support that tracks touch movements on supported devices.</p>
+                        <p></p>
+                    </div>
+                    <div class="pure-u-1-2">
+                        <p class="lead"><i class="icon-html5"></i> CSS3 transitions</p>
+                        <p>Animations that run smoothly on modern devices.</p>
+                    </div>
+                    <div class="pure-u-1-2">
+                        <p class="lead"><i class="icon-cogs"></i> Easy setup</p>
+                        <p>Get going fast with the easy-to-use examples.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="pure-g">
+                    <div class="pure-u-1-2">
+                        <div id="slides" class="carousel">
+                            <img src="/images/billboard/slide-1.jpg" alt="slide-1.jpg" width="100%">
+                            <img src="/images/billboard/slide-2.jpg" alt="slide-2.jpg" width="100%">
+                            <img src="/images/billboard/slide-3.jpg" alt="slide-3.jpg" width="100%">
+                            <img src="/images/billboard/slide-4.jpg" alt="slide-4.jpg" width="100%">
+                        </div>
+                    </div>
+                    <div class="pure-u-1-2">
+                        <h3 class="subtitle">Standard slideshow</h3>
+                        <code>
+                            <ol>
+                                <li>
+                                    <div class="tag tab"> $(function(){ </div>
+                                </li>
+                                <li>
+                                    <div class="pln tab-1"> $("<span class="attr">#slides</span>").slidesjs(); </div>
+                                </li>
+                                <li>
+                                    <div class="tag tab"> }); </div>
+                                </li>
+                            </ol>
+                        </code>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="pure-g">
+                    <div class="pure-u-1-2">
+                        <h3 class="subtitle">Options</h3>
+                        <code>
+                            <ol>
+                                <li>
+                                    <div class="tag tab"> $(function(){ </div>
+                                </li>
+                                <li>
+                                    <div class="pln tab-1"> $("<span class="attr">#slides</span>").slidesjs({ </div>
+
+                                        <div class="pln tab-2"> <span class="attr">width:</span> (number), </div>
+
+                                        <div class="pln tab-2"> <span class="attr">height:</span> (number), </div>
+
+                                        <div class="pln tab-2"> <span class="attr">start:</span> (number), </div>
+
+                                        <div class="pln tab-2"> <span class="attr">navigation:</span> { </div>
+                                            <div class="pln tab-3"> <span class="attr">active:</span> (boolean), </div>
+                                            <div class="pln tab-3"> <span class="attr">effect:</span> slide/fade </div>
+                                        <div class="pln tab-2"> }, </div>
+
+                                        <div class="pln tab-2"> <span class="attr">pagination:</span> { </div>
+                                            <div class="pln tab-3"> <span class="attr">active:</span> (boolean), </div>
+                                            <div class="pln tab-3"> <span class="attr">effect:</span> slide/fade </div>
+                                        <div class="pln tab-2"> }, </div>
+
+                                        <div class="pln tab-2"> <span class="attr">effect:</span> { </div>
+                                            <div class="pln tab-3"> <span class="attr">slide:</span> { </div>
+                                                <div class="pln tab-4"> speed: 200</div>
+                                            <div class="pln tab-3"> } </div>
+                                            <div class="pln tab-3"> <span class="attr">fade:</span> { </div>
+                                                <div class="pln tab-4"> speed: 800,</div>
+                                                <div class="pln tab-4"> crossfade: true</div>
+                                            <div class="pln tab-3"> } </div>
+                                        <div class="pln tab-2"> }, </div>
+
+
+                                        <div class="pln tab-2"> <span class="attr">callback: { </div>
+                                            <div class="pln tab-3"> <span class="attr">loaded:</span> function(number) { </div>
+                                                <div class="pln tab-4"> //callback</div>
+                                            <div class="pln tab-3"> },</div>
+                                            <div class="pln tab-3"> <span class="attr">start:</span> function(number) {</div>
+                                                <div class="pln tab-4"> //callback</div>
+                                            <div class="pln tab-3"> },</div>
+                                            <div class="pln tab-3"> <span class="attr">complete:</span> function(number) { </div>
+                                                <div class="pln tab-4"> //callback</div>
+                                            <div class="pln tab-3"> }</div>
+                                        <div class="pln tab-2"> } </div>
+
+                                    <div class="pln tab-1"> }); </div>
+                                </li>
+                                <li>
+                                    <div class="tag tab"> }); </div>
+                                </li>
+                            </ol>
+                        </code>
+                    </div>
+                    <div class="pure-u-1-2">
+                        <div id="slides1" class="carousel">
+                            <img src="/images/billboard/slide-1.jpg" alt="slide-1.jpg" width="100%">
+                            <img src="/images/billboard/slide-2.jpg" alt="slide-2.jpg" width="100%">
+                            <img src="/images/billboard/slide-3.jpg" alt="slide-3.jpg" width="100%">
+                            <img src="/images/billboard/slide-4.jpg" alt="slide-4.jpg" width="100%">
+                        </div>
+                        <div id="slides2" class="carousel box-margin">
+                            <img src="/images/billboard/slide-1.jpg" alt="slide-1.jpg" width="100%">
+                            <img src="/images/billboard/slide-2.jpg" alt="slide-2.jpg" width="100%">
+                            <img src="/images/billboard/slide-3.jpg" alt="slide-3.jpg" width="100%">
+                            <img src="/images/billboard/slide-4.jpg" alt="slide-4.jpg" width="100%">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <footer id="footer">{{footer}}</footer>
+    </main>
+</div>
+
+
+
+<!-- Add your template content here -->
+<div class="template"></div>
+<!-- script link here -->
+<div id="script">
+    <script src="/js/common.js"></script>
+</div>
+</body>
+</html>

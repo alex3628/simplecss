@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]>    <html class="no-js iem7" ng-app> <![endif]-->
+<!--[if (gt IEMobile 7)|!(IEMobile)]><!--> <html class="no-js" ng-app  ng-controller="pageCtrl"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <title>Grid system | Simple CSS | AKQA</title>
+    <meta name="author" content="AKQA Shanghai technology Team" />
+    <meta name="copyright" content="AKQA Inc." />
+    <meta name="keywords" content="AKQA" />
+    <meta name="description" content="AKQA is an independent, ideas-led agency and we work with the world’s leading consumer brands." />
+
+
+    <!-- for window 8 -->
+    <meta name="msapplication-TileImage" content="/images/apple-touch-icon.png">
+    <meta name="msapplication-TileColor" content="#000000">
+
+
+    <!-- for apple mobile -->
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <meta http-equiv="cleartype" content="on">
+    <meta http-equiv="imagetoolbar" content="true" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/apple-touch-icon.png">
+
+
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="shortcut icon" href="/images/favicon.ico"/>
+    <!-- CSS link here -->
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+
+
+<!-- hidden input -->
+<div class="hidden-input">
+    <input type="hidden" id="" name="" value="">
+    <input type="hidden" id="" name="" value="">
+</div>
+
+
+<!-- html5 -->
+<div class="wrapper">
+
+    <nav>
+        <a href="{{logo.link}}" class="logo" title="{{logo.name}}">{{logo.name}}</a>
+        <input type="text" ng-model="search.name" placeholder="search the ex." class="search">
+        <ul>
+            <li ng-repeat="page in pages | filter:search:strict">
+                <a href="{{page.link}}" title="{{page.name}}">{{page.name}}</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <aside class="nav-btn">
+            <
+        </aside>
+        <header>
+            <div class="container">
+                <h1 class="headline">Grid system</h1>
+                <h2 class="describe">Quickstart your next web project with these example layouts.</h2>
+            </div>
+        </header>
+
+        <article>
+            <div class="container grid">
+                <div class="pure-g">
+                    <div class="pure-u-1">1</div>
+                    <div class="pure-u-1-2">1</div>
+                    <div class="pure-u-1-2">2</div>
+                    <div class="pure-u-1-3">1</div>
+                    <div class="pure-u-1-3">2</div>
+                    <div class="pure-u-1-3">3</div>
+                    <div class="pure-u-1-4">1</div>
+                    <div class="pure-u-1-4">2</div>
+                    <div class="pure-u-1-4">3</div>
+                    <div class="pure-u-1-4">4</div>
+                    <div class="pure-u-1-5">1</div>
+                    <div class="pure-u-1-5">2</div>
+                    <div class="pure-u-1-5">3</div>
+                    <div class="pure-u-1-5">4</div>
+                    <div class="pure-u-1-5">5</div>
+                    <div class="pure-u-1-6">1</div>
+                    <div class="pure-u-1-6">2</div>
+                    <div class="pure-u-1-6">3</div>
+                    <div class="pure-u-1-6">4</div>
+                    <div class="pure-u-1-6">5</div>
+                    <div class="pure-u-1-6">6</div>
+                    <div class="pure-u-1-8">1</div>
+                    <div class="pure-u-1-8">2</div>
+                    <div class="pure-u-1-8">3</div>
+                    <div class="pure-u-1-8">4</div>
+                    <div class="pure-u-1-8">5</div>
+                    <div class="pure-u-1-8">6</div>
+                    <div class="pure-u-1-8">7</div>
+                    <div class="pure-u-1-8">8</div>
+                    <div class="pure-u-1-12">1</div>
+                    <div class="pure-u-1-12">2</div>
+                    <div class="pure-u-1-12">3</div>
+                    <div class="pure-u-1-12">4</div>
+                    <div class="pure-u-1-12">5</div>
+                    <div class="pure-u-1-12">6</div>
+                    <div class="pure-u-1-12">7</div>
+                    <div class="pure-u-1-12">8</div>
+                    <div class="pure-u-1-12">9</div>
+                    <div class="pure-u-1-12">10</div>
+                    <div class="pure-u-1-12">11</div>
+                    <div class="pure-u-1-12">12</div>
+                    <div class="pure-u-1-24">1</div>
+                    <div class="pure-u-1-24">2</div>
+                    <div class="pure-u-1-24">3</div>
+                    <div class="pure-u-1-24">4</div>
+                    <div class="pure-u-1-24">5</div>
+                    <div class="pure-u-1-24">6</div>
+                    <div class="pure-u-1-24">7</div>
+                    <div class="pure-u-1-24">8</div>
+                    <div class="pure-u-1-24">9</div>
+                    <div class="pure-u-1-24">10</div>
+                    <div class="pure-u-1-24">11</div>
+                    <div class="pure-u-1-24">12</div>
+                    <div class="pure-u-1-24">13</div>
+                    <div class="pure-u-1-24">14</div>
+                    <div class="pure-u-1-24">15</div>
+                    <div class="pure-u-1-24">16</div>
+                    <div class="pure-u-1-24">17</div>
+                    <div class="pure-u-1-24">18</div>
+                    <div class="pure-u-1-24">19</div>
+                    <div class="pure-u-1-24">20</div>
+                    <div class="pure-u-1-24">21</div>
+                    <div class="pure-u-1-24">22</div>
+                    <div class="pure-u-1-24">23</div>
+                    <div class="pure-u-1-24">24</div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="pure-g">
+                    <div class="pure-u-1 box-margin-bottom">
+                        <div class="l-hbox">
+                            <h3 class="title">Common Layouts</h3>
+                            <p class="lead">Pure was crafted with the goal that it can be used in every web project. To showcase this, we've made some common layouts that leverage Pure. These layouts are responsive and don't use any JavaScript.</p>
+                        </div>
+                    </div>
+                    <div class="pure-u-1-2">
+                        <div class="l-hbox">
+                            <img src="/images/billboard/billboard.jpg" class="responsive">
+                        </div>
+                    </div>
+                    <div class="pure-u-1-2">
+                        <div class="l-hbox">
+                            <h3 class="title">Photo Gallery</h3>
+                            <p>A layout example that shows off a responsive photo gallery.</p>
+                            <a class="btn" href="layouts/photo.html">See Detail</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <footer id="footer">{{footer}}</footer>
+    </main>
+</div>
+
+
+
+<!-- Add your template content here -->
+<div class="template"></div>
+<!-- script link here -->
+<div id="script">
+    <script src="/js/common.js"></script>
+</div>
+</body>
+</html>

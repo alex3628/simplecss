@@ -1,0 +1,131 @@
+/* navigation */
+.nav {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  width: 180px;
+  height: 100%;
+  background-color: $bg-color-black;
+  // nav items
+  .nav-item {
+    color: $color-white;
+    font-size: 1.4em;
+    display: block;
+    padding: 15px;
+    @include text-overflow();
+    @include text-animation();
+    &.logo {
+      color: $text-color-highlight;
+      font-size: 2em;
+    }
+  }
+  // search
+  .search {
+    display: block;
+    outline: none;
+    border: none;
+    height: 30px;
+    width: 100%;
+    padding: 0 15px;
+    background-color: $bg-color-white;
+    @include box-sizing(border-box);
+  }
+}
+
+
+
+
+/* code review */
+$_code-tab-indent: 16px;
+.code {
+  @include border();
+  display: block;
+  background-color: $box-color-bg;
+  text-align: center;
+  word-break: break-all;
+  line-height: 1.6em;
+  padding: 20px;
+  &.scrollable {
+    max-height: 360px;
+    overflow-y: scroll;
+  }
+  ol, ul {
+    text-align: left;
+  }
+  .tag {
+    color: #905fdb;
+  }
+  .attr {
+    color: #080;
+  }
+  .element{
+    color: #f42871;
+  }
+  .tab-1 {
+    text-indent: $_code-tab-indent;
+  }
+  .tab-2 {
+    text-indent: $_code-tab-indent*2;
+  }
+  .tab-3 {
+    text-indent: $_code-tab-indent*3;
+  }
+  .tab-4 {
+    text-indent: $_code-tab-indent*4;
+  }
+}
+
+
+
+
+
+
+/* progress */
+.progress {
+  width: 100%;
+  height: 20px;
+  background-color: $box-color-bg;
+  overflow: hidden;
+  @include border-radius(4px);
+  @include box-shadow(inset 0 1px 2px rgba(0,0,0,.1));
+  .bar {
+    float: left;
+    width: 0;
+    height: 100%;
+    background-color: $color-primary;
+    @include text-overflow();
+    @include box-shadow(inset 0 -1px 0 rgba(0,0,0,.15));
+    @include transition(width .6s ease);
+  }
+  &.active .bar {
+    @include striped();
+    @include background-size(40px 40px);
+    @include animation(progress-active 2s linear infinite);
+  }
+}
+
+
+
+
+
+
+// nav control
+.btn-nav-control {
+  position: fixed;
+  left: 180px;
+  top: 50%;
+  margin-top: -33px;
+  z-index: 3;
+}
+
+
+
+// back to top
+.btn-back-to-top {
+  position: fixed;
+  left: 180px;
+  bottom: 0px;
+  z-index: 3;
+}
+

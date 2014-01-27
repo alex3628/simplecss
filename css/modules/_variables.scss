@@ -1,0 +1,69 @@
+/* ==========================================================================
+   Global Variable
+   ========================================================================== */
+
+
+
+// default color
+// -------------------------
+$color-white:                          #ffffff;
+$color-black:                          #000000;
+$color-stress:                         #333333;
+$color-primary:                        #428bca;
+$color-info:                           #5bc0de;
+$color-success:                        #5cb85c;
+$color-warning:                        #f0ad4e;
+$color-error:                          #d9534f;
+$color-shadow:                         #ffff00;
+$color-describe:                       #999999;
+
+
+// text
+// -------------------------
+$text-margin:                          10px;
+$text-color-main:                      #666666;
+$text-color-highlight:                 #00bbd7;
+$text-color-shadow:                    $color-shadow;
+
+
+// background color
+// -------------------------
+$bg-color-white:                       $color-white;
+$bg-color-black:                       $color-black;
+$bg-color-content:                     #c9edf4;
+$bg-color-info:                        #e2f6f9;
+
+
+// box and border
+// -------------------------
+$box-margin:                           50px;
+$box-color-bg:                         #eaeaea;
+$box-color-shadow:                     $color-shadow;
+$box-border-width:                     1px;
+$box-border-color:                     #ab8c4c;
+$box-border-style:                     solid;
+$box-border-radius:                    0px;
+
+
+
+
+// Buttons
+// -------------------------
+$btn-default-text-color:               $color-stress;
+$btn-default-bg-color:                 $color-white;
+$btn-default-border-color:             darken($color-white, 25%);
+$btn-primary-text-color:               $color-black;
+$btn-primary-bg-color:                 $color-primary;
+$btn-primary-border-color:             darken($color-primary, 5%);
+$btn-info-text-color:                  $color-black;
+$btn-info-bg-color:                    $color-info;
+$btn-info-border-color:                darken($color-info, 5%);
+$btn-success-text-color:               $color-black;
+$btn-success-bg-color:                 $color-success;
+$btn-success-border-color:             darken($color-success, 5%);
+$btn-warning-text-color:               $color-black;
+$btn-warning-bg-color:                 $color-warning;
+$btn-warning-border-color:             darken($color-warning, 5%);
+$btn-error-text-color:                 $color-black;
+$btn-error-bg-color:                   $color-error;
+$btn-error-border-color:               darken($color-error, 5%);

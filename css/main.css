@@ -1,0 +1,5660 @@
+/** _:IE6; *:IE6.7; \9:IE6.7.8; -ms-:Microsoft(Trident引擎); -moz-:Firfox(Gecko引擎); -webkit-:Chrome,Safari(Webkit引擎); -o-:Opera(Presto引擎); **/
+/* ==========================================================================
+   module (declarations that don't produce any css)
+   ========================================================================== */
+/* ==========================================================================
+   Global Variable
+   ========================================================================== */
+/* ==========================================================================
+   Global mixins
+   ========================================================================== */
+@-webkit-keyframes changeOpacity {
+  /* line 3, modules/_animation.scss */
+  from {
+    opacity: 0;
+  }
+
+  /* line 4, modules/_animation.scss */
+  to {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes changeOpacity {
+  /* line 8, modules/_animation.scss */
+  from {
+    opacity: 0;
+  }
+
+  /* line 9, modules/_animation.scss */
+  to {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes changeOpacity {
+  /* line 13, modules/_animation.scss */
+  from {
+    opacity: 0;
+  }
+
+  /* line 14, modules/_animation.scss */
+  to {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes changeOpacity {
+  /* line 18, modules/_animation.scss */
+  from {
+    opacity: 0;
+  }
+
+  /* line 19, modules/_animation.scss */
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes changeOpacity {
+  /* line 23, modules/_animation.scss */
+  from {
+    opacity: 0;
+  }
+
+  /* line 24, modules/_animation.scss */
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes changeBg {
+  /* line 30, modules/_animation.scss */
+  0% {
+    background: #ffffff;
+  }
+
+  /* line 31, modules/_animation.scss */
+  10% {
+    background-image: radial-gradient(50% 45%, circle cover, #e5e5e5 12%, #cccccc 30%, #cccccc 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #e5e5e5 12%, #cccccc 30%, #cccccc 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #e5e5e5 12%, #cccccc 30%, #cccccc 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #e5e5e5 12%, #cccccc 30%, #cccccc 70%, #cccccc 100%);
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #e5e5e5 12%, #cccccc 30%, #cccccc 70%, #cccccc 100%);
+  }
+
+  /* line 38, modules/_animation.scss */
+  15% {
+    background-image: radial-gradient(50% 45%, circle cover, #e6e6e6 12.5%, #cecece 31%, #cccccc 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #e6e6e6 12.5%, #cecece 31%, #cccccc 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #e6e6e6 12.5%, #cecece 31%, #cccccc 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #e6e6e6 12.5%, #cecece 31%, #cccccc 70%, #cccccc 100%);
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #e6e6e6 12.5%, #cecece 31%, #cccccc 70%, #cccccc 100%);
+  }
+
+  /* line 45, modules/_animation.scss */
+  20% {
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #e8e8e8 13%, #d1d1d1 32%, #cdcdcd 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #e8e8e8 13%, #d1d1d1 32%, #cdcdcd 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #e8e8e8 13%, #d1d1d1 32%, #cdcdcd 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #e8e8e8 13%, #d1d1d1 32%, #cdcdcd 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #e8e8e8 13%, #d1d1d1 32%, #cdcdcd 70%, #cccccc 100%);
+  }
+
+  /* line 52, modules/_animation.scss */
+  25% {
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #e9e9e9 13.5%, lightgrey 33%, #cdcdcd 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #e9e9e9 13.5%, lightgrey 33%, #cdcdcd 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #e9e9e9 13.5%, lightgrey 33%, #cdcdcd 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #e9e9e9 13.5%, lightgrey 33%, #cdcdcd 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #e9e9e9 13.5%, #d3d3d3 33%, #cdcdcd 70%, #cccccc 100%);
+  }
+
+  /* line 59, modules/_animation.scss */
+  30% {
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #eaeaea 14%, #d6d6d6 34%, #cecece 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #eaeaea 14%, #d6d6d6 34%, #cecece 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #eaeaea 14%, #d6d6d6 34%, #cecece 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #eaeaea 14%, #d6d6d6 34%, #cecece 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #eaeaea 14%, #d6d6d6 34%, #cecece 70%, #cccccc 100%);
+  }
+
+  /* line 66, modules/_animation.scss */
+  35% {
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #ebebeb 14.5%, #d8d8d8 34.5%, #cecece 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #ebebeb 14.5%, #d8d8d8 34.5%, #cecece 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #ebebeb 14.5%, #d8d8d8 34.5%, #cecece 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #ebebeb 14.5%, #d8d8d8 34.5%, #cecece 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #ebebeb 14.5%, #d8d8d8 34.5%, #cecece 70%, #cccccc 100%);
+  }
+
+  /* line 73, modules/_animation.scss */
+  40% {
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #ededed 15%, #dbdbdb 35%, #cfcfcf 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #ededed 15%, #dbdbdb 35%, #cfcfcf 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #ededed 15%, #dbdbdb 35%, #cfcfcf 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #ededed 15%, #dbdbdb 35%, #cfcfcf 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #ededed 15%, #dbdbdb 35%, #cfcfcf 70%, #cccccc 100%);
+  }
+
+  /* line 80, modules/_animation.scss */
+  45% {
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #eeeeee 15.5%, #dddddd 35.5%, #cfcfcf 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #eeeeee 15.5%, #dddddd 35.5%, #cfcfcf 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #eeeeee 15.5%, #dddddd 35.5%, #cfcfcf 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #eeeeee 15.5%, #dddddd 35.5%, #cfcfcf 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #eeeeee 15.5%, #dddddd 35.5%, #cfcfcf 70%, #cccccc 100%);
+  }
+
+  /* line 87, modules/_animation.scss */
+  50% {
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #efefef 16%, #e0e0e0 36%, #d1d1d1 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #efefef 16%, #e0e0e0 36%, #d1d1d1 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #efefef 16%, #e0e0e0 36%, #d1d1d1 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #efefef 16%, #e0e0e0 36%, #d1d1d1 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #efefef 16%, #e0e0e0 36%, #d1d1d1 70%, #cccccc 100%);
+  }
+
+  /* line 94, modules/_animation.scss */
+  55% {
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #f0f0f0 16.5%, #e2e2e2 36.5%, #d1d1d1 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #f0f0f0 16.5%, #e2e2e2 36.5%, #d1d1d1 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #f0f0f0 16.5%, #e2e2e2 36.5%, #d1d1d1 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #f0f0f0 16.5%, #e2e2e2 36.5%, #d1d1d1 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #f0f0f0 16.5%, #e2e2e2 36.5%, #d1d1d1 70%, #cccccc 100%);
+  }
+
+  /* line 101, modules/_animation.scss */
+  60% {
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #f2f2f2 17%, #e5e5e5 37%, #d2d2d2 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #f2f2f2 17%, #e5e5e5 37%, #d2d2d2 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #f2f2f2 17%, #e5e5e5 37%, #d2d2d2 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #f2f2f2 17%, #e5e5e5 37%, #d2d2d2 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #f2f2f2 17%, #e5e5e5 37%, #d2d2d2 70%, #cccccc 100%);
+  }
+
+  /* line 108, modules/_animation.scss */
+  65% {
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #f3f3f3 17.5%, #e8e8e8 37.5%, #d2d2d2 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #f3f3f3 17.5%, #e8e8e8 37.5%, #d2d2d2 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #f3f3f3 17.5%, #e8e8e8 37.5%, #d2d2d2 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #f3f3f3 17.5%, #e8e8e8 37.5%, #d2d2d2 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #f3f3f3 17.5%, #e8e8e8 37.5%, #d2d2d2 70%, #cccccc 100%);
+  }
+
+  /* line 115, modules/_animation.scss */
+  70% {
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #f4f4f4 18%, #eaeaea 38%, lightgrey 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #f4f4f4 18%, #eaeaea 38%, lightgrey 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #f4f4f4 18%, #eaeaea 38%, lightgrey 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #f4f4f4 18%, #eaeaea 38%, lightgrey 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #f4f4f4 18%, #eaeaea 38%, #d3d3d3 70%, #cccccc 100%);
+  }
+
+  /* line 122, modules/_animation.scss */
+  75% {
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #f6f6f6 18.5%, #ededed 38.5%, lightgrey 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #f6f6f6 18.5%, #ededed 38.5%, lightgrey 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #f6f6f6 18.5%, #ededed 38.5%, lightgrey 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #f6f6f6 18.5%, #ededed 38.5%, lightgrey 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #f6f6f6 18.5%, #ededed 38.5%, #d3d3d3 70%, #cccccc 100%);
+  }
+
+  /* line 129, modules/_animation.scss */
+  80% {
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #f7f7f7 19%, #efefef 39%, #d4d4d4 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #f7f7f7 19%, #efefef 39%, #d4d4d4 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #f7f7f7 19%, #efefef 39%, #d4d4d4 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #f7f7f7 19%, #efefef 39%, #d4d4d4 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #f7f7f7 19%, #efefef 39%, #d4d4d4 70%, #cccccc 100%);
+  }
+
+  /* line 136, modules/_animation.scss */
+  85% {
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #f8f8f8 19.5%, #f0f0f0 39.3%, #d4d4d4 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #f8f8f8 19.5%, #f0f0f0 39.3%, #d4d4d4 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #f8f8f8 19.5%, #f0f0f0 39.3%, #d4d4d4 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #f8f8f8 19.5%, #f0f0f0 39.3%, #d4d4d4 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #f8f8f8 19.5%, #f0f0f0 39.3%, #d4d4d4 70%, #cccccc 100%);
+  }
+
+  /* line 143, modules/_animation.scss */
+  90% {
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #f9f9f9 20%, #f0f0f2 39%, #d6d6d6 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #f9f9f9 20%, #f0f0f2 39%, #d6d6d6 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #f9f9f9 20%, #f0f0f2 39%, #d6d6d6 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #f9f9f9 20%, #f0f0f2 39%, #d6d6d6 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #f9f9f9 20%, #f0f0f2 39%, #d6d6d6 70%, #cccccc 100%);
+  }
+
+  /* line 150, modules/_animation.scss */
+  95% {
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #fcfcfc 20.5%, #f1f1f1 39.5%, #d6d6d6 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #fcfcfc 20.5%, #f1f1f1 39.5%, #d6d6d6 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #fcfcfc 20.5%, #f1f1f1 39.5%, #d6d6d6 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #fcfcfc 20.5%, #f1f1f1 39.5%, #d6d6d6 70%, #cccccc 100%);
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #fcfcfc 20.5%, #f1f1f1 39.5%, #d6d6d6 70%, #cccccc 100%);
+  }
+
+  /* line 157, modules/_animation.scss */
+  100% {
+    background-image: -o-radial-gradient(50% 45%, circle cover, white 21%, #f2f2f2 40%, #d8d8d8 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, white 21%, #f2f2f2 40%, #d8d8d8 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, white 21%, #f2f2f2 40%, #d8d8d8 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #ffffff 21%, #f2f2f2 40%, #d8d8d8 70%, #cccccc 100%);
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, white 21%, #f2f2f2 40%, #d8d8d8 70%, #cccccc 100%);
+  }
+}
+
+@-moz-keyframes changeBg {
+  /* line 167, modules/_animation.scss */
+  0% {
+    background: #ffffff;
+  }
+
+  /* line 168, modules/_animation.scss */
+  10% {
+    background-image: radial-gradient(50% 45%, circle cover, #e5e5e5 12%, #cccccc 30%, #cccccc 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #e5e5e5 12%, #cccccc 30%, #cccccc 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #e5e5e5 12%, #cccccc 30%, #cccccc 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #e5e5e5 12%, #cccccc 30%, #cccccc 70%, #cccccc 100%);
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #e5e5e5 12%, #cccccc 30%, #cccccc 70%, #cccccc 100%);
+  }
+
+  /* line 175, modules/_animation.scss */
+  15% {
+    background-image: radial-gradient(50% 45%, circle cover, #e6e6e6 12.5%, #cecece 31%, #cccccc 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #e6e6e6 12.5%, #cecece 31%, #cccccc 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #e6e6e6 12.5%, #cecece 31%, #cccccc 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #e6e6e6 12.5%, #cecece 31%, #cccccc 70%, #cccccc 100%);
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #e6e6e6 12.5%, #cecece 31%, #cccccc 70%, #cccccc 100%);
+  }
+
+  /* line 182, modules/_animation.scss */
+  20% {
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #e8e8e8 13%, #d1d1d1 32%, #cdcdcd 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #e8e8e8 13%, #d1d1d1 32%, #cdcdcd 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #e8e8e8 13%, #d1d1d1 32%, #cdcdcd 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #e8e8e8 13%, #d1d1d1 32%, #cdcdcd 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #e8e8e8 13%, #d1d1d1 32%, #cdcdcd 70%, #cccccc 100%);
+  }
+
+  /* line 189, modules/_animation.scss */
+  25% {
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #e9e9e9 13.5%, lightgrey 33%, #cdcdcd 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #e9e9e9 13.5%, lightgrey 33%, #cdcdcd 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #e9e9e9 13.5%, lightgrey 33%, #cdcdcd 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #e9e9e9 13.5%, lightgrey 33%, #cdcdcd 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #e9e9e9 13.5%, #d3d3d3 33%, #cdcdcd 70%, #cccccc 100%);
+  }
+
+  /* line 196, modules/_animation.scss */
+  30% {
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #eaeaea 14%, #d6d6d6 34%, #cecece 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #eaeaea 14%, #d6d6d6 34%, #cecece 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #eaeaea 14%, #d6d6d6 34%, #cecece 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #eaeaea 14%, #d6d6d6 34%, #cecece 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #eaeaea 14%, #d6d6d6 34%, #cecece 70%, #cccccc 100%);
+  }
+
+  /* line 203, modules/_animation.scss */
+  35% {
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #ebebeb 14.5%, #d8d8d8 34.5%, #cecece 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #ebebeb 14.5%, #d8d8d8 34.5%, #cecece 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #ebebeb 14.5%, #d8d8d8 34.5%, #cecece 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #ebebeb 14.5%, #d8d8d8 34.5%, #cecece 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #ebebeb 14.5%, #d8d8d8 34.5%, #cecece 70%, #cccccc 100%);
+  }
+
+  /* line 210, modules/_animation.scss */
+  40% {
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #ededed 15%, #dbdbdb 35%, #cfcfcf 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #ededed 15%, #dbdbdb 35%, #cfcfcf 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #ededed 15%, #dbdbdb 35%, #cfcfcf 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #ededed 15%, #dbdbdb 35%, #cfcfcf 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #ededed 15%, #dbdbdb 35%, #cfcfcf 70%, #cccccc 100%);
+  }
+
+  /* line 217, modules/_animation.scss */
+  45% {
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #eeeeee 15.5%, #dddddd 35.5%, #cfcfcf 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #eeeeee 15.5%, #dddddd 35.5%, #cfcfcf 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #eeeeee 15.5%, #dddddd 35.5%, #cfcfcf 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #eeeeee 15.5%, #dddddd 35.5%, #cfcfcf 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #eeeeee 15.5%, #dddddd 35.5%, #cfcfcf 70%, #cccccc 100%);
+  }
+
+  /* line 224, modules/_animation.scss */
+  50% {
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #efefef 16%, #e0e0e0 36%, #d1d1d1 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #efefef 16%, #e0e0e0 36%, #d1d1d1 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #efefef 16%, #e0e0e0 36%, #d1d1d1 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #efefef 16%, #e0e0e0 36%, #d1d1d1 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #efefef 16%, #e0e0e0 36%, #d1d1d1 70%, #cccccc 100%);
+  }
+
+  /* line 231, modules/_animation.scss */
+  55% {
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #f0f0f0 16.5%, #e2e2e2 36.5%, #d1d1d1 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #f0f0f0 16.5%, #e2e2e2 36.5%, #d1d1d1 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #f0f0f0 16.5%, #e2e2e2 36.5%, #d1d1d1 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #f0f0f0 16.5%, #e2e2e2 36.5%, #d1d1d1 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #f0f0f0 16.5%, #e2e2e2 36.5%, #d1d1d1 70%, #cccccc 100%);
+  }
+
+  /* line 238, modules/_animation.scss */
+  60% {
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #f2f2f2 17%, #e5e5e5 37%, #d2d2d2 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #f2f2f2 17%, #e5e5e5 37%, #d2d2d2 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #f2f2f2 17%, #e5e5e5 37%, #d2d2d2 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #f2f2f2 17%, #e5e5e5 37%, #d2d2d2 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #f2f2f2 17%, #e5e5e5 37%, #d2d2d2 70%, #cccccc 100%);
+  }
+
+  /* line 245, modules/_animation.scss */
+  65% {
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #f3f3f3 17.5%, #e8e8e8 37.5%, #d2d2d2 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #f3f3f3 17.5%, #e8e8e8 37.5%, #d2d2d2 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #f3f3f3 17.5%, #e8e8e8 37.5%, #d2d2d2 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #f3f3f3 17.5%, #e8e8e8 37.5%, #d2d2d2 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #f3f3f3 17.5%, #e8e8e8 37.5%, #d2d2d2 70%, #cccccc 100%);
+  }
+
+  /* line 252, modules/_animation.scss */
+  70% {
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #f4f4f4 18%, #eaeaea 38%, lightgrey 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #f4f4f4 18%, #eaeaea 38%, lightgrey 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #f4f4f4 18%, #eaeaea 38%, lightgrey 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #f4f4f4 18%, #eaeaea 38%, lightgrey 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #f4f4f4 18%, #eaeaea 38%, #d3d3d3 70%, #cccccc 100%);
+  }
+
+  /* line 259, modules/_animation.scss */
+  75% {
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #f6f6f6 18.5%, #ededed 38.5%, lightgrey 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #f6f6f6 18.5%, #ededed 38.5%, lightgrey 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #f6f6f6 18.5%, #ededed 38.5%, lightgrey 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #f6f6f6 18.5%, #ededed 38.5%, lightgrey 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #f6f6f6 18.5%, #ededed 38.5%, #d3d3d3 70%, #cccccc 100%);
+  }
+
+  /* line 266, modules/_animation.scss */
+  80% {
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #f7f7f7 19%, #efefef 39%, #d4d4d4 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #f7f7f7 19%, #efefef 39%, #d4d4d4 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #f7f7f7 19%, #efefef 39%, #d4d4d4 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #f7f7f7 19%, #efefef 39%, #d4d4d4 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #f7f7f7 19%, #efefef 39%, #d4d4d4 70%, #cccccc 100%);
+  }
+
+  /* line 273, modules/_animation.scss */
+  85% {
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #f8f8f8 19.5%, #f0f0f0 39.3%, #d4d4d4 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #f8f8f8 19.5%, #f0f0f0 39.3%, #d4d4d4 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #f8f8f8 19.5%, #f0f0f0 39.3%, #d4d4d4 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #f8f8f8 19.5%, #f0f0f0 39.3%, #d4d4d4 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #f8f8f8 19.5%, #f0f0f0 39.3%, #d4d4d4 70%, #cccccc 100%);
+  }
+
+  /* line 280, modules/_animation.scss */
+  90% {
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #f9f9f9 20%, #f0f0f2 39%, #d6d6d6 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #f9f9f9 20%, #f0f0f2 39%, #d6d6d6 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #f9f9f9 20%, #f0f0f2 39%, #d6d6d6 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #f9f9f9 20%, #f0f0f2 39%, #d6d6d6 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #f9f9f9 20%, #f0f0f2 39%, #d6d6d6 70%, #cccccc 100%);
+  }
+
+  /* line 287, modules/_animation.scss */
+  95% {
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #fcfcfc 20.5%, #f1f1f1 39.5%, #d6d6d6 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #fcfcfc 20.5%, #f1f1f1 39.5%, #d6d6d6 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #fcfcfc 20.5%, #f1f1f1 39.5%, #d6d6d6 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #fcfcfc 20.5%, #f1f1f1 39.5%, #d6d6d6 70%, #cccccc 100%);
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #fcfcfc 20.5%, #f1f1f1 39.5%, #d6d6d6 70%, #cccccc 100%);
+  }
+
+  /* line 294, modules/_animation.scss */
+  100% {
+    background-image: -o-radial-gradient(50% 45%, circle cover, white 21%, #f2f2f2 40%, #d8d8d8 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, white 21%, #f2f2f2 40%, #d8d8d8 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, white 21%, #f2f2f2 40%, #d8d8d8 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #ffffff 21%, #f2f2f2 40%, #d8d8d8 70%, #cccccc 100%);
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, white 21%, #f2f2f2 40%, #d8d8d8 70%, #cccccc 100%);
+  }
+}
+
+@-ms-keyframes changeBg {
+  /* line 304, modules/_animation.scss */
+  0% {
+    background: #ffffff;
+  }
+
+  /* line 305, modules/_animation.scss */
+  10% {
+    background-image: radial-gradient(50% 45%, circle cover, #e5e5e5 12%, #cccccc 30%, #cccccc 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #e5e5e5 12%, #cccccc 30%, #cccccc 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #e5e5e5 12%, #cccccc 30%, #cccccc 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #e5e5e5 12%, #cccccc 30%, #cccccc 70%, #cccccc 100%);
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #e5e5e5 12%, #cccccc 30%, #cccccc 70%, #cccccc 100%);
+  }
+
+  /* line 312, modules/_animation.scss */
+  15% {
+    background-image: radial-gradient(50% 45%, circle cover, #e6e6e6 12.5%, #cecece 31%, #cccccc 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #e6e6e6 12.5%, #cecece 31%, #cccccc 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #e6e6e6 12.5%, #cecece 31%, #cccccc 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #e6e6e6 12.5%, #cecece 31%, #cccccc 70%, #cccccc 100%);
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #e6e6e6 12.5%, #cecece 31%, #cccccc 70%, #cccccc 100%);
+  }
+
+  /* line 319, modules/_animation.scss */
+  20% {
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #e8e8e8 13%, #d1d1d1 32%, #cdcdcd 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #e8e8e8 13%, #d1d1d1 32%, #cdcdcd 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #e8e8e8 13%, #d1d1d1 32%, #cdcdcd 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #e8e8e8 13%, #d1d1d1 32%, #cdcdcd 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #e8e8e8 13%, #d1d1d1 32%, #cdcdcd 70%, #cccccc 100%);
+  }
+
+  /* line 326, modules/_animation.scss */
+  25% {
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #e9e9e9 13.5%, lightgrey 33%, #cdcdcd 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #e9e9e9 13.5%, lightgrey 33%, #cdcdcd 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #e9e9e9 13.5%, lightgrey 33%, #cdcdcd 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #e9e9e9 13.5%, lightgrey 33%, #cdcdcd 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #e9e9e9 13.5%, #d3d3d3 33%, #cdcdcd 70%, #cccccc 100%);
+  }
+
+  /* line 333, modules/_animation.scss */
+  30% {
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #eaeaea 14%, #d6d6d6 34%, #cecece 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #eaeaea 14%, #d6d6d6 34%, #cecece 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #eaeaea 14%, #d6d6d6 34%, #cecece 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #eaeaea 14%, #d6d6d6 34%, #cecece 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #eaeaea 14%, #d6d6d6 34%, #cecece 70%, #cccccc 100%);
+  }
+
+  /* line 340, modules/_animation.scss */
+  35% {
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #ebebeb 14.5%, #d8d8d8 34.5%, #cecece 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #ebebeb 14.5%, #d8d8d8 34.5%, #cecece 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #ebebeb 14.5%, #d8d8d8 34.5%, #cecece 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #ebebeb 14.5%, #d8d8d8 34.5%, #cecece 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #ebebeb 14.5%, #d8d8d8 34.5%, #cecece 70%, #cccccc 100%);
+  }
+
+  /* line 347, modules/_animation.scss */
+  40% {
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #ededed 15%, #dbdbdb 35%, #cfcfcf 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #ededed 15%, #dbdbdb 35%, #cfcfcf 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #ededed 15%, #dbdbdb 35%, #cfcfcf 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #ededed 15%, #dbdbdb 35%, #cfcfcf 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #ededed 15%, #dbdbdb 35%, #cfcfcf 70%, #cccccc 100%);
+  }
+
+  /* line 354, modules/_animation.scss */
+  45% {
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #eeeeee 15.5%, #dddddd 35.5%, #cfcfcf 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #eeeeee 15.5%, #dddddd 35.5%, #cfcfcf 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #eeeeee 15.5%, #dddddd 35.5%, #cfcfcf 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #eeeeee 15.5%, #dddddd 35.5%, #cfcfcf 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #eeeeee 15.5%, #dddddd 35.5%, #cfcfcf 70%, #cccccc 100%);
+  }
+
+  /* line 361, modules/_animation.scss */
+  50% {
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #efefef 16%, #e0e0e0 36%, #d1d1d1 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #efefef 16%, #e0e0e0 36%, #d1d1d1 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #efefef 16%, #e0e0e0 36%, #d1d1d1 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #efefef 16%, #e0e0e0 36%, #d1d1d1 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #efefef 16%, #e0e0e0 36%, #d1d1d1 70%, #cccccc 100%);
+  }
+
+  /* line 368, modules/_animation.scss */
+  55% {
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #f0f0f0 16.5%, #e2e2e2 36.5%, #d1d1d1 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #f0f0f0 16.5%, #e2e2e2 36.5%, #d1d1d1 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #f0f0f0 16.5%, #e2e2e2 36.5%, #d1d1d1 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #f0f0f0 16.5%, #e2e2e2 36.5%, #d1d1d1 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #f0f0f0 16.5%, #e2e2e2 36.5%, #d1d1d1 70%, #cccccc 100%);
+  }
+
+  /* line 375, modules/_animation.scss */
+  60% {
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #f2f2f2 17%, #e5e5e5 37%, #d2d2d2 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #f2f2f2 17%, #e5e5e5 37%, #d2d2d2 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #f2f2f2 17%, #e5e5e5 37%, #d2d2d2 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #f2f2f2 17%, #e5e5e5 37%, #d2d2d2 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #f2f2f2 17%, #e5e5e5 37%, #d2d2d2 70%, #cccccc 100%);
+  }
+
+  /* line 382, modules/_animation.scss */
+  65% {
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #f3f3f3 17.5%, #e8e8e8 37.5%, #d2d2d2 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #f3f3f3 17.5%, #e8e8e8 37.5%, #d2d2d2 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #f3f3f3 17.5%, #e8e8e8 37.5%, #d2d2d2 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #f3f3f3 17.5%, #e8e8e8 37.5%, #d2d2d2 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #f3f3f3 17.5%, #e8e8e8 37.5%, #d2d2d2 70%, #cccccc 100%);
+  }
+
+  /* line 389, modules/_animation.scss */
+  70% {
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #f4f4f4 18%, #eaeaea 38%, lightgrey 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #f4f4f4 18%, #eaeaea 38%, lightgrey 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #f4f4f4 18%, #eaeaea 38%, lightgrey 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #f4f4f4 18%, #eaeaea 38%, lightgrey 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #f4f4f4 18%, #eaeaea 38%, #d3d3d3 70%, #cccccc 100%);
+  }
+
+  /* line 396, modules/_animation.scss */
+  75% {
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #f6f6f6 18.5%, #ededed 38.5%, lightgrey 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #f6f6f6 18.5%, #ededed 38.5%, lightgrey 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #f6f6f6 18.5%, #ededed 38.5%, lightgrey 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #f6f6f6 18.5%, #ededed 38.5%, lightgrey 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #f6f6f6 18.5%, #ededed 38.5%, #d3d3d3 70%, #cccccc 100%);
+  }
+
+  /* line 403, modules/_animation.scss */
+  80% {
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #f7f7f7 19%, #efefef 39%, #d4d4d4 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #f7f7f7 19%, #efefef 39%, #d4d4d4 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #f7f7f7 19%, #efefef 39%, #d4d4d4 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #f7f7f7 19%, #efefef 39%, #d4d4d4 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #f7f7f7 19%, #efefef 39%, #d4d4d4 70%, #cccccc 100%);
+  }
+
+  /* line 410, modules/_animation.scss */
+  85% {
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #f8f8f8 19.5%, #f0f0f0 39.3%, #d4d4d4 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #f8f8f8 19.5%, #f0f0f0 39.3%, #d4d4d4 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #f8f8f8 19.5%, #f0f0f0 39.3%, #d4d4d4 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #f8f8f8 19.5%, #f0f0f0 39.3%, #d4d4d4 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #f8f8f8 19.5%, #f0f0f0 39.3%, #d4d4d4 70%, #cccccc 100%);
+  }
+
+  /* line 417, modules/_animation.scss */
+  90% {
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #f9f9f9 20%, #f0f0f2 39%, #d6d6d6 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #f9f9f9 20%, #f0f0f2 39%, #d6d6d6 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #f9f9f9 20%, #f0f0f2 39%, #d6d6d6 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #f9f9f9 20%, #f0f0f2 39%, #d6d6d6 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #f9f9f9 20%, #f0f0f2 39%, #d6d6d6 70%, #cccccc 100%);
+  }
+
+  /* line 424, modules/_animation.scss */
+  95% {
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #fcfcfc 20.5%, #f1f1f1 39.5%, #d6d6d6 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #fcfcfc 20.5%, #f1f1f1 39.5%, #d6d6d6 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #fcfcfc 20.5%, #f1f1f1 39.5%, #d6d6d6 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #fcfcfc 20.5%, #f1f1f1 39.5%, #d6d6d6 70%, #cccccc 100%);
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #fcfcfc 20.5%, #f1f1f1 39.5%, #d6d6d6 70%, #cccccc 100%);
+  }
+
+  /* line 431, modules/_animation.scss */
+  100% {
+    background-image: -o-radial-gradient(50% 45%, circle cover, white 21%, #f2f2f2 40%, #d8d8d8 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, white 21%, #f2f2f2 40%, #d8d8d8 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, white 21%, #f2f2f2 40%, #d8d8d8 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #ffffff 21%, #f2f2f2 40%, #d8d8d8 70%, #cccccc 100%);
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, white 21%, #f2f2f2 40%, #d8d8d8 70%, #cccccc 100%);
+  }
+}
+
+@-o-keyframes changeBg {
+  /* line 441, modules/_animation.scss */
+  0% {
+    background: #ffffff;
+  }
+
+  /* line 442, modules/_animation.scss */
+  10% {
+    background-image: radial-gradient(50% 45%, circle cover, #e5e5e5 12%, #cccccc 30%, #cccccc 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #e5e5e5 12%, #cccccc 30%, #cccccc 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #e5e5e5 12%, #cccccc 30%, #cccccc 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #e5e5e5 12%, #cccccc 30%, #cccccc 70%, #cccccc 100%);
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #e5e5e5 12%, #cccccc 30%, #cccccc 70%, #cccccc 100%);
+  }
+
+  /* line 449, modules/_animation.scss */
+  15% {
+    background-image: radial-gradient(50% 45%, circle cover, #e6e6e6 12.5%, #cecece 31%, #cccccc 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #e6e6e6 12.5%, #cecece 31%, #cccccc 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #e6e6e6 12.5%, #cecece 31%, #cccccc 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #e6e6e6 12.5%, #cecece 31%, #cccccc 70%, #cccccc 100%);
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #e6e6e6 12.5%, #cecece 31%, #cccccc 70%, #cccccc 100%);
+  }
+
+  /* line 456, modules/_animation.scss */
+  20% {
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #e8e8e8 13%, #d1d1d1 32%, #cdcdcd 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #e8e8e8 13%, #d1d1d1 32%, #cdcdcd 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #e8e8e8 13%, #d1d1d1 32%, #cdcdcd 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #e8e8e8 13%, #d1d1d1 32%, #cdcdcd 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #e8e8e8 13%, #d1d1d1 32%, #cdcdcd 70%, #cccccc 100%);
+  }
+
+  /* line 463, modules/_animation.scss */
+  25% {
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #e9e9e9 13.5%, lightgrey 33%, #cdcdcd 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #e9e9e9 13.5%, lightgrey 33%, #cdcdcd 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #e9e9e9 13.5%, lightgrey 33%, #cdcdcd 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #e9e9e9 13.5%, lightgrey 33%, #cdcdcd 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #e9e9e9 13.5%, #d3d3d3 33%, #cdcdcd 70%, #cccccc 100%);
+  }
+
+  /* line 470, modules/_animation.scss */
+  30% {
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #eaeaea 14%, #d6d6d6 34%, #cecece 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #eaeaea 14%, #d6d6d6 34%, #cecece 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #eaeaea 14%, #d6d6d6 34%, #cecece 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #eaeaea 14%, #d6d6d6 34%, #cecece 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #eaeaea 14%, #d6d6d6 34%, #cecece 70%, #cccccc 100%);
+  }
+
+  /* line 477, modules/_animation.scss */
+  35% {
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #ebebeb 14.5%, #d8d8d8 34.5%, #cecece 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #ebebeb 14.5%, #d8d8d8 34.5%, #cecece 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #ebebeb 14.5%, #d8d8d8 34.5%, #cecece 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #ebebeb 14.5%, #d8d8d8 34.5%, #cecece 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #ebebeb 14.5%, #d8d8d8 34.5%, #cecece 70%, #cccccc 100%);
+  }
+
+  /* line 484, modules/_animation.scss */
+  40% {
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #ededed 15%, #dbdbdb 35%, #cfcfcf 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #ededed 15%, #dbdbdb 35%, #cfcfcf 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #ededed 15%, #dbdbdb 35%, #cfcfcf 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #ededed 15%, #dbdbdb 35%, #cfcfcf 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #ededed 15%, #dbdbdb 35%, #cfcfcf 70%, #cccccc 100%);
+  }
+
+  /* line 491, modules/_animation.scss */
+  45% {
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #eeeeee 15.5%, #dddddd 35.5%, #cfcfcf 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #eeeeee 15.5%, #dddddd 35.5%, #cfcfcf 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #eeeeee 15.5%, #dddddd 35.5%, #cfcfcf 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #eeeeee 15.5%, #dddddd 35.5%, #cfcfcf 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #eeeeee 15.5%, #dddddd 35.5%, #cfcfcf 70%, #cccccc 100%);
+  }
+
+  /* line 498, modules/_animation.scss */
+  50% {
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #efefef 16%, #e0e0e0 36%, #d1d1d1 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #efefef 16%, #e0e0e0 36%, #d1d1d1 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #efefef 16%, #e0e0e0 36%, #d1d1d1 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #efefef 16%, #e0e0e0 36%, #d1d1d1 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #efefef 16%, #e0e0e0 36%, #d1d1d1 70%, #cccccc 100%);
+  }
+
+  /* line 505, modules/_animation.scss */
+  55% {
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #f0f0f0 16.5%, #e2e2e2 36.5%, #d1d1d1 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #f0f0f0 16.5%, #e2e2e2 36.5%, #d1d1d1 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #f0f0f0 16.5%, #e2e2e2 36.5%, #d1d1d1 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #f0f0f0 16.5%, #e2e2e2 36.5%, #d1d1d1 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #f0f0f0 16.5%, #e2e2e2 36.5%, #d1d1d1 70%, #cccccc 100%);
+  }
+
+  /* line 512, modules/_animation.scss */
+  60% {
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #f2f2f2 17%, #e5e5e5 37%, #d2d2d2 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #f2f2f2 17%, #e5e5e5 37%, #d2d2d2 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #f2f2f2 17%, #e5e5e5 37%, #d2d2d2 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #f2f2f2 17%, #e5e5e5 37%, #d2d2d2 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #f2f2f2 17%, #e5e5e5 37%, #d2d2d2 70%, #cccccc 100%);
+  }
+
+  /* line 519, modules/_animation.scss */
+  65% {
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #f3f3f3 17.5%, #e8e8e8 37.5%, #d2d2d2 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #f3f3f3 17.5%, #e8e8e8 37.5%, #d2d2d2 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #f3f3f3 17.5%, #e8e8e8 37.5%, #d2d2d2 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #f3f3f3 17.5%, #e8e8e8 37.5%, #d2d2d2 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #f3f3f3 17.5%, #e8e8e8 37.5%, #d2d2d2 70%, #cccccc 100%);
+  }
+
+  /* line 526, modules/_animation.scss */
+  70% {
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #f4f4f4 18%, #eaeaea 38%, lightgrey 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #f4f4f4 18%, #eaeaea 38%, lightgrey 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #f4f4f4 18%, #eaeaea 38%, lightgrey 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #f4f4f4 18%, #eaeaea 38%, lightgrey 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #f4f4f4 18%, #eaeaea 38%, #d3d3d3 70%, #cccccc 100%);
+  }
+
+  /* line 533, modules/_animation.scss */
+  75% {
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #f6f6f6 18.5%, #ededed 38.5%, lightgrey 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #f6f6f6 18.5%, #ededed 38.5%, lightgrey 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #f6f6f6 18.5%, #ededed 38.5%, lightgrey 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #f6f6f6 18.5%, #ededed 38.5%, lightgrey 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #f6f6f6 18.5%, #ededed 38.5%, #d3d3d3 70%, #cccccc 100%);
+  }
+
+  /* line 540, modules/_animation.scss */
+  80% {
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #f7f7f7 19%, #efefef 39%, #d4d4d4 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #f7f7f7 19%, #efefef 39%, #d4d4d4 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #f7f7f7 19%, #efefef 39%, #d4d4d4 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #f7f7f7 19%, #efefef 39%, #d4d4d4 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #f7f7f7 19%, #efefef 39%, #d4d4d4 70%, #cccccc 100%);
+  }
+
+  /* line 547, modules/_animation.scss */
+  85% {
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #f8f8f8 19.5%, #f0f0f0 39.3%, #d4d4d4 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #f8f8f8 19.5%, #f0f0f0 39.3%, #d4d4d4 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #f8f8f8 19.5%, #f0f0f0 39.3%, #d4d4d4 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #f8f8f8 19.5%, #f0f0f0 39.3%, #d4d4d4 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #f8f8f8 19.5%, #f0f0f0 39.3%, #d4d4d4 70%, #cccccc 100%);
+  }
+
+  /* line 554, modules/_animation.scss */
+  90% {
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #f9f9f9 20%, #f0f0f2 39%, #d6d6d6 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #f9f9f9 20%, #f0f0f2 39%, #d6d6d6 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #f9f9f9 20%, #f0f0f2 39%, #d6d6d6 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #f9f9f9 20%, #f0f0f2 39%, #d6d6d6 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #f9f9f9 20%, #f0f0f2 39%, #d6d6d6 70%, #cccccc 100%);
+  }
+
+  /* line 561, modules/_animation.scss */
+  95% {
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #fcfcfc 20.5%, #f1f1f1 39.5%, #d6d6d6 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #fcfcfc 20.5%, #f1f1f1 39.5%, #d6d6d6 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #fcfcfc 20.5%, #f1f1f1 39.5%, #d6d6d6 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #fcfcfc 20.5%, #f1f1f1 39.5%, #d6d6d6 70%, #cccccc 100%);
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #fcfcfc 20.5%, #f1f1f1 39.5%, #d6d6d6 70%, #cccccc 100%);
+  }
+
+  /* line 568, modules/_animation.scss */
+  100% {
+    background-image: -o-radial-gradient(50% 45%, circle cover, white 21%, #f2f2f2 40%, #d8d8d8 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, white 21%, #f2f2f2 40%, #d8d8d8 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, white 21%, #f2f2f2 40%, #d8d8d8 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #ffffff 21%, #f2f2f2 40%, #d8d8d8 70%, #cccccc 100%);
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, white 21%, #f2f2f2 40%, #d8d8d8 70%, #cccccc 100%);
+  }
+}
+
+@keyframes changeBg {
+  /* line 578, modules/_animation.scss */
+  0% {
+    background: #ffffff;
+  }
+
+  /* line 579, modules/_animation.scss */
+  10% {
+    background-image: radial-gradient(50% 45%, circle cover, #e5e5e5 12%, #cccccc 30%, #cccccc 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #e5e5e5 12%, #cccccc 30%, #cccccc 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #e5e5e5 12%, #cccccc 30%, #cccccc 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #e5e5e5 12%, #cccccc 30%, #cccccc 70%, #cccccc 100%);
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #e5e5e5 12%, #cccccc 30%, #cccccc 70%, #cccccc 100%);
+  }
+
+  /* line 586, modules/_animation.scss */
+  15% {
+    background-image: radial-gradient(50% 45%, circle cover, #e6e6e6 12.5%, #cecece 31%, #cccccc 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #e6e6e6 12.5%, #cecece 31%, #cccccc 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #e6e6e6 12.5%, #cecece 31%, #cccccc 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #e6e6e6 12.5%, #cecece 31%, #cccccc 70%, #cccccc 100%);
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #e6e6e6 12.5%, #cecece 31%, #cccccc 70%, #cccccc 100%);
+  }
+
+  /* line 593, modules/_animation.scss */
+  20% {
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #e8e8e8 13%, #d1d1d1 32%, #cdcdcd 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #e8e8e8 13%, #d1d1d1 32%, #cdcdcd 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #e8e8e8 13%, #d1d1d1 32%, #cdcdcd 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #e8e8e8 13%, #d1d1d1 32%, #cdcdcd 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #e8e8e8 13%, #d1d1d1 32%, #cdcdcd 70%, #cccccc 100%);
+  }
+
+  /* line 600, modules/_animation.scss */
+  25% {
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #e9e9e9 13.5%, lightgrey 33%, #cdcdcd 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #e9e9e9 13.5%, lightgrey 33%, #cdcdcd 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #e9e9e9 13.5%, lightgrey 33%, #cdcdcd 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #e9e9e9 13.5%, lightgrey 33%, #cdcdcd 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #e9e9e9 13.5%, #d3d3d3 33%, #cdcdcd 70%, #cccccc 100%);
+  }
+
+  /* line 607, modules/_animation.scss */
+  30% {
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #eaeaea 14%, #d6d6d6 34%, #cecece 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #eaeaea 14%, #d6d6d6 34%, #cecece 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #eaeaea 14%, #d6d6d6 34%, #cecece 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #eaeaea 14%, #d6d6d6 34%, #cecece 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #eaeaea 14%, #d6d6d6 34%, #cecece 70%, #cccccc 100%);
+  }
+
+  /* line 614, modules/_animation.scss */
+  35% {
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #ebebeb 14.5%, #d8d8d8 34.5%, #cecece 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #ebebeb 14.5%, #d8d8d8 34.5%, #cecece 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #ebebeb 14.5%, #d8d8d8 34.5%, #cecece 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #ebebeb 14.5%, #d8d8d8 34.5%, #cecece 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #ebebeb 14.5%, #d8d8d8 34.5%, #cecece 70%, #cccccc 100%);
+  }
+
+  /* line 621, modules/_animation.scss */
+  40% {
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #ededed 15%, #dbdbdb 35%, #cfcfcf 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #ededed 15%, #dbdbdb 35%, #cfcfcf 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #ededed 15%, #dbdbdb 35%, #cfcfcf 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #ededed 15%, #dbdbdb 35%, #cfcfcf 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #ededed 15%, #dbdbdb 35%, #cfcfcf 70%, #cccccc 100%);
+  }
+
+  /* line 628, modules/_animation.scss */
+  45% {
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #eeeeee 15.5%, #dddddd 35.5%, #cfcfcf 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #eeeeee 15.5%, #dddddd 35.5%, #cfcfcf 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #eeeeee 15.5%, #dddddd 35.5%, #cfcfcf 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #eeeeee 15.5%, #dddddd 35.5%, #cfcfcf 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #eeeeee 15.5%, #dddddd 35.5%, #cfcfcf 70%, #cccccc 100%);
+  }
+
+  /* line 635, modules/_animation.scss */
+  50% {
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #efefef 16%, #e0e0e0 36%, #d1d1d1 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #efefef 16%, #e0e0e0 36%, #d1d1d1 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #efefef 16%, #e0e0e0 36%, #d1d1d1 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #efefef 16%, #e0e0e0 36%, #d1d1d1 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #efefef 16%, #e0e0e0 36%, #d1d1d1 70%, #cccccc 100%);
+  }
+
+  /* line 642, modules/_animation.scss */
+  55% {
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #f0f0f0 16.5%, #e2e2e2 36.5%, #d1d1d1 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #f0f0f0 16.5%, #e2e2e2 36.5%, #d1d1d1 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #f0f0f0 16.5%, #e2e2e2 36.5%, #d1d1d1 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #f0f0f0 16.5%, #e2e2e2 36.5%, #d1d1d1 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #f0f0f0 16.5%, #e2e2e2 36.5%, #d1d1d1 70%, #cccccc 100%);
+  }
+
+  /* line 649, modules/_animation.scss */
+  60% {
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #f2f2f2 17%, #e5e5e5 37%, #d2d2d2 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #f2f2f2 17%, #e5e5e5 37%, #d2d2d2 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #f2f2f2 17%, #e5e5e5 37%, #d2d2d2 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #f2f2f2 17%, #e5e5e5 37%, #d2d2d2 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #f2f2f2 17%, #e5e5e5 37%, #d2d2d2 70%, #cccccc 100%);
+  }
+
+  /* line 656, modules/_animation.scss */
+  65% {
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #f3f3f3 17.5%, #e8e8e8 37.5%, #d2d2d2 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #f3f3f3 17.5%, #e8e8e8 37.5%, #d2d2d2 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #f3f3f3 17.5%, #e8e8e8 37.5%, #d2d2d2 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #f3f3f3 17.5%, #e8e8e8 37.5%, #d2d2d2 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #f3f3f3 17.5%, #e8e8e8 37.5%, #d2d2d2 70%, #cccccc 100%);
+  }
+
+  /* line 663, modules/_animation.scss */
+  70% {
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #f4f4f4 18%, #eaeaea 38%, lightgrey 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #f4f4f4 18%, #eaeaea 38%, lightgrey 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #f4f4f4 18%, #eaeaea 38%, lightgrey 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #f4f4f4 18%, #eaeaea 38%, lightgrey 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #f4f4f4 18%, #eaeaea 38%, #d3d3d3 70%, #cccccc 100%);
+  }
+
+  /* line 670, modules/_animation.scss */
+  75% {
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #f6f6f6 18.5%, #ededed 38.5%, lightgrey 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #f6f6f6 18.5%, #ededed 38.5%, lightgrey 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #f6f6f6 18.5%, #ededed 38.5%, lightgrey 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #f6f6f6 18.5%, #ededed 38.5%, lightgrey 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #f6f6f6 18.5%, #ededed 38.5%, #d3d3d3 70%, #cccccc 100%);
+  }
+
+  /* line 677, modules/_animation.scss */
+  80% {
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #f7f7f7 19%, #efefef 39%, #d4d4d4 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #f7f7f7 19%, #efefef 39%, #d4d4d4 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #f7f7f7 19%, #efefef 39%, #d4d4d4 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #f7f7f7 19%, #efefef 39%, #d4d4d4 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #f7f7f7 19%, #efefef 39%, #d4d4d4 70%, #cccccc 100%);
+  }
+
+  /* line 684, modules/_animation.scss */
+  85% {
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #f8f8f8 19.5%, #f0f0f0 39.3%, #d4d4d4 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #f8f8f8 19.5%, #f0f0f0 39.3%, #d4d4d4 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #f8f8f8 19.5%, #f0f0f0 39.3%, #d4d4d4 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #f8f8f8 19.5%, #f0f0f0 39.3%, #d4d4d4 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #f8f8f8 19.5%, #f0f0f0 39.3%, #d4d4d4 70%, #cccccc 100%);
+  }
+
+  /* line 691, modules/_animation.scss */
+  90% {
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #f9f9f9 20%, #f0f0f2 39%, #d6d6d6 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #f9f9f9 20%, #f0f0f2 39%, #d6d6d6 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #f9f9f9 20%, #f0f0f2 39%, #d6d6d6 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #f9f9f9 20%, #f0f0f2 39%, #d6d6d6 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #f9f9f9 20%, #f0f0f2 39%, #d6d6d6 70%, #cccccc 100%);
+  }
+
+  /* line 698, modules/_animation.scss */
+  95% {
+    background-image: -moz-radial-gradient(50% 45%, circle cover, #fcfcfc 20.5%, #f1f1f1 39.5%, #d6d6d6 70%, #cccccc 100%);
+    background-image: -o-radial-gradient(50% 45%, circle cover, #fcfcfc 20.5%, #f1f1f1 39.5%, #d6d6d6 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, #fcfcfc 20.5%, #f1f1f1 39.5%, #d6d6d6 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #fcfcfc 20.5%, #f1f1f1 39.5%, #d6d6d6 70%, #cccccc 100%);
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, #fcfcfc 20.5%, #f1f1f1 39.5%, #d6d6d6 70%, #cccccc 100%);
+  }
+
+  /* line 705, modules/_animation.scss */
+  100% {
+    background-image: -o-radial-gradient(50% 45%, circle cover, white 21%, #f2f2f2 40%, #d8d8d8 70%, #cccccc 100%);
+    background-image: -ms-radial-gradient(50% 45%, circle cover, white 21%, #f2f2f2 40%, #d8d8d8 70%, #cccccc 100%);
+    background-image: -moz-radial-gradient(50% 45%, circle cover, white 21%, #f2f2f2 40%, #d8d8d8 70%, #cccccc 100%);
+    background-image: radial-gradient(50% 45%, circle cover, #ffffff 21%, #f2f2f2 40%, #d8d8d8 70%, #cccccc 100%);
+    background-image: -webkit-radial-gradient(50% 45%, circle cover, white 21%, #f2f2f2 40%, #d8d8d8 70%, #cccccc 100%);
+  }
+}
+
+@-webkit-keyframes progress-active {
+  /* line 721, modules/_animation.scss */
+  from {
+    background-position: 40px 0;
+  }
+
+  /* line 724, modules/_animation.scss */
+  to {
+    background-position: 0 0;
+  }
+}
+
+@-moz-keyframes progress-active {
+  /* line 730, modules/_animation.scss */
+  from {
+    background-position: 40px 0;
+  }
+
+  /* line 733, modules/_animation.scss */
+  to {
+    background-position: 0 0;
+  }
+}
+
+@-ms-keyframes progress-active {
+  /* line 739, modules/_animation.scss */
+  from {
+    background-position: 40px 0;
+  }
+
+  /* line 742, modules/_animation.scss */
+  to {
+    background-position: 0 0;
+  }
+}
+
+@-o-keyframes progress-active {
+  /* line 748, modules/_animation.scss */
+  from {
+    background-position: 0 0;
+  }
+
+  /* line 751, modules/_animation.scss */
+  to {
+    background-position: 40px 0;
+  }
+}
+
+@keyframes progress-active {
+  /* line 757, modules/_animation.scss */
+  from {
+    background-position: 40px 0;
+  }
+
+  /* line 760, modules/_animation.scss */
+  to {
+    background-position: 0 0;
+  }
+}
+
+/* ==========================================================================
+   partials - base (base component classes)
+   ========================================================================== */
+/*
+YUI 3.11.0 (build d549e5c)
+Copyright 2013 Yahoo! Inc. All rights reserved.
+Licensed under the BSD License.
+http://yuilibrary.com/license/
+*/
+/*
+	TODO will need to remove settings on HTML since we can't namespace it.
+	TODO with the prefix, should I group by selector or property for weight savings?
+*/
+/* line 12, partials/base/_reset.scss */
+html {
+  color: #000;
+  background: #FFF;
+}
+
+/*
+	TODO remove settings on BODY since we can't namespace it.
+*/
+/*
+	TODO test putting a class on HEAD.
+		- Fails on FF. 
+*/
+/* line 47, partials/base/_reset.scss */
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 51, partials/base/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 56, partials/base/_reset.scss */
+fieldset,
+img {
+  border: 0;
+}
+
+/*
+	TODO think about hanlding inheritence differently, maybe letting IE6 fail a bit...
+*/
+/* line 70, partials/base/_reset.scss */
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* line 76, partials/base/_reset.scss */
+ol,
+ul {
+  list-style: none;
+  list-style-position: inside;
+}
+
+/* line 82, partials/base/_reset.scss */
+caption,
+th {
+  text-align: left;
+}
+
+/* line 90, partials/base/_reset.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+/* line 95, partials/base/_reset.scss */
+q:before,
+q:after {
+  content: '';
+}
+
+/* line 99, partials/base/_reset.scss */
+abbr,
+acronym {
+  border: 0;
+  font-variant: normal;
+}
+
+/* to preserve line-height and selector appearance */
+/* line 104, partials/base/_reset.scss */
+sup {
+  vertical-align: text-top;
+}
+
+/* line 107, partials/base/_reset.scss */
+sub {
+  vertical-align: text-bottom;
+}
+
+/* line 112, partials/base/_reset.scss */
+input,
+textarea,
+select {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*to enable resizing for IE*/
+/* line 120, partials/base/_reset.scss */
+input,
+textarea,
+select {
+  *font-size: 100%;
+}
+
+/*because legend doesn't inherit in IE */
+/* line 124, partials/base/_reset.scss */
+legend {
+  color: #000;
+}
+
+@media print {
+  /* line 8, partials/base/_print.scss */
+  * {
+    text-shadow: none !important;
+    color: #000 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+
+  /* line 16, partials/base/_print.scss */
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  /* line 20, partials/base/_print.scss */
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  /* line 24, partials/base/_print.scss */
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  /* line 31, partials/base/_print.scss */
+  .ir a:after,
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+    content: "";
+  }
+
+  /* line 36, partials/base/_print.scss */
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  /* line 41, partials/base/_print.scss */
+  thead {
+    display: table-header-group;
+  }
+
+  /* line 46, partials/base/_print.scss */
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  /* line 50, partials/base/_print.scss */
+  img {
+    max-width: 100% !important;
+  }
+
+  @page {
+    margin: 2cm .5cm;
+}
+
+  /* line 60, partials/base/_print.scss */
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  /* line 66, partials/base/_print.scss */
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+
+  /* line 71, partials/base/_print.scss */
+  .navbar {
+    display: none;
+  }
+
+  /* line 76, partials/base/_print.scss */
+  .table td,
+  .table th {
+    background-color: #fff !important;
+  }
+
+  /* line 82, partials/base/_print.scss */
+  .btn > .caret,
+  .dropup > .btn > .caret {
+    border-top-color: #000 !important;
+  }
+
+  /* line 86, partials/base/_print.scss */
+  .label {
+    border: 1px solid #000;
+  }
+
+  /* line 90, partials/base/_print.scss */
+  .table {
+    border-collapse: collapse !important;
+  }
+
+  /* line 95, partials/base/_print.scss */
+  .table-bordered th,
+  .table-bordered td {
+    border: 1px solid #ddd !important;
+  }
+}
+/*
+YUI 3.13.0 (build 508226d)
+Copyright 2013 Yahoo! Inc. All rights reserved.
+Licensed under the BSD License.
+http://yuilibrary.com/license/
+*/
+/* Copyright (c) Nicolas Gallagher and Jonathan Neal */
+/* THIS FILE IS GENERATED BY A BUILD SCRIPT - DO NOT EDIT! */
+/* normalize.css v1.1.0 | MIT License | git.io/normalize */
+/* ==========================================================================
+   HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined in IE 6/7/8/9 and Firefox 3.
+ */
+/* line 32, partials/base/_normalize.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/**
+ * Correct `inline-block` display not defined in IE 6/7/8/9 and Firefox 3.
+ */
+/* line 42, partials/base/_normalize.scss */
+audio,
+canvas,
+video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+/* line 53, partials/base/_normalize.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Address styling not present in IE 7/8/9, Firefox 3, and Safari 4.
+ * Known issue: no IE 6 support.
+ */
+/* line 63, partials/base/_normalize.scss */
+[hidden] {
+  display: none;
+}
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+/**
+ * 1. Correct text resizing oddly in IE 6/7 when body `font-size` is set using
+ *    `em` units.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+/* line 78, partials/base/_normalize.scss */
+html {
+  font-size: 100%;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/**
+ * Address `font-family` inconsistency between `textarea` and other form
+ * elements.
+ */
+/* line 93, partials/base/_normalize.scss */
+html,
+button,
+input,
+select,
+textarea {
+  font-family: sans-serif;
+}
+
+/**
+ * Address margins handled incorrectly in IE 6/7.
+ */
+/* line 101, partials/base/_normalize.scss */
+body {
+  margin: 0;
+}
+
+/* ==========================================================================
+   Links
+   ========================================================================== */
+/**
+ * Address `outline` inconsistency between Chrome and other browsers.
+ */
+/* line 113, partials/base/_normalize.scss */
+a {
+  cursor: pointer;
+}
+
+/* line 117, partials/base/_normalize.scss */
+a:focus {
+  outline: thin dotted;
+}
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+/* line 126, partials/base/_normalize.scss */
+a:active,
+a:hover,
+.menu li.menu-selected a {
+  outline: 0;
+}
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+/**
+ * Address font sizes and margins set differently in IE 6/7.
+ * Address font sizes within `section` and `article` in Firefox 4+, Safari 5,
+ * and Chrome.
+ */
+/*h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin: 0.83em 0;
+}
+
+h3 {
+  font-size: 1.17em;
+  margin: 1em 0;
+}
+
+h4 {
+  font-size: 1em;
+  margin: 1.33em 0;
+}
+
+h5 {
+  font-size: 0.83em;
+  margin: 1.67em 0;
+}
+
+h6 {
+  font-size: 0.67em;
+  margin: 2.33em 0;
+}*/
+/**
+ * Address styling not present in IE 7/8/9, Safari 5, and Chrome.
+ */
+/* line 174, partials/base/_normalize.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/**
+ * Address style set to `bolder` in Firefox 3+, Safari 4/5, and Chrome.
+ */
+/* line 183, partials/base/_normalize.scss */
+b,
+strong {
+  font-weight: bold;
+}
+
+/* line 187, partials/base/_normalize.scss */
+blockquote {
+  margin: 1em 40px;
+}
+
+/**
+ * Address styling not present in Safari 5 and Chrome.
+ */
+/* line 195, partials/base/_normalize.scss */
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Address differences between Firefox and other browsers.
+ * Known issue: no IE 6/7 normalization.
+ */
+/* line 204, partials/base/_normalize.scss */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+/**
+ * Address styling not present in IE 6/7/8/9.
+ */
+/* line 214, partials/base/_normalize.scss */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/**
+ * Address margins set differently in IE 6/7.
+ */
+/* line 224, partials/base/_normalize.scss */
+p,
+pre {
+  margin: 1em 0;
+}
+
+/**
+ * Correct font family set oddly in IE 6, Safari 4/5, and Chrome.
+ */
+/* line 235, partials/base/_normalize.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  _font-family: 'courier new', monospace;
+  font-size: 1em;
+}
+
+/**
+ * Improve readability of pre-formatted text in all browsers.
+ */
+/* line 245, partials/base/_normalize.scss */
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+/**
+ * Address CSS quotes not supported in IE 6/7.
+ */
+/* line 255, partials/base/_normalize.scss */
+q {
+  quotes: none;
+}
+
+/**
+ * Address `quotes` property not supported in Safari 4.
+ */
+/* line 264, partials/base/_normalize.scss */
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+/* line 273, partials/base/_normalize.scss */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+/* line 282, partials/base/_normalize.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 289, partials/base/_normalize.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 293, partials/base/_normalize.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* ==========================================================================
+   Lists
+   ========================================================================== */
+/**
+ * Address margins set differently in IE 6/7.
+ */
+/* line 308, partials/base/_normalize.scss */
+dl,
+menu,
+ol,
+ul {
+  margin: 1em 0;
+}
+
+/* line 312, partials/base/_normalize.scss */
+dd {
+  margin: 0 0 0 40px;
+}
+
+/**
+ * Address paddings set differently in IE 6/7.
+ */
+/* line 322, partials/base/_normalize.scss */
+menu,
+ol,
+ul {
+  padding: 0 0 0 40px;
+}
+
+/**
+ * Correct list images handled incorrectly in IE 7.
+ */
+/* line 331, partials/base/_normalize.scss */
+nav ul,
+nav ol {
+  list-style: none;
+  list-style-image: none;
+}
+
+/* ==========================================================================
+   Embedded content
+   ========================================================================== */
+/**
+ * 1. Remove border when inside `a` element in IE 6/7/8/9 and Firefox 3.
+ * 2. Improve image quality when scaled in IE 7.
+ */
+/* line 345, partials/base/_normalize.scss */
+img {
+  border: 0;
+  /* 1 */
+  -ms-interpolation-mode: bicubic;
+  /* 2 */
+}
+
+/**
+ * Correct overflow displayed oddly in IE 9.
+ */
+/* line 354, partials/base/_normalize.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* ==========================================================================
+   Figures
+   ========================================================================== */
+/**
+ * Address margin not present in IE 6/7/8/9, Safari 5, and Opera 11.
+ */
+/* line 366, partials/base/_normalize.scss */
+figure {
+  margin: 0;
+}
+
+/* ==========================================================================
+   Forms
+   ========================================================================== */
+/**
+ * Correct margin displayed oddly in IE 6/7.
+ */
+/* line 378, partials/base/_normalize.scss */
+form {
+  margin: 0;
+}
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+/* line 386, partials/base/_normalize.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct color not being inherited in IE 6/7/8/9.
+ * 2. Correct text not wrapping in Firefox 3.
+ * 3. Correct alignment displayed oddly in IE 6/7.
+ */
+/* line 398, partials/base/_normalize.scss */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  white-space: normal;
+  /* 2 */
+  *margin-left: -7px;
+  /* 3 */
+}
+
+/**
+ * 1. Correct font size not being inherited in all browsers.
+ * 2. Address margins set differently in IE 6/7, Firefox 3+, Safari 5,
+ *    and Chrome.
+ * 3. Improve appearance and consistency in all browsers.
+ */
+/* line 415, partials/base/_normalize.scss */
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+  vertical-align: baseline;
+  /* 3 */
+  *vertical-align: middle;
+  /* 3 */
+}
+
+/**
+ * Address Firefox 3+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+/* line 428, partials/base/_normalize.scss */
+button,
+input {
+  line-height: normal;
+}
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Chrome, Safari 5+, and IE 6+.
+ * Correct `select` style inheritance in Firefox 4+ and Opera.
+ */
+/* line 440, partials/base/_normalize.scss */
+button,
+select {
+  text-transform: none;
+}
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ * 4. Remove inner spacing in IE 7 without affecting normal text inputs.
+ *    Known issue: inner spacing remains in IE 6.
+ */
+/* line 457, partials/base/_normalize.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */
+  *overflow: visible;
+  /* 4 */
+}
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+/* line 468, partials/base/_normalize.scss */
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/**
+ * 1. Address box sizing set to content-box in IE 8/9.
+ * 2. Remove excess padding in IE 8/9.
+ * 3. Remove excess padding in IE 7.
+ *    Known issue: excess padding remains in IE 6.
+ */
+/* line 480, partials/base/_normalize.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+  *height: 13px;
+  /* 3 */
+  *width: 13px;
+  /* 3 */
+}
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari 5 and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
+ *    (include `-moz` to future-proof).
+ */
+/* line 493, partials/base/_normalize.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box;
+}
+
+/**
+ * Remove inner padding and search cancel button in Safari 5 and Chrome
+ * on OS X.
+ */
+/* line 506, partials/base/_normalize.scss */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * Remove inner padding and border in Firefox 3+.
+ */
+/* line 515, partials/base/_normalize.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/**
+ * 1. Remove default vertical scrollbar in IE 6/7/8/9.
+ * 2. Improve readability and alignment in all browsers.
+ */
+/* line 525, partials/base/_normalize.scss */
+textarea {
+  overflow: auto;
+  /* 1 */
+  vertical-align: top;
+  /* 2 */
+}
+
+/* ==========================================================================
+   Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+/* line 538, partials/base/_normalize.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* ==========================================================================
+   overwrite some class -- alex.gong
+   ========================================================================== */
+/* line 549, partials/base/_normalize.scss */
+abbr[title] {
+  border-bottom: 1px dotted #000;
+  cursor: help;
+}
+
+/* line 553, partials/base/_normalize.scss */
+em {
+  font-style: italic;
+}
+
+/* line 556, partials/base/_normalize.scss */
+blockquote {
+  margin: 0;
+}
+
+/* line 560, partials/base/_normalize.scss */
+p,
+pre {
+  margin: 0;
+}
+
+/* line 566, partials/base/_normalize.scss */
+button,
+input,
+select,
+textarea {
+  outline: none;
+}
+
+/* line 574, partials/base/_normalize.scss */
+menu,
+ol,
+ul,
+dl,
+dt,
+dd {
+  margin: 0;
+  padding: 0;
+  list-style-position: outside;
+}
+
+/* line 579, partials/base/_normalize.scss */
+dt {
+  font-weight: bold;
+}
+
+/*
+YUI 3.11.0 (build d549e5c)
+Copyright 2013 Yahoo! Inc. All rights reserved.
+Licensed under the BSD License.
+http://yuilibrary.com/license/
+*/
+/**
+ * Percents could work for IE, but for backCompat purposes, we are using keywords.
+ * x-small is for IE6/7 quirks mode.
+ */
+/* line 12, partials/base/_font.scss */
+body {
+  font: 14px/1.5 'myriadpro',arial,helvetica,clean,sans-serif;
+  *font-size: small;
+  /* for IE */
+  *font: x-small;
+  /* for IE in quirks mode */
+}
+
+/**
+ * Nudge down to get to 13px equivalent for these form elements
+ */
+/* line 24, partials/base/_font.scss */
+select,
+input,
+button,
+textarea {
+  font: 99% arial,helvetica,clean,sans-serif;
+}
+
+/**
+ * To help tables remember to inherit
+ */
+/* line 31, partials/base/_font.scss */
+table {
+  font-size: inherit;
+  font: 100%;
+}
+
+/**
+ * Bump up IE to get to 13px equivalent for these fixed-width elements
+ */
+/* line 43, partials/base/_font.scss */
+pre,
+code,
+kbd,
+samp,
+tt {
+  font-family: monospace;
+  *font-size: 108%;
+  line-height: 100%;
+}
+
+/**
+ * FONT PATH if you want custom font family -- alex.gong
+ */
+@font-face {
+  font-family: 'myriadpro';
+  src: url("/fonts/myriadpro.eot");
+  src: url("/fonts/myriadpro.eot?#iefix") format("embedded-opentype"), url("/fonts/myriadpro.woff") format("woff"), url("/fonts/myriadpro.ttf") format("truetype"), url("/fonts/myriadpro.svg#myriadproregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* ==========================================================================
+   compass sprite
+   ========================================================================== */
+/* global images spript */
+/* line 50, home-page/*.png */
+.home-page-sprite, .home-page-lightnight-bg, #home header, .home-page-lightnight, #home header .lightning {
+  background: url('/images/home-page-s88b9fc48ef.png') no-repeat;
+}
+
+/* line 60, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.home-page-lightnight-bg, #home header {
+  background-position: 0 -240px;
+}
+
+/* line 60, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.home-page-lightnight, #home header .lightning {
+  background-position: 0 0;
+}
+
+/* ==========================================================================
+   vendor (3rd party css)
+   ========================================================================== */
+/*
+ *  Font Awesome 4.0.3 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+@font-face {
+  font-family: 'FontAwesome';
+  src: url("../fonts/fontawesome-webfont.eot?v=4.0.3");
+  src: url("../fonts/fontawesome-webfont.eot?#iefix&v=4.0.3") format("embedded-opentype"), url("../fonts/fontawesome-webfont.woff?v=4.0.3") format("woff"), url("../fonts/fontawesome-webfont.ttf?v=4.0.3") format("truetype"), url("../fonts/fontawesome-webfont.svg?v=4.0.3#fontawesomeregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa {
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-lg {
+  font-size: 1.3333333333333333em;
+  line-height: .75em;
+  vertical-align: -15%;
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-2x {
+  font-size: 2em;
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-3x {
+  font-size: 3em;
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-4x {
+  font-size: 4em;
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-5x {
+  font-size: 5em;
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-fw {
+  width: 1.2857142857142858em;
+  text-align: center;
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-ul {
+  padding-left: 0;
+  margin-left: 2.142857142857143em;
+  list-style-type: none;
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-ul > li {
+  position: relative;
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-li {
+  position: absolute;
+  left: -2.142857142857143em;
+  width: 2.142857142857143em;
+  top: .14285714285714285em;
+  text-align: center;
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-li.fa-lg {
+  left: -1.8571428571428572em;
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-border {
+  padding: .2em .25em .15em;
+  border: solid .08em #eee;
+  border-radius: .1em;
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.pull-right {
+  float: right;
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.pull-left {
+  float: left;
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa.pull-left {
+  margin-right: .3em;
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa.pull-right {
+  margin-left: .3em;
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-spin {
+  -webkit-animation: spin 2s infinite linear;
+  -moz-animation: spin 2s infinite linear;
+  -o-animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
+}
+
+@-moz-keyframes spin {
+  /* line 4, vendor/_font-awesome.min.scss */
+  0% {
+    -moz-transform: rotate(0deg);
+  }
+
+  /* line 4, vendor/_font-awesome.min.scss */
+  100% {
+    -moz-transform: rotate(359deg);
+  }
+}
+
+@-webkit-keyframes spin {
+  /* line 4, vendor/_font-awesome.min.scss */
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+
+  /* line 4, vendor/_font-awesome.min.scss */
+  100% {
+    -webkit-transform: rotate(359deg);
+  }
+}
+
+@-o-keyframes spin {
+  /* line 4, vendor/_font-awesome.min.scss */
+  0% {
+    -o-transform: rotate(0deg);
+  }
+
+  /* line 4, vendor/_font-awesome.min.scss */
+  100% {
+    -o-transform: rotate(359deg);
+  }
+}
+
+@-ms-keyframes spin {
+  /* line 4, vendor/_font-awesome.min.scss */
+  0% {
+    -ms-transform: rotate(0deg);
+  }
+
+  /* line 4, vendor/_font-awesome.min.scss */
+  100% {
+    -ms-transform: rotate(359deg);
+  }
+}
+
+@keyframes spin {
+  /* line 4, vendor/_font-awesome.min.scss */
+  0% {
+    transform: rotate(0deg);
+  }
+
+  /* line 4, vendor/_font-awesome.min.scss */
+  100% {
+    transform: rotate(359deg);
+  }
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-rotate-90 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-rotate-180 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-rotate-270 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-flip-horizontal {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0,mirror=1);
+  -webkit-transform: scale(-1, 1);
+  -moz-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-flip-vertical {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2,mirror=1);
+  -webkit-transform: scale(1, -1);
+  -moz-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
+  -o-transform: scale(1, -1);
+  transform: scale(1, -1);
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-stack {
+  position: relative;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  vertical-align: middle;
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-stack-1x, .fa-stack-2x {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-stack-1x {
+  line-height: inherit;
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-stack-2x {
+  font-size: 2em;
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-inverse {
+  color: #fff;
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-glass:before {
+  content: "\f000";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-music:before {
+  content: "\f001";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-search:before {
+  content: "\f002";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-envelope-o:before {
+  content: "\f003";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-heart:before {
+  content: "\f004";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-star:before {
+  content: "\f005";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-star-o:before {
+  content: "\f006";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-user:before {
+  content: "\f007";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-film:before {
+  content: "\f008";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-th-large:before {
+  content: "\f009";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-th:before {
+  content: "\f00a";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-th-list:before {
+  content: "\f00b";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-check:before {
+  content: "\f00c";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-times:before {
+  content: "\f00d";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-search-plus:before {
+  content: "\f00e";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-search-minus:before {
+  content: "\f010";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-power-off:before {
+  content: "\f011";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-signal:before {
+  content: "\f012";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-gear:before, .fa-cog:before {
+  content: "\f013";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-trash-o:before {
+  content: "\f014";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-home:before {
+  content: "\f015";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-file-o:before {
+  content: "\f016";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-clock-o:before {
+  content: "\f017";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-road:before {
+  content: "\f018";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-download:before {
+  content: "\f019";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-arrow-circle-o-down:before {
+  content: "\f01a";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-arrow-circle-o-up:before {
+  content: "\f01b";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-inbox:before {
+  content: "\f01c";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-play-circle-o:before {
+  content: "\f01d";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-rotate-right:before, .fa-repeat:before {
+  content: "\f01e";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-refresh:before {
+  content: "\f021";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-list-alt:before {
+  content: "\f022";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-lock:before {
+  content: "\f023";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-flag:before {
+  content: "\f024";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-headphones:before {
+  content: "\f025";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-volume-off:before {
+  content: "\f026";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-volume-down:before {
+  content: "\f027";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-volume-up:before {
+  content: "\f028";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-qrcode:before {
+  content: "\f029";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-barcode:before {
+  content: "\f02a";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-tag:before {
+  content: "\f02b";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-tags:before {
+  content: "\f02c";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-book:before {
+  content: "\f02d";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-bookmark:before {
+  content: "\f02e";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-print:before {
+  content: "\f02f";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-camera:before {
+  content: "\f030";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-font:before {
+  content: "\f031";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-bold:before {
+  content: "\f032";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-italic:before {
+  content: "\f033";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-text-height:before {
+  content: "\f034";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-text-width:before {
+  content: "\f035";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-align-left:before {
+  content: "\f036";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-align-center:before {
+  content: "\f037";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-align-right:before {
+  content: "\f038";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-align-justify:before {
+  content: "\f039";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-list:before {
+  content: "\f03a";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-dedent:before, .fa-outdent:before {
+  content: "\f03b";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-indent:before {
+  content: "\f03c";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-video-camera:before {
+  content: "\f03d";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-picture-o:before {
+  content: "\f03e";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-pencil:before {
+  content: "\f040";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-map-marker:before {
+  content: "\f041";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-adjust:before {
+  content: "\f042";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-tint:before {
+  content: "\f043";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-edit:before, .fa-pencil-square-o:before {
+  content: "\f044";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-share-square-o:before {
+  content: "\f045";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-check-square-o:before {
+  content: "\f046";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-arrows:before {
+  content: "\f047";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-step-backward:before {
+  content: "\f048";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-fast-backward:before {
+  content: "\f049";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-backward:before {
+  content: "\f04a";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-play:before {
+  content: "\f04b";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-pause:before {
+  content: "\f04c";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-stop:before {
+  content: "\f04d";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-forward:before {
+  content: "\f04e";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-fast-forward:before {
+  content: "\f050";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-step-forward:before {
+  content: "\f051";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-eject:before {
+  content: "\f052";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-chevron-left:before {
+  content: "\f053";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-chevron-right:before {
+  content: "\f054";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-plus-circle:before {
+  content: "\f055";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-minus-circle:before {
+  content: "\f056";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-times-circle:before {
+  content: "\f057";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-check-circle:before {
+  content: "\f058";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-question-circle:before {
+  content: "\f059";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-info-circle:before {
+  content: "\f05a";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-crosshairs:before {
+  content: "\f05b";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-times-circle-o:before {
+  content: "\f05c";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-check-circle-o:before {
+  content: "\f05d";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-ban:before {
+  content: "\f05e";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-arrow-left:before {
+  content: "\f060";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-arrow-right:before {
+  content: "\f061";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-arrow-up:before {
+  content: "\f062";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-arrow-down:before {
+  content: "\f063";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-mail-forward:before, .fa-share:before {
+  content: "\f064";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-expand:before {
+  content: "\f065";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-compress:before {
+  content: "\f066";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-plus:before {
+  content: "\f067";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-minus:before {
+  content: "\f068";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-asterisk:before {
+  content: "\f069";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-exclamation-circle:before {
+  content: "\f06a";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-gift:before {
+  content: "\f06b";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-leaf:before {
+  content: "\f06c";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-fire:before {
+  content: "\f06d";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-eye:before {
+  content: "\f06e";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-eye-slash:before {
+  content: "\f070";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-warning:before, .fa-exclamation-triangle:before {
+  content: "\f071";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-plane:before {
+  content: "\f072";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-calendar:before {
+  content: "\f073";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-random:before {
+  content: "\f074";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-comment:before {
+  content: "\f075";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-magnet:before {
+  content: "\f076";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-chevron-up:before {
+  content: "\f077";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-chevron-down:before {
+  content: "\f078";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-retweet:before {
+  content: "\f079";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-shopping-cart:before {
+  content: "\f07a";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-folder:before {
+  content: "\f07b";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-folder-open:before {
+  content: "\f07c";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-arrows-v:before {
+  content: "\f07d";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-arrows-h:before {
+  content: "\f07e";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-bar-chart-o:before {
+  content: "\f080";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-twitter-square:before {
+  content: "\f081";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-facebook-square:before {
+  content: "\f082";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-camera-retro:before {
+  content: "\f083";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-key:before {
+  content: "\f084";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-gears:before, .fa-cogs:before {
+  content: "\f085";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-comments:before {
+  content: "\f086";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-thumbs-o-up:before {
+  content: "\f087";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-thumbs-o-down:before {
+  content: "\f088";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-star-half:before {
+  content: "\f089";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-heart-o:before {
+  content: "\f08a";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-sign-out:before {
+  content: "\f08b";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-linkedin-square:before {
+  content: "\f08c";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-thumb-tack:before {
+  content: "\f08d";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-external-link:before {
+  content: "\f08e";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-sign-in:before {
+  content: "\f090";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-trophy:before {
+  content: "\f091";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-github-square:before {
+  content: "\f092";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-upload:before {
+  content: "\f093";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-lemon-o:before {
+  content: "\f094";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-phone:before {
+  content: "\f095";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-square-o:before {
+  content: "\f096";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-bookmark-o:before {
+  content: "\f097";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-phone-square:before {
+  content: "\f098";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-twitter:before {
+  content: "\f099";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-facebook:before {
+  content: "\f09a";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-github:before {
+  content: "\f09b";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-unlock:before {
+  content: "\f09c";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-credit-card:before {
+  content: "\f09d";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-rss:before {
+  content: "\f09e";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-hdd-o:before {
+  content: "\f0a0";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-bullhorn:before {
+  content: "\f0a1";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-bell:before {
+  content: "\f0f3";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-certificate:before {
+  content: "\f0a3";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-hand-o-right:before {
+  content: "\f0a4";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-hand-o-left:before {
+  content: "\f0a5";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-hand-o-up:before {
+  content: "\f0a6";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-hand-o-down:before {
+  content: "\f0a7";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-arrow-circle-left:before {
+  content: "\f0a8";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-arrow-circle-right:before {
+  content: "\f0a9";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-arrow-circle-up:before {
+  content: "\f0aa";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-arrow-circle-down:before {
+  content: "\f0ab";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-globe:before {
+  content: "\f0ac";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-wrench:before {
+  content: "\f0ad";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-tasks:before {
+  content: "\f0ae";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-filter:before {
+  content: "\f0b0";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-briefcase:before {
+  content: "\f0b1";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-arrows-alt:before {
+  content: "\f0b2";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-group:before, .fa-users:before {
+  content: "\f0c0";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-chain:before, .fa-link:before {
+  content: "\f0c1";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-cloud:before {
+  content: "\f0c2";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-flask:before {
+  content: "\f0c3";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-cut:before, .fa-scissors:before {
+  content: "\f0c4";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-copy:before, .fa-files-o:before {
+  content: "\f0c5";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-paperclip:before {
+  content: "\f0c6";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-save:before, .fa-floppy-o:before {
+  content: "\f0c7";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-square:before {
+  content: "\f0c8";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-bars:before {
+  content: "\f0c9";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-list-ul:before {
+  content: "\f0ca";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-list-ol:before {
+  content: "\f0cb";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-strikethrough:before {
+  content: "\f0cc";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-underline:before {
+  content: "\f0cd";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-table:before {
+  content: "\f0ce";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-magic:before {
+  content: "\f0d0";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-truck:before {
+  content: "\f0d1";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-pinterest:before {
+  content: "\f0d2";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-pinterest-square:before {
+  content: "\f0d3";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-google-plus-square:before {
+  content: "\f0d4";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-google-plus:before {
+  content: "\f0d5";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-money:before {
+  content: "\f0d6";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-caret-down:before {
+  content: "\f0d7";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-caret-up:before {
+  content: "\f0d8";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-caret-left:before {
+  content: "\f0d9";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-caret-right:before {
+  content: "\f0da";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-columns:before {
+  content: "\f0db";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-unsorted:before, .fa-sort:before {
+  content: "\f0dc";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-sort-down:before, .fa-sort-asc:before {
+  content: "\f0dd";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-sort-up:before, .fa-sort-desc:before {
+  content: "\f0de";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-envelope:before {
+  content: "\f0e0";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-linkedin:before {
+  content: "\f0e1";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-rotate-left:before, .fa-undo:before {
+  content: "\f0e2";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-legal:before, .fa-gavel:before {
+  content: "\f0e3";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-dashboard:before, .fa-tachometer:before {
+  content: "\f0e4";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-comment-o:before {
+  content: "\f0e5";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-comments-o:before {
+  content: "\f0e6";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-flash:before, .fa-bolt:before {
+  content: "\f0e7";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-sitemap:before {
+  content: "\f0e8";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-umbrella:before {
+  content: "\f0e9";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-paste:before, .fa-clipboard:before {
+  content: "\f0ea";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-lightbulb-o:before {
+  content: "\f0eb";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-exchange:before {
+  content: "\f0ec";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-cloud-download:before {
+  content: "\f0ed";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-cloud-upload:before {
+  content: "\f0ee";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-user-md:before {
+  content: "\f0f0";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-stethoscope:before {
+  content: "\f0f1";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-suitcase:before {
+  content: "\f0f2";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-bell-o:before {
+  content: "\f0a2";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-coffee:before {
+  content: "\f0f4";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-cutlery:before {
+  content: "\f0f5";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-file-text-o:before {
+  content: "\f0f6";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-building-o:before {
+  content: "\f0f7";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-hospital-o:before {
+  content: "\f0f8";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-ambulance:before {
+  content: "\f0f9";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-medkit:before {
+  content: "\f0fa";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-fighter-jet:before {
+  content: "\f0fb";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-beer:before {
+  content: "\f0fc";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-h-square:before {
+  content: "\f0fd";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-plus-square:before {
+  content: "\f0fe";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-angle-double-left:before {
+  content: "\f100";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-angle-double-right:before {
+  content: "\f101";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-angle-double-up:before {
+  content: "\f102";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-angle-double-down:before {
+  content: "\f103";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-angle-left:before {
+  content: "\f104";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-angle-right:before {
+  content: "\f105";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-angle-up:before {
+  content: "\f106";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-angle-down:before {
+  content: "\f107";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-desktop:before {
+  content: "\f108";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-laptop:before {
+  content: "\f109";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-tablet:before {
+  content: "\f10a";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-mobile-phone:before, .fa-mobile:before {
+  content: "\f10b";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-circle-o:before {
+  content: "\f10c";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-quote-left:before {
+  content: "\f10d";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-quote-right:before {
+  content: "\f10e";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-spinner:before {
+  content: "\f110";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-circle:before {
+  content: "\f111";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-mail-reply:before, .fa-reply:before {
+  content: "\f112";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-github-alt:before {
+  content: "\f113";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-folder-o:before {
+  content: "\f114";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-folder-open-o:before {
+  content: "\f115";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-smile-o:before {
+  content: "\f118";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-frown-o:before {
+  content: "\f119";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-meh-o:before {
+  content: "\f11a";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-gamepad:before {
+  content: "\f11b";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-keyboard-o:before {
+  content: "\f11c";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-flag-o:before {
+  content: "\f11d";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-flag-checkered:before {
+  content: "\f11e";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-terminal:before {
+  content: "\f120";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-code:before {
+  content: "\f121";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-reply-all:before {
+  content: "\f122";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-mail-reply-all:before {
+  content: "\f122";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-star-half-empty:before, .fa-star-half-full:before, .fa-star-half-o:before {
+  content: "\f123";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-location-arrow:before {
+  content: "\f124";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-crop:before {
+  content: "\f125";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-code-fork:before {
+  content: "\f126";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-unlink:before, .fa-chain-broken:before {
+  content: "\f127";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-question:before {
+  content: "\f128";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-info:before {
+  content: "\f129";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-exclamation:before {
+  content: "\f12a";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-superscript:before {
+  content: "\f12b";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-subscript:before {
+  content: "\f12c";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-eraser:before {
+  content: "\f12d";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-puzzle-piece:before {
+  content: "\f12e";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-microphone:before {
+  content: "\f130";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-microphone-slash:before {
+  content: "\f131";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-shield:before {
+  content: "\f132";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-calendar-o:before {
+  content: "\f133";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-fire-extinguisher:before {
+  content: "\f134";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-rocket:before {
+  content: "\f135";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-maxcdn:before {
+  content: "\f136";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-chevron-circle-left:before {
+  content: "\f137";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-chevron-circle-right:before {
+  content: "\f138";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-chevron-circle-up:before {
+  content: "\f139";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-chevron-circle-down:before {
+  content: "\f13a";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-html5:before {
+  content: "\f13b";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-css3:before {
+  content: "\f13c";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-anchor:before {
+  content: "\f13d";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-unlock-alt:before {
+  content: "\f13e";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-bullseye:before {
+  content: "\f140";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-ellipsis-h:before {
+  content: "\f141";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-ellipsis-v:before {
+  content: "\f142";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-rss-square:before {
+  content: "\f143";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-play-circle:before {
+  content: "\f144";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-ticket:before {
+  content: "\f145";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-minus-square:before {
+  content: "\f146";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-minus-square-o:before {
+  content: "\f147";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-level-up:before {
+  content: "\f148";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-level-down:before {
+  content: "\f149";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-check-square:before {
+  content: "\f14a";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-pencil-square:before {
+  content: "\f14b";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-external-link-square:before {
+  content: "\f14c";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-share-square:before {
+  content: "\f14d";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-compass:before {
+  content: "\f14e";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-toggle-down:before, .fa-caret-square-o-down:before {
+  content: "\f150";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-toggle-up:before, .fa-caret-square-o-up:before {
+  content: "\f151";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-toggle-right:before, .fa-caret-square-o-right:before {
+  content: "\f152";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-euro:before, .fa-eur:before {
+  content: "\f153";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-gbp:before {
+  content: "\f154";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-dollar:before, .fa-usd:before {
+  content: "\f155";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-rupee:before, .fa-inr:before {
+  content: "\f156";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-cny:before, .fa-rmb:before, .fa-yen:before, .fa-jpy:before {
+  content: "\f157";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-ruble:before, .fa-rouble:before, .fa-rub:before {
+  content: "\f158";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-won:before, .fa-krw:before {
+  content: "\f159";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-bitcoin:before, .fa-btc:before {
+  content: "\f15a";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-file:before {
+  content: "\f15b";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-file-text:before {
+  content: "\f15c";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-sort-alpha-asc:before {
+  content: "\f15d";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-sort-alpha-desc:before {
+  content: "\f15e";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-sort-amount-asc:before {
+  content: "\f160";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-sort-amount-desc:before {
+  content: "\f161";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-sort-numeric-asc:before {
+  content: "\f162";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-sort-numeric-desc:before {
+  content: "\f163";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-thumbs-up:before {
+  content: "\f164";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-thumbs-down:before {
+  content: "\f165";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-youtube-square:before {
+  content: "\f166";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-youtube:before {
+  content: "\f167";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-xing:before {
+  content: "\f168";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-xing-square:before {
+  content: "\f169";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-youtube-play:before {
+  content: "\f16a";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-dropbox:before {
+  content: "\f16b";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-stack-overflow:before {
+  content: "\f16c";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-instagram:before {
+  content: "\f16d";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-flickr:before {
+  content: "\f16e";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-adn:before {
+  content: "\f170";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-bitbucket:before {
+  content: "\f171";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-bitbucket-square:before {
+  content: "\f172";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-tumblr:before {
+  content: "\f173";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-tumblr-square:before {
+  content: "\f174";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-long-arrow-down:before {
+  content: "\f175";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-long-arrow-up:before {
+  content: "\f176";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-long-arrow-left:before {
+  content: "\f177";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-long-arrow-right:before {
+  content: "\f178";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-apple:before {
+  content: "\f179";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-windows:before {
+  content: "\f17a";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-android:before {
+  content: "\f17b";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-linux:before {
+  content: "\f17c";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-dribbble:before {
+  content: "\f17d";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-skype:before {
+  content: "\f17e";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-foursquare:before {
+  content: "\f180";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-trello:before {
+  content: "\f181";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-female:before {
+  content: "\f182";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-male:before {
+  content: "\f183";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-gittip:before {
+  content: "\f184";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-sun-o:before {
+  content: "\f185";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-moon-o:before {
+  content: "\f186";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-archive:before {
+  content: "\f187";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-bug:before {
+  content: "\f188";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-vk:before {
+  content: "\f189";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-weibo:before {
+  content: "\f18a";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-renren:before {
+  content: "\f18b";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-pagelines:before {
+  content: "\f18c";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-stack-exchange:before {
+  content: "\f18d";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-arrow-circle-o-right:before {
+  content: "\f18e";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-arrow-circle-o-left:before {
+  content: "\f190";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-toggle-left:before, .fa-caret-square-o-left:before {
+  content: "\f191";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-dot-circle-o:before {
+  content: "\f192";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-wheelchair:before {
+  content: "\f193";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-vimeo-square:before {
+  content: "\f194";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-turkish-lira:before, .fa-try:before {
+  content: "\f195";
+}
+
+/* line 4, vendor/_font-awesome.min.scss */
+.fa-plus-square-o:before {
+  content: "\f196";
+}
+
+/* ==========================================================================
+   components (components css)
+   ========================================================================== */
+/* ==========================================================================
+   typography css
+   ========================================================================== */
+/*-webkit-tap-highlight-color:rgba(0,0,0,0);*/
+/* link */
+/* line 9, partials/components/_typography.scss */
+a {
+  color: #666666;
+  text-decoration: none;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+/* line 17, partials/components/_typography.scss */
+a:hover, .menu li.menu-selected a, a:focus, a:active, a.active, a.link {
+  color: #00dbff;
+}
+/* line 20, partials/components/_typography.scss */
+a.link {
+  text-decoration: underline;
+}
+
+/* text */
+/* line 29, partials/components/_typography.scss */
+p:last-child {
+  margin-bottom: 0;
+}
+
+/* line 33, partials/components/_typography.scss */
+.text-margin-top {
+  margin-top: 10px;
+}
+
+/* line 36, partials/components/_typography.scss */
+.text-margin-bottom, p, .headline {
+  margin-bottom: 10px;
+}
+
+/* line 39, partials/components/_typography.scss */
+.text-shadow {
+  text-shadow: 0 0 10px yellow;
+}
+
+/* box */
+/* line 46, partials/components/_typography.scss */
+.box-margin-top {
+  margin-top: 50px;
+}
+
+/* line 49, partials/components/_typography.scss */
+.box-margin-bottom {
+  margin-bottom: 50px;
+}
+
+/* font size */
+/* line 58, partials/components/_typography.scss */
+.xxlarge, .headline {
+  font-size: 3.6em;
+}
+
+/* line 61, partials/components/_typography.scss */
+.xlarge {
+  font-size: 2.8em;
+}
+
+/* line 64, partials/components/_typography.scss */
+.large, .describe {
+  font-size: 2em;
+}
+
+/* line 67, partials/components/_typography.scss */
+.medium {
+  font-size: 1.4em;
+}
+
+/* line 70, partials/components/_typography.scss */
+.regular {
+  font-size: 1em;
+}
+
+/* line 73, partials/components/_typography.scss */
+.small {
+  font-size: 0.9em;
+}
+
+/* line 76, partials/components/_typography.scss */
+.xsmall {
+  font-size: 0.7em;
+}
+
+/* custom font */
+/* line 88, partials/components/_typography.scss */
+.describe {
+  color: #999999;
+}
+
+/* clear */
+/* line 104, partials/components/_typography.scss */
+.clearfix {
+  zoom: 1;
+  *overflow: hidden;
+}
+/* line 12, modules/_mixins.scss */
+.clearfix:after {
+  clear: both;
+  content: ".";
+  display: block;
+  font-size: 0;
+  height: 0;
+  line-height: 0;
+  visibility: hidden;
+}
+
+/* line 107, partials/components/_typography.scss */
+.clearboth {
+  font: 0px/0px sans-serif;
+  clear: both;
+  visibility: hidden;
+  display: block;
+}
+
+/* float */
+/* line 119, partials/components/_typography.scss */
+.float-l {
+  float: left;
+}
+
+/* line 122, partials/components/_typography.scss */
+.float-r {
+  float: right;
+}
+
+/* line 125, partials/components/_typography.scss */
+.float-n {
+  float: none;
+}
+
+/* text align */
+/* line 135, partials/components/_typography.scss */
+.align-l {
+  text-align: left;
+}
+
+/* line 138, partials/components/_typography.scss */
+.align-r {
+  text-align: right;
+}
+
+/* line 141, partials/components/_typography.scss */
+.align-c {
+  text-align: center;
+}
+
+/* line 144, partials/components/_typography.scss */
+.align-j {
+  text-align: justify;
+}
+
+/* hide and show */
+/* line 154, partials/components/_typography.scss */
+.hidden {
+  display: none;
+  visibility: hidden;
+}
+
+/* line 158, partials/components/_typography.scss */
+.shown {
+  display: block;
+  visibility: visible;
+}
+
+/* display table */
+/* line 167, partials/components/_typography.scss */
+.display-table {
+  display: table;
+}
+/* line 169, partials/components/_typography.scss */
+.display-table > span {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+/* list */
+/* line 180, partials/components/_typography.scss */
+ul, ol, dl {
+  margin-bottom: 50px;
+}
+/* line 182, partials/components/_typography.scss */
+ul:last-child, ol:last-child, dl:last-child {
+  margin-bottom: 0;
+}
+/* line 185, partials/components/_typography.scss */
+ul > ul, ul ol, ol > ul, ol ol, dl > ul, dl ol {
+  padding: 10px 0 10px 20px;
+}
+
+/* line 190, partials/components/_typography.scss */
+ul.ordered li, ol.ordered li {
+  list-style-type: decimal;
+}
+/* line 192, partials/components/_typography.scss */
+ul.ordered li li, ol.ordered li li {
+  list-style-type: lower-alpha;
+}
+
+/* line 198, partials/components/_typography.scss */
+ul.unordered li, ol.unordered li {
+  list-style-type: disc;
+}
+/* line 200, partials/components/_typography.scss */
+ul.unordered li li, ol.unordered li li {
+  list-style-type: square;
+}
+
+/* line 206, partials/components/_typography.scss */
+ul.list-inline > li, ol.list-inline > li, dl.list-inline > li {
+  display: inline-block;
+}
+/* line 209, partials/components/_typography.scss */
+ul.list-inline > dt, ul.list-inline dd, ol.list-inline > dt, ol.list-inline dd, dl.list-inline > dt, dl.list-inline dd {
+  display: inline-block;
+  padding: 0;
+}
+
+/* line 214, partials/components/_typography.scss */
+dt {
+  font-weight: bold;
+}
+
+/*
+Pure v0.3.0
+Copyright 2013 Yahoo! Inc. All rights reserved.
+Licensed under the BSD License.
+https://github.com/yui/pure/blob/master/LICENSE.md
+*/
+/* line 7, partials/components/_grid.scss */
+.pure-g {
+  letter-spacing: -.31em;
+  *letter-spacing: normal;
+  *word-spacing: -.43em;
+  text-rendering: optimizespeed;
+  font-family: FreeSans,Arimo,"Droid Sans",Helvetica,Arial,sans-serif;
+  display: -webkit-flex;
+  -webkit-flex-flow: row wrap;
+  display: -ms-flexbox;
+  -ms-flex-flow: row wrap;
+}
+
+/* line 7, partials/components/_grid.scss */
+.opera-only :-o-prefocus, .pure-g {
+  word-spacing: -.43em;
+}
+
+/* line 7, partials/components/_grid.scss */
+.pure-u {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  letter-spacing: normal;
+  word-spacing: normal;
+  vertical-align: top;
+  text-rendering: auto;
+}
+
+/* line 7, partials/components/_grid.scss */
+.pure-g [class*="pure-u"] {
+  font-family: sans-serif;
+}
+
+/* line 7, partials/components/_grid.scss */
+.pure-u-1, .pure-u-1-2, .pure-u-1-3, .pure-u-2-3, .pure-u-1-4, .pure-u-3-4, .pure-u-1-5, .pure-u-2-5, .pure-u-3-5, .pure-u-4-5, .pure-u-1-6, .pure-u-5-6, .pure-u-1-8, .pure-u-3-8, .pure-u-5-8, .pure-u-7-8, .pure-u-1-12, .pure-u-5-12, .pure-u-7-12, .pure-u-11-12, .pure-u-1-24, .pure-u-5-24, .pure-u-7-24, .pure-u-11-24, .pure-u-13-24, .pure-u-17-24, .pure-u-19-24, .pure-u-23-24 {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  letter-spacing: normal;
+  word-spacing: normal;
+  vertical-align: top;
+  text-rendering: auto;
+}
+
+/* line 7, partials/components/_grid.scss */
+.pure-u-1 {
+  width: 100%;
+}
+
+/* line 7, partials/components/_grid.scss */
+.pure-u-1-2 {
+  width: 50%;
+  *width: 49.969%;
+}
+
+/* line 7, partials/components/_grid.scss */
+.pure-u-1-3 {
+  width: 33.3333%;
+  *width: 33.3023%;
+}
+
+/* line 7, partials/components/_grid.scss */
+.pure-u-2-3 {
+  width: 66.6667%;
+  *width: 66.6357%;
+}
+
+/* line 7, partials/components/_grid.scss */
+.pure-u-1-4 {
+  width: 25%;
+  *width: 24.969%;
+}
+
+/* line 7, partials/components/_grid.scss */
+.pure-u-3-4 {
+  width: 75%;
+  *width: 74.969%;
+}
+
+/* line 7, partials/components/_grid.scss */
+.pure-u-1-5 {
+  width: 20%;
+  *width: 19.969%;
+}
+
+/* line 7, partials/components/_grid.scss */
+.pure-u-2-5 {
+  width: 40%;
+  *width: 39.969%;
+}
+
+/* line 7, partials/components/_grid.scss */
+.pure-u-3-5 {
+  width: 60%;
+  *width: 59.969%;
+}
+
+/* line 7, partials/components/_grid.scss */
+.pure-u-4-5 {
+  width: 80%;
+  *width: 79.969%;
+}
+
+/* line 7, partials/components/_grid.scss */
+.pure-u-1-6 {
+  width: 16.6667%;
+  *width: 16.6357%;
+}
+
+/* line 7, partials/components/_grid.scss */
+.pure-u-5-6 {
+  width: 83.3333%;
+  *width: 83.3023%;
+}
+
+/* line 7, partials/components/_grid.scss */
+.pure-u-1-8 {
+  width: 12.5%;
+  *width: 12.469%;
+}
+
+/* line 7, partials/components/_grid.scss */
+.pure-u-3-8 {
+  width: 37.5%;
+  *width: 37.469%;
+}
+
+/* line 7, partials/components/_grid.scss */
+.pure-u-5-8 {
+  width: 62.5%;
+  *width: 62.469%;
+}
+
+/* line 7, partials/components/_grid.scss */
+.pure-u-7-8 {
+  width: 87.5%;
+  *width: 87.469%;
+}
+
+/* line 7, partials/components/_grid.scss */
+.pure-u-1-12 {
+  width: 8.3333%;
+  *width: 8.3023%;
+}
+
+/* line 7, partials/components/_grid.scss */
+.pure-u-5-12 {
+  width: 41.6667%;
+  *width: 41.6357%;
+}
+
+/* line 7, partials/components/_grid.scss */
+.pure-u-7-12 {
+  width: 58.3333%;
+  *width: 58.3023%;
+}
+
+/* line 7, partials/components/_grid.scss */
+.pure-u-11-12 {
+  width: 91.6667%;
+  *width: 91.6357%;
+}
+
+/* line 7, partials/components/_grid.scss */
+.pure-u-1-24 {
+  width: 4.1667%;
+  *width: 4.1357%;
+}
+
+/* line 7, partials/components/_grid.scss */
+.pure-u-5-24 {
+  width: 20.8333%;
+  *width: 20.8023%;
+}
+
+/* line 7, partials/components/_grid.scss */
+.pure-u-7-24 {
+  width: 29.1667%;
+  *width: 29.1357%;
+}
+
+/* line 7, partials/components/_grid.scss */
+.pure-u-11-24 {
+  width: 45.8333%;
+  *width: 45.8023%;
+}
+
+/* line 7, partials/components/_grid.scss */
+.pure-u-13-24 {
+  width: 54.1667%;
+  *width: 54.1357%;
+}
+
+/* line 7, partials/components/_grid.scss */
+.pure-u-17-24 {
+  width: 70.8333%;
+  *width: 70.8023%;
+}
+
+/* line 7, partials/components/_grid.scss */
+.pure-u-19-24 {
+  width: 79.1667%;
+  *width: 79.1357%;
+}
+
+/* line 7, partials/components/_grid.scss */
+.pure-u-23-24 {
+  width: 95.8333%;
+  *width: 95.8023%;
+}
+
+/* line 7, partials/components/_grid.scss */
+.pure-g-r {
+  letter-spacing: -.31em;
+  *letter-spacing: normal;
+  *word-spacing: -.43em;
+  font-family: FreeSans,Arimo,"Droid Sans",Helvetica,Arial,sans-serif;
+  display: -webkit-flex;
+  -webkit-flex-flow: row wrap;
+  display: -ms-flexbox;
+  -ms-flex-flow: row wrap;
+}
+
+/* line 7, partials/components/_grid.scss */
+.opera-only :-o-prefocus, .pure-g-r {
+  word-spacing: -.43em;
+}
+
+/* line 7, partials/components/_grid.scss */
+.pure-g-r [class*="pure-u"] {
+  font-family: sans-serif;
+}
+
+/* line 7, partials/components/_grid.scss */
+.pure-g-r img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (min-width: 980px) {
+  /* line 7, partials/components/_grid.scss */
+  .pure-visible-phone {
+    display: none;
+  }
+
+  /* line 7, partials/components/_grid.scss */
+  .pure-visible-tablet {
+    display: none;
+  }
+
+  /* line 7, partials/components/_grid.scss */
+  .pure-hidden-desktop {
+    display: none;
+  }
+}
+@media (max-width: 480px) {
+  /* line 7, partials/components/_grid.scss */
+  .pure-g-r > .pure-u, .pure-g-r > [class*="pure-u-"] {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  /* line 7, partials/components/_grid.scss */
+  .pure-g-r > .pure-u, .pure-g-r > [class*="pure-u-"] {
+    width: 100%;
+  }
+
+  /* line 7, partials/components/_grid.scss */
+  .pure-hidden-phone {
+    display: none;
+  }
+
+  /* line 7, partials/components/_grid.scss */
+  .pure-visible-desktop {
+    display: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 979px) {
+  /* line 7, partials/components/_grid.scss */
+  .pure-hidden-tablet {
+    display: none;
+  }
+
+  /* line 7, partials/components/_grid.scss */
+  .pure-visible-desktop {
+    display: none;
+  }
+}
+/* ==========================================================================
+   overwrite some class -- alex.gong
+   ========================================================================== */
+/* line 17, partials/components/_grid.scss */
+.pure-g {
+  padding-bottom: 50px;
+}
+
+/* line 47, partials/components/_grid.scss */
+.pure-u-1,
+.pure-u-1-2,
+.pure-u-1-3,
+.pure-u-2-3,
+.pure-u-1-4,
+.pure-u-3-4,
+.pure-u-1-5,
+.pure-u-2-5,
+.pure-u-3-5,
+.pure-u-4-5,
+.pure-u-1-6,
+.pure-u-5-6,
+.pure-u-1-8,
+.pure-u-3-8,
+.pure-u-5-8,
+.pure-u-7-8,
+.pure-u-1-12,
+.pure-u-5-12,
+.pure-u-7-12,
+.pure-u-11-12,
+.pure-u-1-24,
+.pure-u-5-24,
+.pure-u-7-24,
+.pure-u-11-24,
+.pure-u-13-24,
+.pure-u-17-24,
+.pure-u-19-24,
+.pure-u-23-24 {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-left: 50px;
+}
+/* line 50, partials/components/_grid.scss */
+.pure-u-1:first-child,
+.pure-u-1-2:first-child,
+.pure-u-1-3:first-child,
+.pure-u-2-3:first-child,
+.pure-u-1-4:first-child,
+.pure-u-3-4:first-child,
+.pure-u-1-5:first-child,
+.pure-u-2-5:first-child,
+.pure-u-3-5:first-child,
+.pure-u-4-5:first-child,
+.pure-u-1-6:first-child,
+.pure-u-5-6:first-child,
+.pure-u-1-8:first-child,
+.pure-u-3-8:first-child,
+.pure-u-5-8:first-child,
+.pure-u-7-8:first-child,
+.pure-u-1-12:first-child,
+.pure-u-5-12:first-child,
+.pure-u-7-12:first-child,
+.pure-u-11-12:first-child,
+.pure-u-1-24:first-child,
+.pure-u-5-24:first-child,
+.pure-u-7-24:first-child,
+.pure-u-11-24:first-child,
+.pure-u-13-24:first-child,
+.pure-u-17-24:first-child,
+.pure-u-19-24:first-child,
+.pure-u-23-24:first-child {
+  padding-left: 0;
+}
+
+/* line 1, partials/components/_buttons.scss */
+.btn {
+  border: 1px solid #ab8c4c;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-animation: all 0.2s ease-in-out;
+  -moz-animation: all 0.2s ease-in-out;
+  -ms-animation: all 0.2s ease-in-out;
+  -o-animation: all 0.2s ease-in-out;
+  animation: all 0.2s ease-in-out;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  line-height: normal;
+  white-space: nowrap;
+  vertical-align: baseline;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  *overflow: visible;
+  padding: 0.5em 1.5em 0.5em;
+  color: #333333;
+  background-color: white;
+  border-color: #bfbfbf;
+}
+/* line 279, modules/_mixins.scss */
+.btn:hover, .btn.active, .btn:focus, .btn.focus {
+  background-color: #ebebeb;
+  border-color: #a1a1a1;
+}
+/* line 283, modules/_mixins.scss */
+.btn:active {
+  -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.15) inset;
+  -moz-box-sizing: 0 0 2px rgba(0, 0, 0, 0.15) inset;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.15) inset;
+  background-color: #ebebeb;
+  border-color: #a1a1a1;
+}
+/* line 289, modules/_mixins.scss */
+.btn.disabled, .btn[disabled] {
+  cursor: not-allowed;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+}
+/* line 296, modules/_mixins.scss */
+.btn.disabled, .btn.disabled:hover, .btn.disabled:focus, .btn.disabled:active, .btn.disabled.active, .btn[disabled], .btn[disabled]:hover, .btn[disabled]:focus, .btn[disabled]:active, .btn[disabled].active {
+  color: #333333;
+  background-color: white;
+  border-color: #bfbfbf;
+}
+/* line 302, modules/_mixins.scss */
+.btn.block {
+  display: block;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  text-align: center;
+}
+/* line 309, modules/_mixins.scss */
+.btn::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+/* line 4, partials/components/_buttons.scss */
+.btn-primary {
+  border: 1px solid #ab8c4c;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-animation: all 0.2s ease-in-out;
+  -moz-animation: all 0.2s ease-in-out;
+  -ms-animation: all 0.2s ease-in-out;
+  -o-animation: all 0.2s ease-in-out;
+  animation: all 0.2s ease-in-out;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  line-height: normal;
+  white-space: nowrap;
+  vertical-align: baseline;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  *overflow: visible;
+  padding: 0.5em 1.5em 0.5em;
+  color: black;
+  background-color: #428bca;
+  border-color: #357ebd;
+}
+/* line 279, modules/_mixins.scss */
+.btn-primary:hover, .btn-primary.active, .btn-primary:focus, .btn-primary.focus {
+  background-color: #3276b1;
+  border-color: #285e8e;
+}
+/* line 283, modules/_mixins.scss */
+.btn-primary:active {
+  -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.15) inset;
+  -moz-box-sizing: 0 0 2px rgba(0, 0, 0, 0.15) inset;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.15) inset;
+  background-color: #3276b1;
+  border-color: #285e8e;
+}
+/* line 289, modules/_mixins.scss */
+.btn-primary.disabled, .btn-primary[disabled] {
+  cursor: not-allowed;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+}
+/* line 296, modules/_mixins.scss */
+.btn-primary.disabled, .btn-primary.disabled:hover, .btn-primary.disabled:focus, .btn-primary.disabled:active, .btn-primary.disabled.active, .btn-primary[disabled], .btn-primary[disabled]:hover, .btn-primary[disabled]:focus, .btn-primary[disabled]:active, .btn-primary[disabled].active {
+  color: black;
+  background-color: #428bca;
+  border-color: #357ebd;
+}
+/* line 302, modules/_mixins.scss */
+.btn-primary.block {
+  display: block;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  text-align: center;
+}
+/* line 309, modules/_mixins.scss */
+.btn-primary::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+/* line 7, partials/components/_buttons.scss */
+.btn-info {
+  border: 1px solid #ab8c4c;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-animation: all 0.2s ease-in-out;
+  -moz-animation: all 0.2s ease-in-out;
+  -ms-animation: all 0.2s ease-in-out;
+  -o-animation: all 0.2s ease-in-out;
+  animation: all 0.2s ease-in-out;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  line-height: normal;
+  white-space: nowrap;
+  vertical-align: baseline;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  *overflow: visible;
+  padding: 0.5em 1.5em 0.5em;
+  color: black;
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+/* line 279, modules/_mixins.scss */
+.btn-info:hover, .btn-info.active, .btn-info:focus, .btn-info.focus {
+  background-color: #39b3d7;
+  border-color: #269abc;
+}
+/* line 283, modules/_mixins.scss */
+.btn-info:active {
+  -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.15) inset;
+  -moz-box-sizing: 0 0 2px rgba(0, 0, 0, 0.15) inset;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.15) inset;
+  background-color: #39b3d7;
+  border-color: #269abc;
+}
+/* line 289, modules/_mixins.scss */
+.btn-info.disabled, .btn-info[disabled] {
+  cursor: not-allowed;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+}
+/* line 296, modules/_mixins.scss */
+.btn-info.disabled, .btn-info.disabled:hover, .btn-info.disabled:focus, .btn-info.disabled:active, .btn-info.disabled.active, .btn-info[disabled], .btn-info[disabled]:hover, .btn-info[disabled]:focus, .btn-info[disabled]:active, .btn-info[disabled].active {
+  color: black;
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+/* line 302, modules/_mixins.scss */
+.btn-info.block {
+  display: block;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  text-align: center;
+}
+/* line 309, modules/_mixins.scss */
+.btn-info::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+/* line 10, partials/components/_buttons.scss */
+.btn-success {
+  border: 1px solid #ab8c4c;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-animation: all 0.2s ease-in-out;
+  -moz-animation: all 0.2s ease-in-out;
+  -ms-animation: all 0.2s ease-in-out;
+  -o-animation: all 0.2s ease-in-out;
+  animation: all 0.2s ease-in-out;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  line-height: normal;
+  white-space: nowrap;
+  vertical-align: baseline;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  *overflow: visible;
+  padding: 0.5em 1.5em 0.5em;
+  color: black;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+/* line 279, modules/_mixins.scss */
+.btn-success:hover, .btn-success.active, .btn-success:focus, .btn-success.focus {
+  background-color: #47a447;
+  border-color: #398439;
+}
+/* line 283, modules/_mixins.scss */
+.btn-success:active {
+  -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.15) inset;
+  -moz-box-sizing: 0 0 2px rgba(0, 0, 0, 0.15) inset;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.15) inset;
+  background-color: #47a447;
+  border-color: #398439;
+}
+/* line 289, modules/_mixins.scss */
+.btn-success.disabled, .btn-success[disabled] {
+  cursor: not-allowed;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+}
+/* line 296, modules/_mixins.scss */
+.btn-success.disabled, .btn-success.disabled:hover, .btn-success.disabled:focus, .btn-success.disabled:active, .btn-success.disabled.active, .btn-success[disabled], .btn-success[disabled]:hover, .btn-success[disabled]:focus, .btn-success[disabled]:active, .btn-success[disabled].active {
+  color: black;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+/* line 302, modules/_mixins.scss */
+.btn-success.block {
+  display: block;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  text-align: center;
+}
+/* line 309, modules/_mixins.scss */
+.btn-success::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+/* line 13, partials/components/_buttons.scss */
+.btn-warning {
+  border: 1px solid #ab8c4c;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-animation: all 0.2s ease-in-out;
+  -moz-animation: all 0.2s ease-in-out;
+  -ms-animation: all 0.2s ease-in-out;
+  -o-animation: all 0.2s ease-in-out;
+  animation: all 0.2s ease-in-out;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  line-height: normal;
+  white-space: nowrap;
+  vertical-align: baseline;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  *overflow: visible;
+  padding: 0.5em 1.5em 0.5em;
+  color: black;
+  background-color: #f0ad4e;
+  border-color: #eea236;
+}
+/* line 279, modules/_mixins.scss */
+.btn-warning:hover, .btn-warning.active, .btn-warning:focus, .btn-warning.focus {
+  background-color: #ed9c28;
+  border-color: #d58512;
+}
+/* line 283, modules/_mixins.scss */
+.btn-warning:active {
+  -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.15) inset;
+  -moz-box-sizing: 0 0 2px rgba(0, 0, 0, 0.15) inset;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.15) inset;
+  background-color: #ed9c28;
+  border-color: #d58512;
+}
+/* line 289, modules/_mixins.scss */
+.btn-warning.disabled, .btn-warning[disabled] {
+  cursor: not-allowed;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+}
+/* line 296, modules/_mixins.scss */
+.btn-warning.disabled, .btn-warning.disabled:hover, .btn-warning.disabled:focus, .btn-warning.disabled:active, .btn-warning.disabled.active, .btn-warning[disabled], .btn-warning[disabled]:hover, .btn-warning[disabled]:focus, .btn-warning[disabled]:active, .btn-warning[disabled].active {
+  color: black;
+  background-color: #f0ad4e;
+  border-color: #eea236;
+}
+/* line 302, modules/_mixins.scss */
+.btn-warning.block {
+  display: block;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  text-align: center;
+}
+/* line 309, modules/_mixins.scss */
+.btn-warning::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+/* line 16, partials/components/_buttons.scss */
+.btn-error {
+  border: 1px solid #ab8c4c;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-animation: all 0.2s ease-in-out;
+  -moz-animation: all 0.2s ease-in-out;
+  -ms-animation: all 0.2s ease-in-out;
+  -o-animation: all 0.2s ease-in-out;
+  animation: all 0.2s ease-in-out;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  line-height: normal;
+  white-space: nowrap;
+  vertical-align: baseline;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  *overflow: visible;
+  padding: 0.5em 1.5em 0.5em;
+  color: black;
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
+/* line 279, modules/_mixins.scss */
+.btn-error:hover, .btn-error.active, .btn-error:focus, .btn-error.focus {
+  background-color: #d2322d;
+  border-color: #ac2925;
+}
+/* line 283, modules/_mixins.scss */
+.btn-error:active {
+  -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.15) inset;
+  -moz-box-sizing: 0 0 2px rgba(0, 0, 0, 0.15) inset;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.15) inset;
+  background-color: #d2322d;
+  border-color: #ac2925;
+}
+/* line 289, modules/_mixins.scss */
+.btn-error.disabled, .btn-error[disabled] {
+  cursor: not-allowed;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+}
+/* line 296, modules/_mixins.scss */
+.btn-error.disabled, .btn-error.disabled:hover, .btn-error.disabled:focus, .btn-error.disabled:active, .btn-error.disabled.active, .btn-error[disabled], .btn-error[disabled]:hover, .btn-error[disabled]:focus, .btn-error[disabled]:active, .btn-error[disabled].active {
+  color: black;
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
+/* line 302, modules/_mixins.scss */
+.btn-error.block {
+  display: block;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  text-align: center;
+}
+/* line 309, modules/_mixins.scss */
+.btn-error::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+/* line 24, partials/components/_buttons.scss */
+.btn-hover {
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+/* line 26, partials/components/_buttons.scss */
+.btn-hover:hover {
+  opacity: 0.8;
+}
+
+/* line 31, partials/components/_buttons.scss */
+.btn-nav-control {
+  padding: 20px 10px;
+  color: black;
+  background-color: #eaeaea;
+  z-index: 3;
+}
+
+/* line 38, partials/components/_buttons.scss */
+.btn-back-to-top {
+  cursor: pointer;
+  padding: 20px;
+  color: black;
+  background-color: #eaeaea;
+  z-index: 3;
+}
+
+/* line 1, partials/components/_menu.scss */
+.breadcrumbs {
+  padding: 10px 15px;
+  border: 1px solid #ab8c4c;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  background-image: -moz-linear-gradient(white, whitesmoke);
+  /* FF 3.6+ */
+  background-image: -webkit-linear-gradient(white, whitesmoke);
+  /* Safari 5.1+, Chrome 10+ */
+  background-image: -o-linear-gradient(white, whitesmoke);
+  /* Opera 11.10 */
+  background-image: linear-gradient(#ffffff, #f5f5f5);
+  /* the standard */
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=white, endColorstr=whitesmoke)";
+}
+/* line 5, partials/components/_menu.scss */
+.breadcrumbs > li {
+  display: inline-block;
+}
+/* line 8, partials/components/_menu.scss */
+.breadcrumbs > li:last-child em {
+  display: none;
+}
+/* line 12, partials/components/_menu.scss */
+.breadcrumbs > li em {
+  margin: 0 5px;
+}
+
+/* line 21, partials/components/_menu.scss */
+.menu.horizontal li {
+  display: inline-block;
+}
+/* line 25, partials/components/_menu.scss */
+.menu li a {
+  display: block;
+  padding: 10px 20px;
+}
+/* line 28, partials/components/_menu.scss */
+.menu li a:hover, .menu li.menu-selected a {
+  background-color: #eee;
+}
+
+/* line 1, partials/components/_table.scss */
+.table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  empty-cells: show;
+  border: 1px solid #ab8c4c;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  width: 100%;
+}
+/* line 7, partials/components/_table.scss */
+.table caption {
+  color: #000;
+  padding: 1em 0;
+  text-align: center;
+}
+/* line 12, partials/components/_table.scss */
+.table th, .table caption {
+  font-weight: bold;
+}
+/* line 15, partials/components/_table.scss */
+.table th, .table td {
+  font-size: inherit;
+  padding: 10px;
+  vertical-align: middle;
+  border: 1px solid #ab8c4c;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  border-left: none;
+  border-bottom: none;
+}
+/* line 25, partials/components/_table.scss */
+.table.hover tbody tr:hover, .table.hover tbody .hover {
+  background-color: #ab8c4c;
+}
+/* line 31, partials/components/_table.scss */
+.table.horizontal th, .table.horizontal td {
+  border-right: none;
+}
+/* line 36, partials/components/_table.scss */
+.table.vertical th, .table.vertical td {
+  border-top: none;
+}
+/* line 40, partials/components/_table.scss */
+.table.vertical tbody tr:hover {
+  background-color: transparent;
+}
+
+/* line 1, partials/components/_icons.scss */
+.icons-sns {
+  display: inline-block;
+  background-repeat: no-repeat;
+  width: 38px;
+  height: 38px;
+}
+
+/* ==========================================================================
+   partials - layout (layout components can be re-used)
+   ========================================================================== */
+/* ==========================================================================
+   layout css
+   ========================================================================== */
+/* line 5, partials/pages/layout/_layout.scss */
+body {
+  background-color: white;
+  color: #666666;
+}
+
+/* line 9, partials/pages/layout/_layout.scss */
+.wrapper {
+  padding-left: 180px;
+  height: 100%;
+}
+
+/* line 13, partials/pages/layout/_layout.scss */
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* header */
+/* line 18, partials/pages/layout/_layout.scss */
+header {
+  padding: 100px 0;
+  text-align: center;
+  border-bottom: solid 1px #ab8c4c;
+}
+/* line 22, partials/pages/layout/_layout.scss */
+header.about {
+  padding: 150px 0;
+}
+/* line 24, partials/pages/layout/_layout.scss */
+header.about .headline {
+  font-size: 6em;
+  color: #00dbff;
+}
+
+/* main */
+/* line 31, partials/pages/layout/_layout.scss */
+.main {
+  padding: 50px 0;
+}
+
+/* footer */
+/* line 35, partials/pages/layout/_layout.scss */
+footer {
+  font-size: 0.8em;
+  padding: 15px 0;
+  text-align: center;
+  border-top: solid 1px #ab8c4c;
+}
+
+/* ==========================================================================
+   common css
+   ========================================================================== */
+/* line 1, partials/pages/layout/_responsive.scss */
+img.responsive {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 480px) {
+  /* line 7, partials/pages/layout/_responsive.scss */
+  main {
+    margin-left: 0;
+  }
+
+  /* line 10, partials/pages/layout/_responsive.scss */
+  .nav-btn {
+    left: 0;
+  }
+
+  /* line 13, partials/pages/layout/_responsive.scss */
+  .l-hbox {
+    padding: 0 20px;
+  }
+
+  /* line 16, partials/pages/layout/_responsive.scss */
+  .pure-u-1-2, .pure-u-1-3, .pure-u-1-4 {
+    display: block;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* line 27, partials/pages/layout/_responsive.scss */
+  #home header {
+    margin-top: -160px;
+  }
+  /* line 29, partials/pages/layout/_responsive.scss */
+  #home header .logo {
+    bottom: -80px;
+    font-size: 3em;
+  }
+}
+/*@media screen and (min-width: 421px) and (max-width: 680px) {
+  .container {
+    width: 90%;
+  }
+}*/
+/* navigation */
+/* line 2, partials/pages/layout/_module.scss */
+.nav {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  width: 180px;
+  height: 100%;
+  background-color: black;
+}
+/* line 11, partials/pages/layout/_module.scss */
+.nav .nav-item {
+  color: white;
+  font-size: 1.4em;
+  display: block;
+  padding: 15px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+/* line 54, modules/_mixins.scss */
+.nav .nav-item:hover, .nav .nav-item:focus, .nav .nav-item:active, .nav .nav-item.active {
+  color: #00dbff;
+  text-indent: 10px;
+}
+/* line 18, partials/pages/layout/_module.scss */
+.nav .nav-item.logo {
+  color: #00dbff;
+  font-size: 2em;
+}
+/* line 24, partials/pages/layout/_module.scss */
+.nav .search {
+  display: block;
+  outline: none;
+  border: none;
+  height: 30px;
+  width: 100%;
+  padding: 0 15px;
+  background-color: white;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* code review */
+/* line 41, partials/pages/layout/_module.scss */
+.code {
+  border: 1px solid #ab8c4c;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  display: block;
+  background-color: #eaeaea;
+  text-align: center;
+  word-break: break-all;
+  line-height: 1.6em;
+  padding: 20px;
+}
+/* line 49, partials/pages/layout/_module.scss */
+.code.scrollable {
+  max-height: 360px;
+  overflow-y: scroll;
+}
+/* line 53, partials/pages/layout/_module.scss */
+.code ol, .code ul {
+  text-align: left;
+}
+/* line 56, partials/pages/layout/_module.scss */
+.code .tag {
+  color: #905fdb;
+}
+/* line 59, partials/pages/layout/_module.scss */
+.code .attr {
+  color: #080;
+}
+/* line 62, partials/pages/layout/_module.scss */
+.code .element {
+  color: #f42871;
+}
+/* line 65, partials/pages/layout/_module.scss */
+.code .tab-1 {
+  text-indent: 16px;
+}
+/* line 68, partials/pages/layout/_module.scss */
+.code .tab-2 {
+  text-indent: 32px;
+}
+/* line 71, partials/pages/layout/_module.scss */
+.code .tab-3 {
+  text-indent: 48px;
+}
+/* line 74, partials/pages/layout/_module.scss */
+.code .tab-4 {
+  text-indent: 64px;
+}
+
+/* progress */
+/* line 85, partials/pages/layout/_module.scss */
+.progress {
+  width: 100%;
+  height: 20px;
+  background-color: #eaeaea;
+  overflow: hidden;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  -moz-box-sizing: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+/* line 92, partials/pages/layout/_module.scss */
+.progress .bar {
+  float: left;
+  width: 0;
+  height: 100%;
+  background-color: #428bca;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+  -moz-box-sizing: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+  -webkit-transition: width 0.6s ease;
+  transition: width 0.6s ease;
+}
+/* line 101, partials/pages/layout/_module.scss */
+.progress.active .bar {
+  background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  -webkit-background-size: 40px 40px;
+  -moz-background-size: 40px 40px;
+  -o-background-size: 40px 40px;
+  background-size: 40px 40px;
+  -webkit-animation: progress-active 2s linear infinite;
+  -moz-animation: progress-active 2s linear infinite;
+  -ms-animation: progress-active 2s linear infinite;
+  -o-animation: progress-active 2s linear infinite;
+  animation: progress-active 2s linear infinite;
+}
+
+/* line 114, partials/pages/layout/_module.scss */
+.btn-nav-control {
+  position: fixed;
+  left: 180px;
+  top: 50%;
+  margin-top: -33px;
+  z-index: 3;
+}
+
+/* line 125, partials/pages/layout/_module.scss */
+.btn-back-to-top {
+  position: fixed;
+  left: 180px;
+  bottom: 0px;
+  z-index: 3;
+}
+
+/* ==========================================================================
+   partials - pages (specific page css)
+   ========================================================================== */
+/* line 1, partials/pages/_home-page.scss */
+#home {
+  width: 100%;
+  height: 100%;
+  -webkit-animation: changeBg 3.5s ease-in-out infinite alternate;
+  -moz-animation: changeBg 3.5s ease-in-out infinite alternate;
+  -ms-animation: changeBg 3.5s ease-in-out infinite alternate;
+  -o-animation: changeBg 3.5s ease-in-out infinite alternate;
+  animation: changeBg 3.5s ease-in-out infinite alternate;
+}
+/* line 5, partials/pages/_home-page.scss */
+#home header {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -100px;
+  margin-top: -200px;
+  width: 200px;
+  height: 240px;
+  background-position: center bottom;
+  border: none;
+  padding: 0;
+}
+/* line 17, partials/pages/_home-page.scss */
+#home header .lightning {
+  width: 200px;
+  height: 240px;
+  -webkit-animation: changeOpacity 1s ease-in-out infinite alternate;
+  -moz-animation: changeOpacity 1s ease-in-out infinite alternate;
+  -ms-animation: changeOpacity 1s ease-in-out infinite alternate;
+  -o-animation: changeOpacity 1s ease-in-out infinite alternate;
+  animation: changeOpacity 1s ease-in-out infinite alternate;
+}
+/* line 23, partials/pages/_home-page.scss */
+#home header .logo {
+  position: absolute;
+  bottom: -100px;
+  left: 0px;
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+  font-size: 4em;
+}
+/* line 33, partials/pages/_home-page.scss */
+#home footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+/* line 2, partials/pages/_simple-page.scss */
+.category {
+  text-align: center;
+}
+/* line 4, partials/pages/_simple-page.scss */
+.category .pure-u-1-8 {
+  padding: 1em 0;
+  color: white;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* grid page style */
+/* line 16, partials/pages/_simple-page.scss */
+.grid .pure-g > div {
+  background: green;
+  text-align: center;
+  color: #ffffff;
+  border-left: solid 1px #000;
+  border-bottom: solid 1px #000;
+  padding: 10px 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* carousel page style */
+/* line 30, partials/pages/_simple-page.scss */
+.carousel {
+  position: relative;
+}
+/* line 32, partials/pages/_simple-page.scss */
+.carousel .slidesjs-previous {
+  position: absolute;
+  bottom: 0px;
+  left: 20px;
+  z-index: 100;
+  line-height: 30px;
+  color: #ffffff;
+}
+/* line 40, partials/pages/_simple-page.scss */
+.carousel .slidesjs-next {
+  position: absolute;
+  bottom: 0px;
+  right: 20px;
+  z-index: 100;
+  line-height: 30px;
+  color: #ffffff;
+}
+/* line 48, partials/pages/_simple-page.scss */
+.carousel .slidesjs-pagination {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 100%;
+  z-index: 99;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  line-height: 30px;
+}
+/* line 57, partials/pages/_simple-page.scss */
+.carousel .slidesjs-pagination > li {
+  display: inline-block;
+  margin: 0 5px;
+}
+/* line 60, partials/pages/_simple-page.scss */
+.carousel .slidesjs-pagination > li a {
+  width: 9px;
+  height: 9px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.35);
+  -moz-box-sizing: inset 0 1px 2px rgba(0, 0, 0, 0.35);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.35);
+  background-color: rgba(255, 255, 255, 0.4);
+  text-indent: 100px;
+  overflow: hidden;
+  display: block;
+}
+/* line 69, partials/pages/_simple-page.scss */
+.carousel .slidesjs-pagination > li a.active {
+  background-color: white;
+}
+
+/* layouts page style */
+/* line 86, partials/pages/_simple-page.scss */
+.billboard {
+  height: 400px;
+  background: url("/images/billboard/billboard.jpg") no-repeat;
+  background-size: cover;
+  position: relative;
+}
+/* line 91, partials/pages/_simple-page.scss */
+.billboard .text {
+  position: absolute;
+  left: 15%;
+  top: 100px;
+  color: #ffffff;
+}

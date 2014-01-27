@@ -1,0 +1,53 @@
+.icons-sns {
+  display: inline-block;
+  background-repeat: no-repeat;
+  width: 38px;
+  height: 38px;
+}
+.common-icons-taobao {
+  @extend .common-icons-taobao;
+}
+
+.common-icons-baidu {
+  @extend .common-icons-baidu;
+}
+
+.common-icons-douban {
+  @extend .common-icons-douban;
+}
+
+.common-icons-kaixin {
+  @extend .common-icons-kaixin;
+}
+
+.common-icons-kongjian {
+  @extend .common-icons-kongjian;
+}
+
+.common-icons-pengyou {
+  @extend .common-icons-pengyou;
+}
+
+.common-icons-qq {
+  @extend .common-icons-qq;
+}
+
+.common-icons-renren {
+  @extend .common-icons-renren;
+}
+
+.common-icons-sina {
+  @extend .common-icons-sina;
+}
+
+.common-icons-weibo {
+  @extend .common-icons-weibo;
+}
+
+.common-icons-weixin {
+  @extend .common-icons-weixin;
+}
+
+.common-icons-xiaomi {
+  @extend .common-icons-xiaomi;
+}
