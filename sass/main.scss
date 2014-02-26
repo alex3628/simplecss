@@ -1,0 +1,70 @@
+/** _:IE6; *:IE6.7; \9:IE6.7.8; -ms-:Microsoft(Trident引擎); -moz-:Firfox(Gecko引擎); -webkit-:Chrome,Safari(Webkit引擎); -o-:Opera(Presto引擎); **/
+
+
+
+/* ==========================================================================
+   module (declarations that don't produce any css)
+   ========================================================================== */
+@import "global/components/variables";
+@import "global/components/mixins";
+@import "partials/modules/animation";
+
+
+
+/* ==========================================================================
+   partials - base (base component classes)
+   ========================================================================== */
+@import "global/base/reset";
+@import "global/base/print";
+@import "global/base/normalize";
+@import "global/base/font";
+@import "global/vendor/compass";
+
+
+/* ==========================================================================
+   vendor (3rd party css)
+   ========================================================================== */
+@import "global/vendor/font-awesome.min";
+
+
+/* ==========================================================================
+   components (components css)
+   ========================================================================== */
+@import "global/components/typography";
+@import "global/components/grid";
+@import "global/components/buttons";
+@import "global/components/menu";
+@import "global/components/table";
+@import "global/components/icons";
+
+
+
+/* ==========================================================================
+   partials - layout (layout components can be re-used)
+   ========================================================================== */
+@import "global/layout/layout";
+@import "global/layout/responsive";
+@import "global/layout/module";
+
+
+
+
+
+/* ==========================================================================
+   partials - pages (specific page css)
+   ========================================================================== */
+@import "partials/pages/home-page";
+@import "partials/pages/simple-page";
+
+
+
+body {
+  background-color: red;
+}
+
+
+
+
+
+
+

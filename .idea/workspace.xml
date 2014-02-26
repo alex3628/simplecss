@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f3e51502-753b-459d-97fc-468273d245d3" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/75ff1670e4180b3f24b0e2dfe2beb8dc4297ba26/%042.pngc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/eb0f0f0a805be058f25543f6b15be8296d648d3c/%042.pngc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/41d639a8f01dfbaa63d0d03519c0623c66a2d5a4/_animation.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/788f8c3d3cc7ed4eca1b4e6e0f9d379dea0f0a25/_animation.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/a7ec7a7db804842bd64445eb991a428ff1a3e19c/_base.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/73964a19ff77492ebad6c4e3fee90c8ec7b2d4ae/_buttons.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/bc38fa90df90b3a9593c93e78c31c56895c0ba5b/_buttons.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/4a910c1c0dd8d5ecaf418cbd36ba47315905ba06/_compass.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/9e3b9fa0c87a1aaae8d3e9ebbed8b292b02ece5f/_compass.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/9e3b9fa0c87a1aaae8d3e9ebbed8b292b02ece5f/_font.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/a0226fe8671e3e313493ecc828ab97bc1c6a1e70/_font.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/73964a19ff77492ebad6c4e3fee90c8ec7b2d4ae/_grid.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/bc38fa90df90b3a9593c93e78c31c56895c0ba5b/_grid.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/13e1ef8b659ff24e5516ced731b23aa7e3f78397/_home-page.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/7b750d920dac4aaa25fbb4afeb691c6734127050/_home-page.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/73964a19ff77492ebad6c4e3fee90c8ec7b2d4ae/_icons.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/bc38fa90df90b3a9593c93e78c31c56895c0ba5b/_icons.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/3a31372d7c597e1b02fef1ac70a17a41f0bbe482/_layout.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/bf03d65b77c0a788cea437ac0c360dad4d4aaf91/_layout.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/73964a19ff77492ebad6c4e3fee90c8ec7b2d4ae/_menu.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/bc38fa90df90b3a9593c93e78c31c56895c0ba5b/_menu.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/73964a19ff77492ebad6c4e3fee90c8ec7b2d4ae/_mixins.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/788f8c3d3cc7ed4eca1b4e6e0f9d379dea0f0a25/_mixins.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/3a31372d7c597e1b02fef1ac70a17a41f0bbe482/_module.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/bf03d65b77c0a788cea437ac0c360dad4d4aaf91/_module.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/9e3b9fa0c87a1aaae8d3e9ebbed8b292b02ece5f/_normalize.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/9e3b9fa0c87a1aaae8d3e9ebbed8b292b02ece5f/_print.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/a0226fe8671e3e313493ecc828ab97bc1c6a1e70/_print.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/9e3b9fa0c87a1aaae8d3e9ebbed8b292b02ece5f/_reset.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/a0226fe8671e3e313493ecc828ab97bc1c6a1e70/_reset.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/3a31372d7c597e1b02fef1ac70a17a41f0bbe482/_responsive.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/bf03d65b77c0a788cea437ac0c360dad4d4aaf91/_responsive.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/13e1ef8b659ff24e5516ced731b23aa7e3f78397/_simple-page.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/7b750d920dac4aaa25fbb4afeb691c6734127050/_simple-page.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/73964a19ff77492ebad6c4e3fee90c8ec7b2d4ae/_table.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/bc38fa90df90b3a9593c93e78c31c56895c0ba5b/_table.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/73964a19ff77492ebad6c4e3fee90c8ec7b2d4ae/_typography.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/bc38fa90df90b3a9593c93e78c31c56895c0ba5b/_typography.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/928717f716b7357483cd89c938a244e1fd7e2fc7/_utilities.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/73964a19ff77492ebad6c4e3fee90c8ec7b2d4ae/_variables.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/788f8c3d3cc7ed4eca1b4e6e0f9d379dea0f0a25/_variables.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/a134e3f9b3becd4c95acf9f80d13500e7f0b746f/main.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/b77b2b1fa1e53d5143ec92e632a1db1f05f35e5b/main.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/a134e3f9b3becd4c95acf9f80d13500e7f0b746f/print.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/b77b2b1fa1e53d5143ec92e632a1db1f05f35e5b/print.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/06cdfdebdfc115c3ad92eedf8406d9a60bc32b67/_font-awesome.min.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/4a910c1c0dd8d5ecaf418cbd36ba47315905ba06/_font-awesome.min.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/partials/modules/_module.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/a0226fe8671e3e313493ecc828ab97bc1c6a1e70/_normalize.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/47bc3e79e5cf428e640b160a6ff691ab3903ebe8/_reset.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/a134e3f9b3becd4c95acf9f80d13500e7f0b746f/ie.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/b77b2b1fa1e53d5143ec92e632a1db1f05f35e5b/ie.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/a134e3f9b3becd4c95acf9f80d13500e7f0b746f/screen.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/b77b2b1fa1e53d5143ec92e632a1db1f05f35e5b/screen.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/simpleCss.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/watchers.xml" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/main.scss" afterPath="$PROJECT_DIR$/sass/main.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/modules/_animation.scss" afterPath="$PROJECT_DIR$/sass/partials/modules/_animation.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/modules/_mixins.scss" afterPath="$PROJECT_DIR$/sass/global/components/_mixins.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/modules/_variables.scss" afterPath="$PROJECT_DIR$/sass/global/components/_variables.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/partials/base/_compass.scss" afterPath="$PROJECT_DIR$/sass/global/vendor/_compass.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/partials/base/_font.scss" afterPath="$PROJECT_DIR$/sass/global/base/_font.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/partials/base/_normalize.scss" afterPath="$PROJECT_DIR$/sass/global/base/_normalize.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/partials/base/_print.scss" afterPath="$PROJECT_DIR$/sass/global/base/_print.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/partials/base/_reset.scss" afterPath="$PROJECT_DIR$/sass/global/base/_reset.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/partials/components/_buttons.scss" afterPath="$PROJECT_DIR$/sass/global/components/_buttons.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/partials/components/_grid.scss" afterPath="$PROJECT_DIR$/sass/global/components/_grid.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/partials/components/_icons.scss" afterPath="$PROJECT_DIR$/sass/global/components/_icons.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/partials/components/_menu.scss" afterPath="$PROJECT_DIR$/sass/global/components/_menu.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/partials/components/_table.scss" afterPath="$PROJECT_DIR$/sass/global/components/_table.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/partials/components/_typography.scss" afterPath="$PROJECT_DIR$/sass/global/components/_typography.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/partials/pages/_home-page.scss" afterPath="$PROJECT_DIR$/sass/partials/pages/_home-page.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/partials/pages/_simple-page.scss" afterPath="$PROJECT_DIR$/sass/partials/pages/_simple-page.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/partials/pages/layout/_layout.scss" afterPath="$PROJECT_DIR$/sass/global/layout/_layout.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/partials/pages/layout/_module.scss" afterPath="$PROJECT_DIR$/sass/global/layout/_module.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/partials/pages/layout/_responsive.scss" afterPath="$PROJECT_DIR$/sass/global/layout/_responsive.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/vendor/_font-awesome.min.scss" afterPath="$PROJECT_DIR$/sass/global/vendor/_font-awesome.min.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/common/loading.gif" afterPath="$PROJECT_DIR$/images/common/loading.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/404.html" afterPath="$PROJECT_DIR$/404.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.rb" afterPath="$PROJECT_DIR$/config.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template-mobile.html" afterPath="$PROJECT_DIR$/template-mobile.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template-pc.html" afterPath="$PROJECT_DIR$/template-pc.html" />
+    </list>
+    <ignored path="simpleCss.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="simpleCss" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/template-mobile.html" />
+        <option value="$PROJECT_DIR$/template-pc.html" />
+        <option value="$PROJECT_DIR$/404.html" />
+        <option value="$PROJECT_DIR$/scss/partials/base/_compass.scss" />
+        <option value="$PROJECT_DIR$/scss/main.scss" />
+        <option value="$PROJECT_DIR$/sass/global/base/_normalize.scss" />
+        <option value="$PROJECT_DIR$/sass/global/base/_font.scss" />
+        <option value="$PROJECT_DIR$/sass/global/components/_buttons.scss" />
+        <option value="$PROJECT_DIR$/sass/main.scss" />
+        <option value="$PROJECT_DIR$/sass/global/vendor/_compass.scss" />
+        <option value="$PROJECT_DIR$/config.rb" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1873" />
+    <option name="y" value="-364" />
+    <option name="width" value="1873" />
+    <option name="height" value="1058" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simpleCss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simpleCss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simpleCss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="settings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LuxBioFusion/development/front-end" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sass/global/vendor" />
+      <recent name="$PROJECT_DIR$/sass/global/components" />
+      <recent name="$PROJECT_DIR$/scss/global" />
+      <recent name="$PROJECT_DIR$/scss/partials" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="name" value="Dart" />
+      <option name="saveOutputToFile" value="false" />
+      <option name="showConsoleOnStdErr" value="false" />
+      <option name="showConsoleOnStdOut" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <browser start="false" url="" with-js-debugger="false" />
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f3e51502-753b-459d-97fc-468273d245d3" name="Default" comment="" />
+      <created>1393313919411</created>
+      <updated>1393313919411</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1873" y="-364" width="1873" height="1058" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.47867805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14432432" sideWeight="0.52132195" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942432" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="0" selection-start="1539" selection-end="1539" vertical-scroll-proportion="-11.875" vertical-offset="120" max-vertical-offset="960" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/partials/modules/_animation.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="11520" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="43" selection-start="585" selection-end="585" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="930" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/global/layout/_responsive.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="910" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/global/components/_buttons.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="6" selection-start="6" selection-end="438" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="827" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/global/layout/_layout.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="897" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="22" selection-start="196" selection-end="196" vertical-scroll-proportion="0.22776572" vertical-offset="0" max-vertical-offset="461">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="9" selection-start="941" selection-end="941" vertical-scroll-proportion="0.51487416" vertical-offset="150" max-vertical-offset="1140">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/partials/modules/_module.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="887">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/global/vendor/_compass.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="290" selection-end="290" vertical-scroll-proportion="0.34324944" vertical-offset="0" max-vertical-offset="437">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/global/base/_font.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="5" selection-start="768" selection-end="768" vertical-scroll-proportion="0.18632075" vertical-offset="536" max-vertical-offset="960">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/global/base/_reset.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="92" column="1" selection-start="1077" selection-end="1077" vertical-scroll-proportion="0.5537757" vertical-offset="1138" max-vertical-offset="1965">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/global/base/_print.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="14" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="1590">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/global/base/_normalize.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="549" column="32" selection-start="9909" selection-end="9909" vertical-scroll-proportion="0.7597254" vertical-offset="7903" max-vertical-offset="8730">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/global/vendor/_font-awesome.min.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="874">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/global/layout/_module.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2055">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+
