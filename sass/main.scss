@@ -10,9 +10,9 @@
 @import "global/reset/reset";
 @import "global/reset/print";
 @import "global/reset/normalize";
+@import "global/reset/font";
 
 /* ===============  base (declarations that don't produce any css)  =============== */
-@import "global/base/font";
 @import "global/base/variables";
 @import "global/base/mixins";
 @import "global/base/compass";

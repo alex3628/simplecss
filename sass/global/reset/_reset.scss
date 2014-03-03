@@ -1,24 +1,24 @@
 /*
-YUI 3.11.0 (build d549e5c)
-Copyright 2013 Yahoo! Inc. All rights reserved.
+YUI 3.15.0 (build 834026e)
+Copyright 2014 Yahoo! Inc. All rights reserved.
 Licensed under the BSD License.
 http://yuilibrary.com/license/
 */
 
 /*
-	TODO will need to remove settings on HTML since we can't namespace it.
-	TODO with the prefix, should I group by selector or property for weight savings?
+TO DO will need to remove settings on HTML since we can't namespace it.
+TO DO with the prefix, should I group by selector or property for weight savings?
 */
 html{
   color:#000;
   background:#FFF;
 }
 /*
-	TODO remove settings on BODY since we can't namespace it.
+TO DO remove settings on BODY since we can't namespace it.
 */
 /*
-	TODO test putting a class on HEAD.
-		- Fails on FF. 
+TO DO test putting a class on HEAD.
+- Fails on FF.
 */
 body,
 div,
@@ -75,7 +75,6 @@ var {
 ol,
 ul {
   list-style:none;
-  list-style-position: inside;
 }
 
 caption,
@@ -113,12 +112,7 @@ select {
   font-family:inherit;
   font-size:inherit;
   font-weight:inherit;
-}
-/*to enable resizing for IE*/
-input,
-textarea,
-select {
-  *font-size:100%;
+  *font-size:100%; /*to enable resizing for IE*/
 }
 /*because legend doesn't inherit in IE */
 legend {

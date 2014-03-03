@@ -1,6 +1,6 @@
 /*
-YUI 3.11.0 (build d549e5c)
-Copyright 2013 Yahoo! Inc. All rights reserved.
+YUI 3.15.0 (build 834026e)
+Copyright 2014 Yahoo! Inc. All rights reserved.
 Licensed under the BSD License.
 http://yuilibrary.com/license/
 */
@@ -10,7 +10,7 @@ http://yuilibrary.com/license/
  * x-small is for IE6/7 quirks mode.
  */
 body {
-  font:13px/1.5 'HelveticaNeue-Light','myriadpro',arial,helvetica,clean,sans-serif;
+  font:13px/1.231 arial,helvetica,clean,sans-serif;
   *font-size:small; /* for IE */
   *font:x-small; /* for IE in quirks mode */
 }
@@ -48,7 +48,7 @@ tt {
 
 
 /**
- * FONT PATH if you want custom font family -- alex.gong
+ * Add new font if you want custom your website font -- alex.gong
  */
 @font-face {
   font-family: 'myriadpro';
