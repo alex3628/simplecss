@@ -39,55 +39,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.scss" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sass/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="33" selection-start="492" selection-end="492" vertical-scroll-proportion="0.18623024" vertical-offset="0" max-vertical-offset="886">
+            <state line="44" column="37" selection-start="1564" selection-end="1564" vertical-scroll-proportion="-27.5" vertical-offset="0" max-vertical-offset="840">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_typography.scss" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="_typography.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sass/global/components/_typography.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="177" selection-end="177" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="3375">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_font.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sass/global/reset/_font.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="16" selection-start="852" selection-end="852" vertical-scroll-proportion="-31.25" vertical-offset="0" max-vertical-offset="960">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_normalize.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sass/global/reset/_normalize.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="583" column="2" selection-start="10090" selection-end="10092" vertical-scroll-proportion="-18.166666" vertical-offset="8309" max-vertical-offset="9195">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_print.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sass/global/reset/_print.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="173" selection-end="173" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="1590">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_reset.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sass/global/reset/_reset.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="450" selection-end="450" vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="1875">
+            <state line="3" column="0" selection-start="177" selection-end="177" vertical-scroll-proportion="0.050790068" vertical-offset="0" max-vertical-offset="3375">
               <folding />
             </state>
           </provider>
@@ -544,30 +508,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/global/reset/_normalize.scss">
+    <entry file="file://$PROJECT_DIR$/sass/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="583" column="2" selection-start="10090" selection-end="10092" vertical-scroll-proportion="-18.166666" vertical-offset="8309" max-vertical-offset="9195">
+        <state line="44" column="37" selection-start="1564" selection-end="1564" vertical-scroll-proportion="-27.5" vertical-offset="0" max-vertical-offset="840">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/global/reset/_font.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="16" selection-start="852" selection-end="852" vertical-scroll-proportion="-31.25" vertical-offset="0" max-vertical-offset="960">
+        <state line="50" column="16" selection-start="852" selection-end="852" vertical-scroll-proportion="0.85910654" vertical-offset="0" max-vertical-offset="960">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/global/reset/_normalize.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="583" column="2" selection-start="10090" selection-end="10092" vertical-scroll-proportion="0.49209931" vertical-offset="8309" max-vertical-offset="9195">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/global/components/_typography.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="177" selection-end="177" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="3375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="33" selection-start="492" selection-end="492" vertical-scroll-proportion="0.18623024" vertical-offset="0" max-vertical-offset="886">
+        <state line="3" column="0" selection-start="177" selection-end="177" vertical-scroll-proportion="0.050790068" vertical-offset="0" max-vertical-offset="3375">
           <folding />
         </state>
       </provider>
