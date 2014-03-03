@@ -2,34 +2,27 @@
 
 
 
-/* ==========================================================================
-   module (declarations that don't produce any css)
-   ========================================================================== */
-@import "global/components/variables";
-@import "global/components/mixins";
-@import "partials/modules/animation";
 
 
+/* ==========================================================================   Global CSS   ========================================================================== */
 
-/* ==========================================================================
-   partials - base (base component classes)
-   ========================================================================== */
-@import "global/base/reset";
-@import "global/base/print";
-@import "global/base/normalize";
+/* ===============  reset (Reset Different browsers classes)  =============== */
+@import "global/reset/reset";
+@import "global/reset/print";
+@import "global/reset/normalize";
+
+/* ===============  base (declarations that don't produce any css)  =============== */
 @import "global/base/font";
-@import "global/vendor/compass";
+@import "global/base/variables";
+@import "global/base/mixins";
+@import "global/base/compass";
 
+/* ===============  layout (layout components can be re-used)  =============== */
+@import "global/layout/layout";
+@import "global/layout/responsive";
+@import "global/layout/module";
 
-/* ==========================================================================
-   vendor (3rd party css)
-   ========================================================================== */
-@import "global/vendor/font-awesome.min";
-
-
-/* ==========================================================================
-   components (components css)
-   ========================================================================== */
+/* ===============  components (components css)  =============== */
 @import "global/components/typography";
 @import "global/components/grid";
 @import "global/components/buttons";
@@ -37,34 +30,22 @@
 @import "global/components/table";
 @import "global/components/icons";
 
-
-
-/* ==========================================================================
-   partials - layout (layout components can be re-used)
-   ========================================================================== */
-@import "global/layout/layout";
-@import "global/layout/responsive";
-@import "global/layout/module";
+/* ===============  vendor (3rd party css)  =============== */
+@import "global/vendor/font-awesome.min";
 
 
 
 
 
-/* ==========================================================================
-   partials - pages (specific page css)
-   ========================================================================== */
+
+
+/* ==========================================================================   partials CSS   ========================================================================== */
+
+/* ===============  modules (common modules css)  =============== */
+@import "partials/modules/animation";
+@import "partials/modules/module";
+
+
+/* ===============  pages (specific page css)  =============== */
 @import "partials/pages/home-page";
 @import "partials/pages/simple-page";
-
-
-
-body {
-  background-color: red;
-}
-
-
-
-
-
-
-

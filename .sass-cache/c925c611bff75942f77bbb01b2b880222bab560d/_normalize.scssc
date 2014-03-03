@@ -1,7 +1,7 @@
 3.2.9 (Media Mark)
-5d35371355413a646b62ea39b48bea1ed2fd3d8a
+745c7ce0935a31cd44088145c76f7ac43c24c53d
 o:Sass::Tree::RootNode
-:@template"»'/*
+:@template"}'/*
 YUI 3.13.0 (build 508226d)
 Copyright 2013 Yahoo! Inc. All rights reserved.
 Licensed under the BSD License.
@@ -546,7 +546,7 @@ table {
 
 
 /* ==========================================================================
-   overwrite some class -- alex.gong
+   rewrite some class -- alex.gong
    ========================================================================== */
 
 abbr[title] {
@@ -577,12 +577,8 @@ dt,
 dd {
   margin:0;
   padding:0;
-  list-style-position: outside;
-}
-dt {
-  font-weight: bold;
 }:
-@linei:@options{ :@has_childrenT:@children[so:Sass::Tree::CommentNode
+@linei:@options{ :@has_childrenT:@children[ro:Sass::Tree::CommentNode
 ;i;@;
 [ :
 @type:normal:@value["/*
@@ -1268,8 +1264,8 @@ table;o;;{ ;0;	T;
 [ ;"i ;o;#;@;;$;"collapseo;;i;@;["border-spacing; ;!;
 [ ;"i ;o;#;@;;$;"0;"i o;
 ;i!;@;
-[ ;;;["Ã/* ==========================================================================
-   overwrite some class -- alex.gong
+[ ;;;["Á/* ==========================================================================
+   rewrite some class -- alex.gong
    ========================================================================== */o;;["abbr[title];i%;@;o;;" ;i%;[o;;[o;
 ;@B;i%;[o;	;@B;0;i%;["	abbro;(;@B;0;)0;i%;["
 title;*0;0;o;;{ ;0;	T;
@@ -1317,10 +1313,6 @@ o;
 ;@á;i>;[o;	;@á;0;i>;["dt;o;;{ ;0o;;["
 o;
 ;@á;i>;[o;	;@á;0;i>;["dd;o;;{ ;0;	T;
-[o;;i?;@;["margin; ;!;
+[o;;i?;@;["margin; ;!;
 [ ;"i ;o;#;@;;$;"0o;;i@;@;["padding; ;!;
-[ ;"i ;o;#;@;;$;"0o;;iA;@;["list-style-position; ;!;
-[ ;"i ;o;#;@;;$;"outside;"i o;;["dt;iC;@;o;;" ;iC;[o;;[o;
-;@5	;iC;[o;	;@5	;0;iC;["dt;o;;{ ;0;	T;
-[o;;iD;@;["font-weight; ;!;
-[ ;"i ;o;#;@;;$;"	bold;"i 
+[ ;"i ;o;#;@;;$;"0;"i 
