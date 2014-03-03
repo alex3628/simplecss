@@ -2,7 +2,7 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" ng-app  ng-controller="pageCtrl" id="home"> <!--<![endif]-->
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -31,7 +31,12 @@
     <!-- CSS link here -->
     <link rel="stylesheet" href="/css/main.css" />
 </head>
-<body>
+<body id="home">
+    <!-- hidden input -->
+    <div class="hidden-input">
+        <input type="hidden" id="" name="" value="">
+        <input type="hidden" id="" name="" value="">
+    </div>
 
     <!-- html5 -->
     <div class="wrapper">
@@ -48,7 +53,7 @@
 
     <!-- Add your template content here -->
     <div class="template"></div>
-    <!-- script link here -->
+    <!-- id link here -->
     <div id="script">
         <script src="/js/common.js"></script>
     </div>

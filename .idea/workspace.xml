@@ -2,20 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3e51502-753b-459d-97fc-468273d245d3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/c925c611bff75942f77bbb01b2b880222bab560d/_font.scssc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/global/base/_font.scss" afterPath="$PROJECT_DIR$/sass/global/reset/_font.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/9dd2939d445d1e27c17aed6283c2f3ab1b09d6a9/_font.scssc" afterPath="$PROJECT_DIR$/.sass-cache/9dd2939d445d1e27c17aed6283c2f3ab1b09d6a9/_font.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/42e4d2b669e293d2c9306185b8e82a2b315ee73f/_grid.scssc" afterPath="$PROJECT_DIR$/.sass-cache/42e4d2b669e293d2c9306185b8e82a2b315ee73f/_grid.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/c925c611bff75942f77bbb01b2b880222bab560d/_reset.scssc" afterPath="$PROJECT_DIR$/.sass-cache/c925c611bff75942f77bbb01b2b880222bab560d/_reset.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/42e4d2b669e293d2c9306185b8e82a2b315ee73f/_typography.scssc" afterPath="$PROJECT_DIR$/.sass-cache/42e4d2b669e293d2c9306185b8e82a2b315ee73f/_typography.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/a6ca0aff4b0b0f0a70bdc884a2dd30d27fcb584c/main.scssc" afterPath="$PROJECT_DIR$/.sass-cache/a6ca0aff4b0b0f0a70bdc884a2dd30d27fcb584c/main.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/global/components/_grid.scss" afterPath="$PROJECT_DIR$/sass/global/components/_grid.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/global/reset/_normalize.scss" afterPath="$PROJECT_DIR$/sass/global/reset/_normalize.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/c925c611bff75942f77bbb01b2b880222bab560d/_normalize.scssc" afterPath="$PROJECT_DIR$/.sass-cache/c925c611bff75942f77bbb01b2b880222bab560d/_normalize.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/global/reset/_reset.scss" afterPath="$PROJECT_DIR$/sass/global/reset/_reset.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/global/components/_typography.scss" afterPath="$PROJECT_DIR$/sass/global/components/_typography.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/b3f8766e9e9bfac7adf206e17b406a0c5b13d48e/_animation.scssc" afterPath="$PROJECT_DIR$/.sass-cache/b3f8766e9e9bfac7adf206e17b406a0c5b13d48e/_animation.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/53e1739456be3e848ee25c715ae22ccfcb1c3b9c/_home-page.scssc" afterPath="$PROJECT_DIR$/.sass-cache/53e1739456be3e848ee25c715ae22ccfcb1c3b9c/_home-page.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/404.html" afterPath="$PROJECT_DIR$/404.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/partials/modules/_animation.scss" afterPath="$PROJECT_DIR$/sass/partials/modules/_animation.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/partials/pages/_home-page.scss" afterPath="$PROJECT_DIR$/sass/partials/pages/_home-page.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/main.scss" afterPath="$PROJECT_DIR$/sass/main.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="simpleCss.iws" />
@@ -38,26 +31,106 @@
     <favorites_list name="simpleCss" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="main.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sass/main.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="37" selection-start="1564" selection-end="1564" vertical-scroll-proportion="-27.5" vertical-offset="0" max-vertical-offset="840">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_typography.scss" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sass/global/components/_typography.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="177" selection-end="177" vertical-scroll-proportion="0.050790068" vertical-offset="0" max-vertical-offset="3375">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.48832807">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="main.scss" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/sass/main.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="44" column="37" selection-start="1564" selection-end="1564" vertical-scroll-proportion="-27.5" vertical-offset="0" max-vertical-offset="840">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_animation.scss" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/sass/partials/modules/_animation.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="27" column="0" selection-start="367" selection-end="367" vertical-scroll-proportion="-16.875" vertical-offset="0" max-vertical-offset="1200">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_typography.scss" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/sass/global/components/_typography.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="3" column="0" selection-start="177" selection-end="177" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="3375">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_layout.scss" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/sass/global/layout/_layout.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="38" column="35" selection-start="738" selection-end="738" vertical-scroll-proportion="-23.75" vertical-offset="0" max-vertical-offset="750">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_variables.scss" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/sass/global/base/_variables.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="42" column="39" selection-start="1473" selection-end="1473" vertical-scroll-proportion="-16.916666" vertical-offset="224" max-vertical-offset="1110">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_home-page.scss" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/sass/partials/pages/_home-page.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="14" column="17" selection-start="950" selection-end="950" vertical-scroll-proportion="0.2638191" vertical-offset="0" max-vertical-offset="796">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="41" column="25" selection-start="1975" selection-end="1975" vertical-scroll-proportion="0.6849817" vertical-offset="54" max-vertical-offset="945">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="404.html" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/404.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="4" column="85" selection-start="314" selection-end="314" vertical-scroll-proportion="3.0" vertical-offset="132" max-vertical-offset="1005">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="template-pc.html" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/template-pc.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="1.875" vertical-offset="45" max-vertical-offset="1935">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="template-mobile.html" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/template-mobile.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1470">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -75,11 +148,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/template-pc.html" />
-        <option value="$PROJECT_DIR$/404.html" />
-        <option value="$PROJECT_DIR$/scss/partials/base/_compass.scss" />
-        <option value="$PROJECT_DIR$/scss/main.scss" />
-        <option value="$PROJECT_DIR$/sass/global/base/_normalize.scss" />
         <option value="$PROJECT_DIR$/sass/global/components/_buttons.scss" />
         <option value="$PROJECT_DIR$/sass/global/vendor/_compass.scss" />
         <option value="$PROJECT_DIR$/config.rb" />
@@ -91,6 +159,11 @@
         <option value="$PROJECT_DIR$/sass/global/reset/_normalize.scss" />
         <option value="$PROJECT_DIR$/sass/global/reset/_reset.scss" />
         <option value="$PROJECT_DIR$/sass/global/reset/_print.scss" />
+        <option value="$PROJECT_DIR$/404.html" />
+        <option value="$PROJECT_DIR$/sass/partials/modules/_animation.scss" />
+        <option value="$PROJECT_DIR$/sass/global/base/_variables.scss" />
+        <option value="$PROJECT_DIR$/sass/partials/pages/_home-page.scss" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -197,120 +270,6 @@
               <option name="myItemId" value="partials" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simpleCss" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simpleCss" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sass" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="global" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simpleCss" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simpleCss" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sass" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="global" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="reset" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simpleCss" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simpleCss" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sass" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="global" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simpleCss" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simpleCss" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sass" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="global" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simpleCss" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simpleCss" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sass" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="global" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -332,6 +291,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="settings" />
@@ -424,62 +384,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="34" selection-start="740" selection-end="740" vertical-scroll-proportion="0.22421524" vertical-offset="0" max-vertical-offset="85065">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/global/base/_mixins.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4800">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/global/base/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1110">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/global/base/_compass.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="290" selection-end="290" vertical-scroll-proportion="0.16930023" vertical-offset="0" max-vertical-offset="886">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="7" selection-start="1738" selection-end="1738" vertical-scroll-proportion="0.54176074" vertical-offset="0" max-vertical-offset="960">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/global/components/_buttons.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="1" selection-start="213" selection-end="213" vertical-scroll-proportion="0.084650114" vertical-offset="0" max-vertical-offset="886">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/global/layout/_layout.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="886">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/partials/pages/_home-page.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="910">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sass/partials/pages/_simple-page.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1530">
@@ -508,13 +412,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="37" selection-start="1564" selection-end="1564" vertical-scroll-proportion="-27.5" vertical-offset="0" max-vertical-offset="840">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sass/global/reset/_font.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="50" column="16" selection-start="852" selection-end="852" vertical-scroll-proportion="0.85910654" vertical-offset="0" max-vertical-offset="960">
@@ -529,9 +426,72 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/template-mobile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1470">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="37" selection-start="1564" selection-end="1564" vertical-scroll-proportion="-27.5" vertical-offset="0" max-vertical-offset="840">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sass/global/components/_typography.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="177" selection-end="177" vertical-scroll-proportion="0.050790068" vertical-offset="0" max-vertical-offset="3375">
+        <state line="3" column="0" selection-start="177" selection-end="177" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="3375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/global/layout/_layout.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="35" selection-start="738" selection-end="738" vertical-scroll-proportion="-23.75" vertical-offset="0" max-vertical-offset="750">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/global/base/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="39" selection-start="1473" selection-end="1473" vertical-scroll-proportion="-16.916666" vertical-offset="224" max-vertical-offset="1110">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-pc.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="1.875" vertical-offset="45" max-vertical-offset="1935">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/partials/modules/_animation.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="0" selection-start="367" selection-end="367" vertical-scroll-proportion="-16.875" vertical-offset="0" max-vertical-offset="1200">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="85" selection-start="314" selection-end="314" vertical-scroll-proportion="3.0" vertical-offset="132" max-vertical-offset="1005">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="25" selection-start="1975" selection-end="1975" vertical-scroll-proportion="0.6849817" vertical-offset="54" max-vertical-offset="945">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/partials/pages/_home-page.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="17" selection-start="950" selection-end="950" vertical-scroll-proportion="0.2638191" vertical-offset="0" max-vertical-offset="796">
           <folding />
         </state>
       </provider>

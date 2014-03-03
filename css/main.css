@@ -940,17 +940,17 @@ tt {
    ========================================================================== */
 /* global images spript */
 /* line 50, home-page/*.png */
-.home-page-sprite, .home-page-lightnight-bg, #home header, .home-page-lightnight, #home header .lightning {
+.home-page-sprite, .home-page-lightnight-bg, #home .brands, .home-page-lightnight, #home .brands .lightning {
   background: url('/images/home-page-s88b9fc48ef.png') no-repeat;
 }
 
 /* line 60, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.home-page-lightnight-bg, #home header {
+.home-page-lightnight-bg, #home .brands {
   background-position: 0 -240px;
 }
 
 /* line 60, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.home-page-lightnight, #home header .lightning {
+.home-page-lightnight, #home .brands .lightning {
   background-position: 0 0;
 }
 
@@ -4480,951 +4480,61 @@ https://github.com/yui/pure/blob/master/LICENSE.md
   }
 }
 
-@-webkit-keyframes changeBg {
-  /* line 30, ../sass/partials/modules/_animation.scss */
-  0% {
-    background: #ffffff;
-  }
-
-  /* line 31, ../sass/partials/modules/_animation.scss */
-  10% {
-    background-image: radial-gradient(50% 45%, circle cover, #e5e5e5 12%, #cccccc 30%, #cccccc 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #e5e5e5 12%, #cccccc 30%, #cccccc 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #e5e5e5 12%, #cccccc 30%, #cccccc 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #e5e5e5 12%, #cccccc 30%, #cccccc 70%, #cccccc 100%);
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #e5e5e5 12%, #cccccc 30%, #cccccc 70%, #cccccc 100%);
-  }
-
-  /* line 38, ../sass/partials/modules/_animation.scss */
-  15% {
-    background-image: radial-gradient(50% 45%, circle cover, #e6e6e6 12.5%, #cecece 31%, #cccccc 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #e6e6e6 12.5%, #cecece 31%, #cccccc 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #e6e6e6 12.5%, #cecece 31%, #cccccc 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #e6e6e6 12.5%, #cecece 31%, #cccccc 70%, #cccccc 100%);
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #e6e6e6 12.5%, #cecece 31%, #cccccc 70%, #cccccc 100%);
-  }
-
-  /* line 45, ../sass/partials/modules/_animation.scss */
-  20% {
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #e8e8e8 13%, #d1d1d1 32%, #cdcdcd 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #e8e8e8 13%, #d1d1d1 32%, #cdcdcd 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #e8e8e8 13%, #d1d1d1 32%, #cdcdcd 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #e8e8e8 13%, #d1d1d1 32%, #cdcdcd 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #e8e8e8 13%, #d1d1d1 32%, #cdcdcd 70%, #cccccc 100%);
-  }
-
-  /* line 52, ../sass/partials/modules/_animation.scss */
-  25% {
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #e9e9e9 13.5%, lightgrey 33%, #cdcdcd 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #e9e9e9 13.5%, lightgrey 33%, #cdcdcd 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #e9e9e9 13.5%, lightgrey 33%, #cdcdcd 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #e9e9e9 13.5%, lightgrey 33%, #cdcdcd 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #e9e9e9 13.5%, #d3d3d3 33%, #cdcdcd 70%, #cccccc 100%);
-  }
-
-  /* line 59, ../sass/partials/modules/_animation.scss */
-  30% {
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #eaeaea 14%, #d6d6d6 34%, #cecece 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #eaeaea 14%, #d6d6d6 34%, #cecece 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #eaeaea 14%, #d6d6d6 34%, #cecece 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #eaeaea 14%, #d6d6d6 34%, #cecece 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #eaeaea 14%, #d6d6d6 34%, #cecece 70%, #cccccc 100%);
-  }
-
-  /* line 66, ../sass/partials/modules/_animation.scss */
-  35% {
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #ebebeb 14.5%, #d8d8d8 34.5%, #cecece 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #ebebeb 14.5%, #d8d8d8 34.5%, #cecece 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #ebebeb 14.5%, #d8d8d8 34.5%, #cecece 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #ebebeb 14.5%, #d8d8d8 34.5%, #cecece 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #ebebeb 14.5%, #d8d8d8 34.5%, #cecece 70%, #cccccc 100%);
-  }
-
-  /* line 73, ../sass/partials/modules/_animation.scss */
-  40% {
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #ededed 15%, #dbdbdb 35%, #cfcfcf 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #ededed 15%, #dbdbdb 35%, #cfcfcf 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #ededed 15%, #dbdbdb 35%, #cfcfcf 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #ededed 15%, #dbdbdb 35%, #cfcfcf 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #ededed 15%, #dbdbdb 35%, #cfcfcf 70%, #cccccc 100%);
-  }
-
-  /* line 80, ../sass/partials/modules/_animation.scss */
-  45% {
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #eeeeee 15.5%, #dddddd 35.5%, #cfcfcf 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #eeeeee 15.5%, #dddddd 35.5%, #cfcfcf 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #eeeeee 15.5%, #dddddd 35.5%, #cfcfcf 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #eeeeee 15.5%, #dddddd 35.5%, #cfcfcf 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #eeeeee 15.5%, #dddddd 35.5%, #cfcfcf 70%, #cccccc 100%);
-  }
-
-  /* line 87, ../sass/partials/modules/_animation.scss */
-  50% {
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #efefef 16%, #e0e0e0 36%, #d1d1d1 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #efefef 16%, #e0e0e0 36%, #d1d1d1 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #efefef 16%, #e0e0e0 36%, #d1d1d1 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #efefef 16%, #e0e0e0 36%, #d1d1d1 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #efefef 16%, #e0e0e0 36%, #d1d1d1 70%, #cccccc 100%);
-  }
-
-  /* line 94, ../sass/partials/modules/_animation.scss */
-  55% {
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #f0f0f0 16.5%, #e2e2e2 36.5%, #d1d1d1 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #f0f0f0 16.5%, #e2e2e2 36.5%, #d1d1d1 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #f0f0f0 16.5%, #e2e2e2 36.5%, #d1d1d1 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #f0f0f0 16.5%, #e2e2e2 36.5%, #d1d1d1 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #f0f0f0 16.5%, #e2e2e2 36.5%, #d1d1d1 70%, #cccccc 100%);
-  }
-
-  /* line 101, ../sass/partials/modules/_animation.scss */
-  60% {
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #f2f2f2 17%, #e5e5e5 37%, #d2d2d2 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #f2f2f2 17%, #e5e5e5 37%, #d2d2d2 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #f2f2f2 17%, #e5e5e5 37%, #d2d2d2 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #f2f2f2 17%, #e5e5e5 37%, #d2d2d2 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #f2f2f2 17%, #e5e5e5 37%, #d2d2d2 70%, #cccccc 100%);
-  }
-
-  /* line 108, ../sass/partials/modules/_animation.scss */
-  65% {
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #f3f3f3 17.5%, #e8e8e8 37.5%, #d2d2d2 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #f3f3f3 17.5%, #e8e8e8 37.5%, #d2d2d2 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #f3f3f3 17.5%, #e8e8e8 37.5%, #d2d2d2 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #f3f3f3 17.5%, #e8e8e8 37.5%, #d2d2d2 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #f3f3f3 17.5%, #e8e8e8 37.5%, #d2d2d2 70%, #cccccc 100%);
-  }
-
-  /* line 115, ../sass/partials/modules/_animation.scss */
-  70% {
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #f4f4f4 18%, #eaeaea 38%, lightgrey 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #f4f4f4 18%, #eaeaea 38%, lightgrey 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #f4f4f4 18%, #eaeaea 38%, lightgrey 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #f4f4f4 18%, #eaeaea 38%, lightgrey 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #f4f4f4 18%, #eaeaea 38%, #d3d3d3 70%, #cccccc 100%);
-  }
-
-  /* line 122, ../sass/partials/modules/_animation.scss */
-  75% {
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #f6f6f6 18.5%, #ededed 38.5%, lightgrey 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #f6f6f6 18.5%, #ededed 38.5%, lightgrey 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #f6f6f6 18.5%, #ededed 38.5%, lightgrey 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #f6f6f6 18.5%, #ededed 38.5%, lightgrey 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #f6f6f6 18.5%, #ededed 38.5%, #d3d3d3 70%, #cccccc 100%);
-  }
-
-  /* line 129, ../sass/partials/modules/_animation.scss */
-  80% {
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #f7f7f7 19%, #efefef 39%, #d4d4d4 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #f7f7f7 19%, #efefef 39%, #d4d4d4 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #f7f7f7 19%, #efefef 39%, #d4d4d4 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #f7f7f7 19%, #efefef 39%, #d4d4d4 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #f7f7f7 19%, #efefef 39%, #d4d4d4 70%, #cccccc 100%);
-  }
-
-  /* line 136, ../sass/partials/modules/_animation.scss */
-  85% {
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #f8f8f8 19.5%, #f0f0f0 39.3%, #d4d4d4 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #f8f8f8 19.5%, #f0f0f0 39.3%, #d4d4d4 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #f8f8f8 19.5%, #f0f0f0 39.3%, #d4d4d4 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #f8f8f8 19.5%, #f0f0f0 39.3%, #d4d4d4 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #f8f8f8 19.5%, #f0f0f0 39.3%, #d4d4d4 70%, #cccccc 100%);
-  }
-
-  /* line 143, ../sass/partials/modules/_animation.scss */
-  90% {
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #f9f9f9 20%, #f0f0f2 39%, #d6d6d6 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #f9f9f9 20%, #f0f0f2 39%, #d6d6d6 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #f9f9f9 20%, #f0f0f2 39%, #d6d6d6 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #f9f9f9 20%, #f0f0f2 39%, #d6d6d6 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #f9f9f9 20%, #f0f0f2 39%, #d6d6d6 70%, #cccccc 100%);
-  }
-
-  /* line 150, ../sass/partials/modules/_animation.scss */
-  95% {
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #fcfcfc 20.5%, #f1f1f1 39.5%, #d6d6d6 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #fcfcfc 20.5%, #f1f1f1 39.5%, #d6d6d6 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #fcfcfc 20.5%, #f1f1f1 39.5%, #d6d6d6 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #fcfcfc 20.5%, #f1f1f1 39.5%, #d6d6d6 70%, #cccccc 100%);
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #fcfcfc 20.5%, #f1f1f1 39.5%, #d6d6d6 70%, #cccccc 100%);
-  }
-
-  /* line 157, ../sass/partials/modules/_animation.scss */
-  100% {
-    background-image: -o-radial-gradient(50% 45%, circle cover, white 21%, #f2f2f2 40%, #d8d8d8 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, white 21%, #f2f2f2 40%, #d8d8d8 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, white 21%, #f2f2f2 40%, #d8d8d8 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #ffffff 21%, #f2f2f2 40%, #d8d8d8 70%, #cccccc 100%);
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, white 21%, #f2f2f2 40%, #d8d8d8 70%, #cccccc 100%);
-  }
-}
-
-@-moz-keyframes changeBg {
-  /* line 167, ../sass/partials/modules/_animation.scss */
-  0% {
-    background: #ffffff;
-  }
-
-  /* line 168, ../sass/partials/modules/_animation.scss */
-  10% {
-    background-image: radial-gradient(50% 45%, circle cover, #e5e5e5 12%, #cccccc 30%, #cccccc 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #e5e5e5 12%, #cccccc 30%, #cccccc 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #e5e5e5 12%, #cccccc 30%, #cccccc 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #e5e5e5 12%, #cccccc 30%, #cccccc 70%, #cccccc 100%);
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #e5e5e5 12%, #cccccc 30%, #cccccc 70%, #cccccc 100%);
-  }
-
-  /* line 175, ../sass/partials/modules/_animation.scss */
-  15% {
-    background-image: radial-gradient(50% 45%, circle cover, #e6e6e6 12.5%, #cecece 31%, #cccccc 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #e6e6e6 12.5%, #cecece 31%, #cccccc 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #e6e6e6 12.5%, #cecece 31%, #cccccc 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #e6e6e6 12.5%, #cecece 31%, #cccccc 70%, #cccccc 100%);
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #e6e6e6 12.5%, #cecece 31%, #cccccc 70%, #cccccc 100%);
-  }
-
-  /* line 182, ../sass/partials/modules/_animation.scss */
-  20% {
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #e8e8e8 13%, #d1d1d1 32%, #cdcdcd 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #e8e8e8 13%, #d1d1d1 32%, #cdcdcd 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #e8e8e8 13%, #d1d1d1 32%, #cdcdcd 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #e8e8e8 13%, #d1d1d1 32%, #cdcdcd 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #e8e8e8 13%, #d1d1d1 32%, #cdcdcd 70%, #cccccc 100%);
-  }
-
-  /* line 189, ../sass/partials/modules/_animation.scss */
-  25% {
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #e9e9e9 13.5%, lightgrey 33%, #cdcdcd 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #e9e9e9 13.5%, lightgrey 33%, #cdcdcd 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #e9e9e9 13.5%, lightgrey 33%, #cdcdcd 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #e9e9e9 13.5%, lightgrey 33%, #cdcdcd 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #e9e9e9 13.5%, #d3d3d3 33%, #cdcdcd 70%, #cccccc 100%);
-  }
-
-  /* line 196, ../sass/partials/modules/_animation.scss */
-  30% {
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #eaeaea 14%, #d6d6d6 34%, #cecece 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #eaeaea 14%, #d6d6d6 34%, #cecece 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #eaeaea 14%, #d6d6d6 34%, #cecece 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #eaeaea 14%, #d6d6d6 34%, #cecece 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #eaeaea 14%, #d6d6d6 34%, #cecece 70%, #cccccc 100%);
-  }
-
-  /* line 203, ../sass/partials/modules/_animation.scss */
-  35% {
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #ebebeb 14.5%, #d8d8d8 34.5%, #cecece 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #ebebeb 14.5%, #d8d8d8 34.5%, #cecece 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #ebebeb 14.5%, #d8d8d8 34.5%, #cecece 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #ebebeb 14.5%, #d8d8d8 34.5%, #cecece 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #ebebeb 14.5%, #d8d8d8 34.5%, #cecece 70%, #cccccc 100%);
-  }
-
-  /* line 210, ../sass/partials/modules/_animation.scss */
-  40% {
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #ededed 15%, #dbdbdb 35%, #cfcfcf 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #ededed 15%, #dbdbdb 35%, #cfcfcf 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #ededed 15%, #dbdbdb 35%, #cfcfcf 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #ededed 15%, #dbdbdb 35%, #cfcfcf 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #ededed 15%, #dbdbdb 35%, #cfcfcf 70%, #cccccc 100%);
-  }
-
-  /* line 217, ../sass/partials/modules/_animation.scss */
-  45% {
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #eeeeee 15.5%, #dddddd 35.5%, #cfcfcf 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #eeeeee 15.5%, #dddddd 35.5%, #cfcfcf 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #eeeeee 15.5%, #dddddd 35.5%, #cfcfcf 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #eeeeee 15.5%, #dddddd 35.5%, #cfcfcf 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #eeeeee 15.5%, #dddddd 35.5%, #cfcfcf 70%, #cccccc 100%);
-  }
-
-  /* line 224, ../sass/partials/modules/_animation.scss */
-  50% {
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #efefef 16%, #e0e0e0 36%, #d1d1d1 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #efefef 16%, #e0e0e0 36%, #d1d1d1 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #efefef 16%, #e0e0e0 36%, #d1d1d1 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #efefef 16%, #e0e0e0 36%, #d1d1d1 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #efefef 16%, #e0e0e0 36%, #d1d1d1 70%, #cccccc 100%);
-  }
-
-  /* line 231, ../sass/partials/modules/_animation.scss */
-  55% {
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #f0f0f0 16.5%, #e2e2e2 36.5%, #d1d1d1 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #f0f0f0 16.5%, #e2e2e2 36.5%, #d1d1d1 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #f0f0f0 16.5%, #e2e2e2 36.5%, #d1d1d1 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #f0f0f0 16.5%, #e2e2e2 36.5%, #d1d1d1 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #f0f0f0 16.5%, #e2e2e2 36.5%, #d1d1d1 70%, #cccccc 100%);
-  }
-
-  /* line 238, ../sass/partials/modules/_animation.scss */
-  60% {
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #f2f2f2 17%, #e5e5e5 37%, #d2d2d2 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #f2f2f2 17%, #e5e5e5 37%, #d2d2d2 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #f2f2f2 17%, #e5e5e5 37%, #d2d2d2 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #f2f2f2 17%, #e5e5e5 37%, #d2d2d2 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #f2f2f2 17%, #e5e5e5 37%, #d2d2d2 70%, #cccccc 100%);
-  }
-
-  /* line 245, ../sass/partials/modules/_animation.scss */
-  65% {
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #f3f3f3 17.5%, #e8e8e8 37.5%, #d2d2d2 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #f3f3f3 17.5%, #e8e8e8 37.5%, #d2d2d2 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #f3f3f3 17.5%, #e8e8e8 37.5%, #d2d2d2 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #f3f3f3 17.5%, #e8e8e8 37.5%, #d2d2d2 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #f3f3f3 17.5%, #e8e8e8 37.5%, #d2d2d2 70%, #cccccc 100%);
-  }
-
-  /* line 252, ../sass/partials/modules/_animation.scss */
-  70% {
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #f4f4f4 18%, #eaeaea 38%, lightgrey 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #f4f4f4 18%, #eaeaea 38%, lightgrey 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #f4f4f4 18%, #eaeaea 38%, lightgrey 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #f4f4f4 18%, #eaeaea 38%, lightgrey 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #f4f4f4 18%, #eaeaea 38%, #d3d3d3 70%, #cccccc 100%);
-  }
-
-  /* line 259, ../sass/partials/modules/_animation.scss */
-  75% {
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #f6f6f6 18.5%, #ededed 38.5%, lightgrey 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #f6f6f6 18.5%, #ededed 38.5%, lightgrey 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #f6f6f6 18.5%, #ededed 38.5%, lightgrey 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #f6f6f6 18.5%, #ededed 38.5%, lightgrey 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #f6f6f6 18.5%, #ededed 38.5%, #d3d3d3 70%, #cccccc 100%);
-  }
-
-  /* line 266, ../sass/partials/modules/_animation.scss */
-  80% {
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #f7f7f7 19%, #efefef 39%, #d4d4d4 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #f7f7f7 19%, #efefef 39%, #d4d4d4 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #f7f7f7 19%, #efefef 39%, #d4d4d4 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #f7f7f7 19%, #efefef 39%, #d4d4d4 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #f7f7f7 19%, #efefef 39%, #d4d4d4 70%, #cccccc 100%);
-  }
-
-  /* line 273, ../sass/partials/modules/_animation.scss */
-  85% {
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #f8f8f8 19.5%, #f0f0f0 39.3%, #d4d4d4 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #f8f8f8 19.5%, #f0f0f0 39.3%, #d4d4d4 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #f8f8f8 19.5%, #f0f0f0 39.3%, #d4d4d4 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #f8f8f8 19.5%, #f0f0f0 39.3%, #d4d4d4 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #f8f8f8 19.5%, #f0f0f0 39.3%, #d4d4d4 70%, #cccccc 100%);
-  }
-
-  /* line 280, ../sass/partials/modules/_animation.scss */
-  90% {
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #f9f9f9 20%, #f0f0f2 39%, #d6d6d6 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #f9f9f9 20%, #f0f0f2 39%, #d6d6d6 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #f9f9f9 20%, #f0f0f2 39%, #d6d6d6 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #f9f9f9 20%, #f0f0f2 39%, #d6d6d6 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #f9f9f9 20%, #f0f0f2 39%, #d6d6d6 70%, #cccccc 100%);
-  }
-
-  /* line 287, ../sass/partials/modules/_animation.scss */
-  95% {
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #fcfcfc 20.5%, #f1f1f1 39.5%, #d6d6d6 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #fcfcfc 20.5%, #f1f1f1 39.5%, #d6d6d6 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #fcfcfc 20.5%, #f1f1f1 39.5%, #d6d6d6 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #fcfcfc 20.5%, #f1f1f1 39.5%, #d6d6d6 70%, #cccccc 100%);
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #fcfcfc 20.5%, #f1f1f1 39.5%, #d6d6d6 70%, #cccccc 100%);
-  }
-
-  /* line 294, ../sass/partials/modules/_animation.scss */
-  100% {
-    background-image: -o-radial-gradient(50% 45%, circle cover, white 21%, #f2f2f2 40%, #d8d8d8 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, white 21%, #f2f2f2 40%, #d8d8d8 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, white 21%, #f2f2f2 40%, #d8d8d8 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #ffffff 21%, #f2f2f2 40%, #d8d8d8 70%, #cccccc 100%);
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, white 21%, #f2f2f2 40%, #d8d8d8 70%, #cccccc 100%);
-  }
-}
-
-@-ms-keyframes changeBg {
-  /* line 304, ../sass/partials/modules/_animation.scss */
-  0% {
-    background: #ffffff;
-  }
-
-  /* line 305, ../sass/partials/modules/_animation.scss */
-  10% {
-    background-image: radial-gradient(50% 45%, circle cover, #e5e5e5 12%, #cccccc 30%, #cccccc 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #e5e5e5 12%, #cccccc 30%, #cccccc 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #e5e5e5 12%, #cccccc 30%, #cccccc 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #e5e5e5 12%, #cccccc 30%, #cccccc 70%, #cccccc 100%);
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #e5e5e5 12%, #cccccc 30%, #cccccc 70%, #cccccc 100%);
-  }
-
-  /* line 312, ../sass/partials/modules/_animation.scss */
-  15% {
-    background-image: radial-gradient(50% 45%, circle cover, #e6e6e6 12.5%, #cecece 31%, #cccccc 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #e6e6e6 12.5%, #cecece 31%, #cccccc 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #e6e6e6 12.5%, #cecece 31%, #cccccc 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #e6e6e6 12.5%, #cecece 31%, #cccccc 70%, #cccccc 100%);
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #e6e6e6 12.5%, #cecece 31%, #cccccc 70%, #cccccc 100%);
-  }
-
-  /* line 319, ../sass/partials/modules/_animation.scss */
-  20% {
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #e8e8e8 13%, #d1d1d1 32%, #cdcdcd 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #e8e8e8 13%, #d1d1d1 32%, #cdcdcd 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #e8e8e8 13%, #d1d1d1 32%, #cdcdcd 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #e8e8e8 13%, #d1d1d1 32%, #cdcdcd 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #e8e8e8 13%, #d1d1d1 32%, #cdcdcd 70%, #cccccc 100%);
-  }
-
-  /* line 326, ../sass/partials/modules/_animation.scss */
-  25% {
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #e9e9e9 13.5%, lightgrey 33%, #cdcdcd 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #e9e9e9 13.5%, lightgrey 33%, #cdcdcd 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #e9e9e9 13.5%, lightgrey 33%, #cdcdcd 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #e9e9e9 13.5%, lightgrey 33%, #cdcdcd 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #e9e9e9 13.5%, #d3d3d3 33%, #cdcdcd 70%, #cccccc 100%);
-  }
-
-  /* line 333, ../sass/partials/modules/_animation.scss */
-  30% {
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #eaeaea 14%, #d6d6d6 34%, #cecece 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #eaeaea 14%, #d6d6d6 34%, #cecece 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #eaeaea 14%, #d6d6d6 34%, #cecece 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #eaeaea 14%, #d6d6d6 34%, #cecece 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #eaeaea 14%, #d6d6d6 34%, #cecece 70%, #cccccc 100%);
-  }
-
-  /* line 340, ../sass/partials/modules/_animation.scss */
-  35% {
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #ebebeb 14.5%, #d8d8d8 34.5%, #cecece 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #ebebeb 14.5%, #d8d8d8 34.5%, #cecece 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #ebebeb 14.5%, #d8d8d8 34.5%, #cecece 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #ebebeb 14.5%, #d8d8d8 34.5%, #cecece 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #ebebeb 14.5%, #d8d8d8 34.5%, #cecece 70%, #cccccc 100%);
-  }
-
-  /* line 347, ../sass/partials/modules/_animation.scss */
-  40% {
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #ededed 15%, #dbdbdb 35%, #cfcfcf 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #ededed 15%, #dbdbdb 35%, #cfcfcf 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #ededed 15%, #dbdbdb 35%, #cfcfcf 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #ededed 15%, #dbdbdb 35%, #cfcfcf 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #ededed 15%, #dbdbdb 35%, #cfcfcf 70%, #cccccc 100%);
-  }
-
-  /* line 354, ../sass/partials/modules/_animation.scss */
-  45% {
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #eeeeee 15.5%, #dddddd 35.5%, #cfcfcf 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #eeeeee 15.5%, #dddddd 35.5%, #cfcfcf 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #eeeeee 15.5%, #dddddd 35.5%, #cfcfcf 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #eeeeee 15.5%, #dddddd 35.5%, #cfcfcf 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #eeeeee 15.5%, #dddddd 35.5%, #cfcfcf 70%, #cccccc 100%);
-  }
-
-  /* line 361, ../sass/partials/modules/_animation.scss */
-  50% {
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #efefef 16%, #e0e0e0 36%, #d1d1d1 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #efefef 16%, #e0e0e0 36%, #d1d1d1 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #efefef 16%, #e0e0e0 36%, #d1d1d1 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #efefef 16%, #e0e0e0 36%, #d1d1d1 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #efefef 16%, #e0e0e0 36%, #d1d1d1 70%, #cccccc 100%);
-  }
-
-  /* line 368, ../sass/partials/modules/_animation.scss */
-  55% {
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #f0f0f0 16.5%, #e2e2e2 36.5%, #d1d1d1 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #f0f0f0 16.5%, #e2e2e2 36.5%, #d1d1d1 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #f0f0f0 16.5%, #e2e2e2 36.5%, #d1d1d1 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #f0f0f0 16.5%, #e2e2e2 36.5%, #d1d1d1 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #f0f0f0 16.5%, #e2e2e2 36.5%, #d1d1d1 70%, #cccccc 100%);
-  }
-
-  /* line 375, ../sass/partials/modules/_animation.scss */
-  60% {
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #f2f2f2 17%, #e5e5e5 37%, #d2d2d2 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #f2f2f2 17%, #e5e5e5 37%, #d2d2d2 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #f2f2f2 17%, #e5e5e5 37%, #d2d2d2 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #f2f2f2 17%, #e5e5e5 37%, #d2d2d2 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #f2f2f2 17%, #e5e5e5 37%, #d2d2d2 70%, #cccccc 100%);
-  }
-
-  /* line 382, ../sass/partials/modules/_animation.scss */
-  65% {
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #f3f3f3 17.5%, #e8e8e8 37.5%, #d2d2d2 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #f3f3f3 17.5%, #e8e8e8 37.5%, #d2d2d2 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #f3f3f3 17.5%, #e8e8e8 37.5%, #d2d2d2 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #f3f3f3 17.5%, #e8e8e8 37.5%, #d2d2d2 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #f3f3f3 17.5%, #e8e8e8 37.5%, #d2d2d2 70%, #cccccc 100%);
-  }
-
-  /* line 389, ../sass/partials/modules/_animation.scss */
-  70% {
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #f4f4f4 18%, #eaeaea 38%, lightgrey 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #f4f4f4 18%, #eaeaea 38%, lightgrey 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #f4f4f4 18%, #eaeaea 38%, lightgrey 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #f4f4f4 18%, #eaeaea 38%, lightgrey 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #f4f4f4 18%, #eaeaea 38%, #d3d3d3 70%, #cccccc 100%);
-  }
-
-  /* line 396, ../sass/partials/modules/_animation.scss */
-  75% {
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #f6f6f6 18.5%, #ededed 38.5%, lightgrey 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #f6f6f6 18.5%, #ededed 38.5%, lightgrey 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #f6f6f6 18.5%, #ededed 38.5%, lightgrey 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #f6f6f6 18.5%, #ededed 38.5%, lightgrey 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #f6f6f6 18.5%, #ededed 38.5%, #d3d3d3 70%, #cccccc 100%);
-  }
-
-  /* line 403, ../sass/partials/modules/_animation.scss */
-  80% {
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #f7f7f7 19%, #efefef 39%, #d4d4d4 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #f7f7f7 19%, #efefef 39%, #d4d4d4 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #f7f7f7 19%, #efefef 39%, #d4d4d4 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #f7f7f7 19%, #efefef 39%, #d4d4d4 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #f7f7f7 19%, #efefef 39%, #d4d4d4 70%, #cccccc 100%);
-  }
-
-  /* line 410, ../sass/partials/modules/_animation.scss */
-  85% {
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #f8f8f8 19.5%, #f0f0f0 39.3%, #d4d4d4 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #f8f8f8 19.5%, #f0f0f0 39.3%, #d4d4d4 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #f8f8f8 19.5%, #f0f0f0 39.3%, #d4d4d4 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #f8f8f8 19.5%, #f0f0f0 39.3%, #d4d4d4 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #f8f8f8 19.5%, #f0f0f0 39.3%, #d4d4d4 70%, #cccccc 100%);
-  }
-
-  /* line 417, ../sass/partials/modules/_animation.scss */
-  90% {
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #f9f9f9 20%, #f0f0f2 39%, #d6d6d6 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #f9f9f9 20%, #f0f0f2 39%, #d6d6d6 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #f9f9f9 20%, #f0f0f2 39%, #d6d6d6 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #f9f9f9 20%, #f0f0f2 39%, #d6d6d6 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #f9f9f9 20%, #f0f0f2 39%, #d6d6d6 70%, #cccccc 100%);
-  }
-
-  /* line 424, ../sass/partials/modules/_animation.scss */
-  95% {
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #fcfcfc 20.5%, #f1f1f1 39.5%, #d6d6d6 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #fcfcfc 20.5%, #f1f1f1 39.5%, #d6d6d6 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #fcfcfc 20.5%, #f1f1f1 39.5%, #d6d6d6 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #fcfcfc 20.5%, #f1f1f1 39.5%, #d6d6d6 70%, #cccccc 100%);
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #fcfcfc 20.5%, #f1f1f1 39.5%, #d6d6d6 70%, #cccccc 100%);
-  }
-
-  /* line 431, ../sass/partials/modules/_animation.scss */
-  100% {
-    background-image: -o-radial-gradient(50% 45%, circle cover, white 21%, #f2f2f2 40%, #d8d8d8 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, white 21%, #f2f2f2 40%, #d8d8d8 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, white 21%, #f2f2f2 40%, #d8d8d8 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #ffffff 21%, #f2f2f2 40%, #d8d8d8 70%, #cccccc 100%);
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, white 21%, #f2f2f2 40%, #d8d8d8 70%, #cccccc 100%);
-  }
-}
-
-@-o-keyframes changeBg {
-  /* line 441, ../sass/partials/modules/_animation.scss */
-  0% {
-    background: #ffffff;
-  }
-
-  /* line 442, ../sass/partials/modules/_animation.scss */
-  10% {
-    background-image: radial-gradient(50% 45%, circle cover, #e5e5e5 12%, #cccccc 30%, #cccccc 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #e5e5e5 12%, #cccccc 30%, #cccccc 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #e5e5e5 12%, #cccccc 30%, #cccccc 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #e5e5e5 12%, #cccccc 30%, #cccccc 70%, #cccccc 100%);
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #e5e5e5 12%, #cccccc 30%, #cccccc 70%, #cccccc 100%);
-  }
-
-  /* line 449, ../sass/partials/modules/_animation.scss */
-  15% {
-    background-image: radial-gradient(50% 45%, circle cover, #e6e6e6 12.5%, #cecece 31%, #cccccc 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #e6e6e6 12.5%, #cecece 31%, #cccccc 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #e6e6e6 12.5%, #cecece 31%, #cccccc 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #e6e6e6 12.5%, #cecece 31%, #cccccc 70%, #cccccc 100%);
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #e6e6e6 12.5%, #cecece 31%, #cccccc 70%, #cccccc 100%);
-  }
-
-  /* line 456, ../sass/partials/modules/_animation.scss */
-  20% {
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #e8e8e8 13%, #d1d1d1 32%, #cdcdcd 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #e8e8e8 13%, #d1d1d1 32%, #cdcdcd 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #e8e8e8 13%, #d1d1d1 32%, #cdcdcd 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #e8e8e8 13%, #d1d1d1 32%, #cdcdcd 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #e8e8e8 13%, #d1d1d1 32%, #cdcdcd 70%, #cccccc 100%);
-  }
-
-  /* line 463, ../sass/partials/modules/_animation.scss */
-  25% {
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #e9e9e9 13.5%, lightgrey 33%, #cdcdcd 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #e9e9e9 13.5%, lightgrey 33%, #cdcdcd 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #e9e9e9 13.5%, lightgrey 33%, #cdcdcd 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #e9e9e9 13.5%, lightgrey 33%, #cdcdcd 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #e9e9e9 13.5%, #d3d3d3 33%, #cdcdcd 70%, #cccccc 100%);
-  }
-
-  /* line 470, ../sass/partials/modules/_animation.scss */
-  30% {
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #eaeaea 14%, #d6d6d6 34%, #cecece 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #eaeaea 14%, #d6d6d6 34%, #cecece 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #eaeaea 14%, #d6d6d6 34%, #cecece 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #eaeaea 14%, #d6d6d6 34%, #cecece 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #eaeaea 14%, #d6d6d6 34%, #cecece 70%, #cccccc 100%);
-  }
-
-  /* line 477, ../sass/partials/modules/_animation.scss */
-  35% {
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #ebebeb 14.5%, #d8d8d8 34.5%, #cecece 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #ebebeb 14.5%, #d8d8d8 34.5%, #cecece 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #ebebeb 14.5%, #d8d8d8 34.5%, #cecece 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #ebebeb 14.5%, #d8d8d8 34.5%, #cecece 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #ebebeb 14.5%, #d8d8d8 34.5%, #cecece 70%, #cccccc 100%);
-  }
-
-  /* line 484, ../sass/partials/modules/_animation.scss */
-  40% {
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #ededed 15%, #dbdbdb 35%, #cfcfcf 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #ededed 15%, #dbdbdb 35%, #cfcfcf 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #ededed 15%, #dbdbdb 35%, #cfcfcf 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #ededed 15%, #dbdbdb 35%, #cfcfcf 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #ededed 15%, #dbdbdb 35%, #cfcfcf 70%, #cccccc 100%);
-  }
-
-  /* line 491, ../sass/partials/modules/_animation.scss */
-  45% {
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #eeeeee 15.5%, #dddddd 35.5%, #cfcfcf 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #eeeeee 15.5%, #dddddd 35.5%, #cfcfcf 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #eeeeee 15.5%, #dddddd 35.5%, #cfcfcf 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #eeeeee 15.5%, #dddddd 35.5%, #cfcfcf 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #eeeeee 15.5%, #dddddd 35.5%, #cfcfcf 70%, #cccccc 100%);
-  }
-
-  /* line 498, ../sass/partials/modules/_animation.scss */
-  50% {
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #efefef 16%, #e0e0e0 36%, #d1d1d1 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #efefef 16%, #e0e0e0 36%, #d1d1d1 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #efefef 16%, #e0e0e0 36%, #d1d1d1 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #efefef 16%, #e0e0e0 36%, #d1d1d1 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #efefef 16%, #e0e0e0 36%, #d1d1d1 70%, #cccccc 100%);
-  }
-
-  /* line 505, ../sass/partials/modules/_animation.scss */
-  55% {
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #f0f0f0 16.5%, #e2e2e2 36.5%, #d1d1d1 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #f0f0f0 16.5%, #e2e2e2 36.5%, #d1d1d1 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #f0f0f0 16.5%, #e2e2e2 36.5%, #d1d1d1 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #f0f0f0 16.5%, #e2e2e2 36.5%, #d1d1d1 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #f0f0f0 16.5%, #e2e2e2 36.5%, #d1d1d1 70%, #cccccc 100%);
-  }
-
-  /* line 512, ../sass/partials/modules/_animation.scss */
-  60% {
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #f2f2f2 17%, #e5e5e5 37%, #d2d2d2 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #f2f2f2 17%, #e5e5e5 37%, #d2d2d2 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #f2f2f2 17%, #e5e5e5 37%, #d2d2d2 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #f2f2f2 17%, #e5e5e5 37%, #d2d2d2 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #f2f2f2 17%, #e5e5e5 37%, #d2d2d2 70%, #cccccc 100%);
-  }
-
-  /* line 519, ../sass/partials/modules/_animation.scss */
-  65% {
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #f3f3f3 17.5%, #e8e8e8 37.5%, #d2d2d2 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #f3f3f3 17.5%, #e8e8e8 37.5%, #d2d2d2 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #f3f3f3 17.5%, #e8e8e8 37.5%, #d2d2d2 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #f3f3f3 17.5%, #e8e8e8 37.5%, #d2d2d2 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #f3f3f3 17.5%, #e8e8e8 37.5%, #d2d2d2 70%, #cccccc 100%);
-  }
-
-  /* line 526, ../sass/partials/modules/_animation.scss */
-  70% {
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #f4f4f4 18%, #eaeaea 38%, lightgrey 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #f4f4f4 18%, #eaeaea 38%, lightgrey 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #f4f4f4 18%, #eaeaea 38%, lightgrey 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #f4f4f4 18%, #eaeaea 38%, lightgrey 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #f4f4f4 18%, #eaeaea 38%, #d3d3d3 70%, #cccccc 100%);
-  }
-
-  /* line 533, ../sass/partials/modules/_animation.scss */
-  75% {
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #f6f6f6 18.5%, #ededed 38.5%, lightgrey 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #f6f6f6 18.5%, #ededed 38.5%, lightgrey 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #f6f6f6 18.5%, #ededed 38.5%, lightgrey 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #f6f6f6 18.5%, #ededed 38.5%, lightgrey 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #f6f6f6 18.5%, #ededed 38.5%, #d3d3d3 70%, #cccccc 100%);
-  }
-
-  /* line 540, ../sass/partials/modules/_animation.scss */
-  80% {
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #f7f7f7 19%, #efefef 39%, #d4d4d4 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #f7f7f7 19%, #efefef 39%, #d4d4d4 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #f7f7f7 19%, #efefef 39%, #d4d4d4 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #f7f7f7 19%, #efefef 39%, #d4d4d4 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #f7f7f7 19%, #efefef 39%, #d4d4d4 70%, #cccccc 100%);
-  }
-
-  /* line 547, ../sass/partials/modules/_animation.scss */
-  85% {
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #f8f8f8 19.5%, #f0f0f0 39.3%, #d4d4d4 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #f8f8f8 19.5%, #f0f0f0 39.3%, #d4d4d4 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #f8f8f8 19.5%, #f0f0f0 39.3%, #d4d4d4 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #f8f8f8 19.5%, #f0f0f0 39.3%, #d4d4d4 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #f8f8f8 19.5%, #f0f0f0 39.3%, #d4d4d4 70%, #cccccc 100%);
-  }
-
-  /* line 554, ../sass/partials/modules/_animation.scss */
-  90% {
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #f9f9f9 20%, #f0f0f2 39%, #d6d6d6 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #f9f9f9 20%, #f0f0f2 39%, #d6d6d6 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #f9f9f9 20%, #f0f0f2 39%, #d6d6d6 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #f9f9f9 20%, #f0f0f2 39%, #d6d6d6 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #f9f9f9 20%, #f0f0f2 39%, #d6d6d6 70%, #cccccc 100%);
-  }
-
-  /* line 561, ../sass/partials/modules/_animation.scss */
-  95% {
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #fcfcfc 20.5%, #f1f1f1 39.5%, #d6d6d6 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #fcfcfc 20.5%, #f1f1f1 39.5%, #d6d6d6 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #fcfcfc 20.5%, #f1f1f1 39.5%, #d6d6d6 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #fcfcfc 20.5%, #f1f1f1 39.5%, #d6d6d6 70%, #cccccc 100%);
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #fcfcfc 20.5%, #f1f1f1 39.5%, #d6d6d6 70%, #cccccc 100%);
-  }
-
-  /* line 568, ../sass/partials/modules/_animation.scss */
-  100% {
-    background-image: -o-radial-gradient(50% 45%, circle cover, white 21%, #f2f2f2 40%, #d8d8d8 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, white 21%, #f2f2f2 40%, #d8d8d8 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, white 21%, #f2f2f2 40%, #d8d8d8 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #ffffff 21%, #f2f2f2 40%, #d8d8d8 70%, #cccccc 100%);
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, white 21%, #f2f2f2 40%, #d8d8d8 70%, #cccccc 100%);
-  }
-}
-
-@keyframes changeBg {
-  /* line 578, ../sass/partials/modules/_animation.scss */
-  0% {
-    background: #ffffff;
-  }
-
-  /* line 579, ../sass/partials/modules/_animation.scss */
-  10% {
-    background-image: radial-gradient(50% 45%, circle cover, #e5e5e5 12%, #cccccc 30%, #cccccc 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #e5e5e5 12%, #cccccc 30%, #cccccc 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #e5e5e5 12%, #cccccc 30%, #cccccc 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #e5e5e5 12%, #cccccc 30%, #cccccc 70%, #cccccc 100%);
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #e5e5e5 12%, #cccccc 30%, #cccccc 70%, #cccccc 100%);
-  }
-
-  /* line 586, ../sass/partials/modules/_animation.scss */
-  15% {
-    background-image: radial-gradient(50% 45%, circle cover, #e6e6e6 12.5%, #cecece 31%, #cccccc 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #e6e6e6 12.5%, #cecece 31%, #cccccc 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #e6e6e6 12.5%, #cecece 31%, #cccccc 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #e6e6e6 12.5%, #cecece 31%, #cccccc 70%, #cccccc 100%);
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #e6e6e6 12.5%, #cecece 31%, #cccccc 70%, #cccccc 100%);
-  }
-
-  /* line 593, ../sass/partials/modules/_animation.scss */
-  20% {
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #e8e8e8 13%, #d1d1d1 32%, #cdcdcd 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #e8e8e8 13%, #d1d1d1 32%, #cdcdcd 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #e8e8e8 13%, #d1d1d1 32%, #cdcdcd 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #e8e8e8 13%, #d1d1d1 32%, #cdcdcd 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #e8e8e8 13%, #d1d1d1 32%, #cdcdcd 70%, #cccccc 100%);
-  }
-
-  /* line 600, ../sass/partials/modules/_animation.scss */
-  25% {
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #e9e9e9 13.5%, lightgrey 33%, #cdcdcd 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #e9e9e9 13.5%, lightgrey 33%, #cdcdcd 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #e9e9e9 13.5%, lightgrey 33%, #cdcdcd 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #e9e9e9 13.5%, lightgrey 33%, #cdcdcd 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #e9e9e9 13.5%, #d3d3d3 33%, #cdcdcd 70%, #cccccc 100%);
-  }
-
-  /* line 607, ../sass/partials/modules/_animation.scss */
-  30% {
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #eaeaea 14%, #d6d6d6 34%, #cecece 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #eaeaea 14%, #d6d6d6 34%, #cecece 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #eaeaea 14%, #d6d6d6 34%, #cecece 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #eaeaea 14%, #d6d6d6 34%, #cecece 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #eaeaea 14%, #d6d6d6 34%, #cecece 70%, #cccccc 100%);
-  }
-
-  /* line 614, ../sass/partials/modules/_animation.scss */
-  35% {
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #ebebeb 14.5%, #d8d8d8 34.5%, #cecece 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #ebebeb 14.5%, #d8d8d8 34.5%, #cecece 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #ebebeb 14.5%, #d8d8d8 34.5%, #cecece 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #ebebeb 14.5%, #d8d8d8 34.5%, #cecece 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #ebebeb 14.5%, #d8d8d8 34.5%, #cecece 70%, #cccccc 100%);
-  }
-
-  /* line 621, ../sass/partials/modules/_animation.scss */
-  40% {
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #ededed 15%, #dbdbdb 35%, #cfcfcf 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #ededed 15%, #dbdbdb 35%, #cfcfcf 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #ededed 15%, #dbdbdb 35%, #cfcfcf 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #ededed 15%, #dbdbdb 35%, #cfcfcf 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #ededed 15%, #dbdbdb 35%, #cfcfcf 70%, #cccccc 100%);
-  }
-
-  /* line 628, ../sass/partials/modules/_animation.scss */
-  45% {
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #eeeeee 15.5%, #dddddd 35.5%, #cfcfcf 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #eeeeee 15.5%, #dddddd 35.5%, #cfcfcf 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #eeeeee 15.5%, #dddddd 35.5%, #cfcfcf 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #eeeeee 15.5%, #dddddd 35.5%, #cfcfcf 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #eeeeee 15.5%, #dddddd 35.5%, #cfcfcf 70%, #cccccc 100%);
-  }
-
-  /* line 635, ../sass/partials/modules/_animation.scss */
-  50% {
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #efefef 16%, #e0e0e0 36%, #d1d1d1 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #efefef 16%, #e0e0e0 36%, #d1d1d1 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #efefef 16%, #e0e0e0 36%, #d1d1d1 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #efefef 16%, #e0e0e0 36%, #d1d1d1 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #efefef 16%, #e0e0e0 36%, #d1d1d1 70%, #cccccc 100%);
-  }
-
-  /* line 642, ../sass/partials/modules/_animation.scss */
-  55% {
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #f0f0f0 16.5%, #e2e2e2 36.5%, #d1d1d1 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #f0f0f0 16.5%, #e2e2e2 36.5%, #d1d1d1 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #f0f0f0 16.5%, #e2e2e2 36.5%, #d1d1d1 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #f0f0f0 16.5%, #e2e2e2 36.5%, #d1d1d1 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #f0f0f0 16.5%, #e2e2e2 36.5%, #d1d1d1 70%, #cccccc 100%);
-  }
-
-  /* line 649, ../sass/partials/modules/_animation.scss */
-  60% {
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #f2f2f2 17%, #e5e5e5 37%, #d2d2d2 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #f2f2f2 17%, #e5e5e5 37%, #d2d2d2 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #f2f2f2 17%, #e5e5e5 37%, #d2d2d2 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #f2f2f2 17%, #e5e5e5 37%, #d2d2d2 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #f2f2f2 17%, #e5e5e5 37%, #d2d2d2 70%, #cccccc 100%);
-  }
-
-  /* line 656, ../sass/partials/modules/_animation.scss */
-  65% {
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #f3f3f3 17.5%, #e8e8e8 37.5%, #d2d2d2 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #f3f3f3 17.5%, #e8e8e8 37.5%, #d2d2d2 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #f3f3f3 17.5%, #e8e8e8 37.5%, #d2d2d2 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #f3f3f3 17.5%, #e8e8e8 37.5%, #d2d2d2 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #f3f3f3 17.5%, #e8e8e8 37.5%, #d2d2d2 70%, #cccccc 100%);
-  }
-
-  /* line 663, ../sass/partials/modules/_animation.scss */
-  70% {
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #f4f4f4 18%, #eaeaea 38%, lightgrey 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #f4f4f4 18%, #eaeaea 38%, lightgrey 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #f4f4f4 18%, #eaeaea 38%, lightgrey 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #f4f4f4 18%, #eaeaea 38%, lightgrey 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #f4f4f4 18%, #eaeaea 38%, #d3d3d3 70%, #cccccc 100%);
-  }
-
-  /* line 670, ../sass/partials/modules/_animation.scss */
-  75% {
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #f6f6f6 18.5%, #ededed 38.5%, lightgrey 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #f6f6f6 18.5%, #ededed 38.5%, lightgrey 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #f6f6f6 18.5%, #ededed 38.5%, lightgrey 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #f6f6f6 18.5%, #ededed 38.5%, lightgrey 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #f6f6f6 18.5%, #ededed 38.5%, #d3d3d3 70%, #cccccc 100%);
-  }
-
-  /* line 677, ../sass/partials/modules/_animation.scss */
-  80% {
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #f7f7f7 19%, #efefef 39%, #d4d4d4 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #f7f7f7 19%, #efefef 39%, #d4d4d4 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #f7f7f7 19%, #efefef 39%, #d4d4d4 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #f7f7f7 19%, #efefef 39%, #d4d4d4 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #f7f7f7 19%, #efefef 39%, #d4d4d4 70%, #cccccc 100%);
-  }
-
-  /* line 684, ../sass/partials/modules/_animation.scss */
-  85% {
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #f8f8f8 19.5%, #f0f0f0 39.3%, #d4d4d4 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #f8f8f8 19.5%, #f0f0f0 39.3%, #d4d4d4 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #f8f8f8 19.5%, #f0f0f0 39.3%, #d4d4d4 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #f8f8f8 19.5%, #f0f0f0 39.3%, #d4d4d4 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #f8f8f8 19.5%, #f0f0f0 39.3%, #d4d4d4 70%, #cccccc 100%);
-  }
-
-  /* line 691, ../sass/partials/modules/_animation.scss */
-  90% {
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #f9f9f9 20%, #f0f0f2 39%, #d6d6d6 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #f9f9f9 20%, #f0f0f2 39%, #d6d6d6 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #f9f9f9 20%, #f0f0f2 39%, #d6d6d6 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #f9f9f9 20%, #f0f0f2 39%, #d6d6d6 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #f9f9f9 20%, #f0f0f2 39%, #d6d6d6 70%, #cccccc 100%);
-  }
-
-  /* line 698, ../sass/partials/modules/_animation.scss */
-  95% {
-    background-image: -moz-radial-gradient(50% 45%, circle cover, #fcfcfc 20.5%, #f1f1f1 39.5%, #d6d6d6 70%, #cccccc 100%);
-    background-image: -o-radial-gradient(50% 45%, circle cover, #fcfcfc 20.5%, #f1f1f1 39.5%, #d6d6d6 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, #fcfcfc 20.5%, #f1f1f1 39.5%, #d6d6d6 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #fcfcfc 20.5%, #f1f1f1 39.5%, #d6d6d6 70%, #cccccc 100%);
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, #fcfcfc 20.5%, #f1f1f1 39.5%, #d6d6d6 70%, #cccccc 100%);
-  }
-
-  /* line 705, ../sass/partials/modules/_animation.scss */
-  100% {
-    background-image: -o-radial-gradient(50% 45%, circle cover, white 21%, #f2f2f2 40%, #d8d8d8 70%, #cccccc 100%);
-    background-image: -ms-radial-gradient(50% 45%, circle cover, white 21%, #f2f2f2 40%, #d8d8d8 70%, #cccccc 100%);
-    background-image: -moz-radial-gradient(50% 45%, circle cover, white 21%, #f2f2f2 40%, #d8d8d8 70%, #cccccc 100%);
-    background-image: radial-gradient(50% 45%, circle cover, #ffffff 21%, #f2f2f2 40%, #d8d8d8 70%, #cccccc 100%);
-    background-image: -webkit-radial-gradient(50% 45%, circle cover, white 21%, #f2f2f2 40%, #d8d8d8 70%, #cccccc 100%);
-  }
-}
-
 @-webkit-keyframes progress-active {
-  /* line 721, ../sass/partials/modules/_animation.scss */
+  /* line 33, ../sass/partials/modules/_animation.scss */
   from {
     background-position: 40px 0;
   }
 
-  /* line 724, ../sass/partials/modules/_animation.scss */
+  /* line 36, ../sass/partials/modules/_animation.scss */
   to {
     background-position: 0 0;
   }
 }
 
 @-moz-keyframes progress-active {
-  /* line 730, ../sass/partials/modules/_animation.scss */
+  /* line 42, ../sass/partials/modules/_animation.scss */
   from {
     background-position: 40px 0;
   }
 
-  /* line 733, ../sass/partials/modules/_animation.scss */
+  /* line 45, ../sass/partials/modules/_animation.scss */
   to {
     background-position: 0 0;
   }
 }
 
 @-ms-keyframes progress-active {
-  /* line 739, ../sass/partials/modules/_animation.scss */
+  /* line 51, ../sass/partials/modules/_animation.scss */
   from {
     background-position: 40px 0;
   }
 
-  /* line 742, ../sass/partials/modules/_animation.scss */
+  /* line 54, ../sass/partials/modules/_animation.scss */
   to {
     background-position: 0 0;
   }
 }
 
 @-o-keyframes progress-active {
-  /* line 748, ../sass/partials/modules/_animation.scss */
+  /* line 60, ../sass/partials/modules/_animation.scss */
   from {
     background-position: 0 0;
   }
 
-  /* line 751, ../sass/partials/modules/_animation.scss */
+  /* line 63, ../sass/partials/modules/_animation.scss */
   to {
     background-position: 40px 0;
   }
 }
 
 @keyframes progress-active {
-  /* line 757, ../sass/partials/modules/_animation.scss */
+  /* line 69, ../sass/partials/modules/_animation.scss */
   from {
     background-position: 40px 0;
   }
 
-  /* line 760, ../sass/partials/modules/_animation.scss */
+  /* line 72, ../sass/partials/modules/_animation.scss */
   to {
     background-position: 0 0;
   }
@@ -5435,14 +4545,14 @@ https://github.com/yui/pure/blob/master/LICENSE.md
 #home {
   width: 100%;
   height: 100%;
-  -webkit-animation: changeBg 3.5s ease-in-out infinite alternate;
-  -moz-animation: changeBg 3.5s ease-in-out infinite alternate;
-  -ms-animation: changeBg 3.5s ease-in-out infinite alternate;
-  -o-animation: changeBg 3.5s ease-in-out infinite alternate;
-  animation: changeBg 3.5s ease-in-out infinite alternate;
+  background-image: -o-radial-gradient(50% 45%, circle cover, white 21%, #f2f2f2 40%, #d8d8d8 70%, #cccccc 100%);
+  background-image: -ms-radial-gradient(50% 45%, circle cover, white 21%, #f2f2f2 40%, #d8d8d8 70%, #cccccc 100%);
+  background-image: -moz-radial-gradient(50% 45%, circle cover, white 21%, #f2f2f2 40%, #d8d8d8 70%, #cccccc 100%);
+  background-image: radial-gradient(50% 45%, circle cover, #ffffff 21%, #f2f2f2 40%, #d8d8d8 70%, #cccccc 100%);
+  background-image: -webkit-radial-gradient(50% 45%, circle cover, white 21%, #f2f2f2 40%, #d8d8d8 70%, #cccccc 100%);
 }
-/* line 5, ../sass/partials/pages/_home-page.scss */
-#home header {
+/* line 9, ../sass/partials/pages/_home-page.scss */
+#home .brands {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -5450,12 +4560,10 @@ https://github.com/yui/pure/blob/master/LICENSE.md
   margin-top: -200px;
   width: 200px;
   height: 240px;
-  background-position: center bottom;
-  border: none;
-  padding: 0;
 }
-/* line 17, ../sass/partials/pages/_home-page.scss */
-#home header .lightning {
+/* line 18, ../sass/partials/pages/_home-page.scss */
+#home .brands .lightning {
+  display: block;
   width: 200px;
   height: 240px;
   -webkit-animation: changeOpacity 1s ease-in-out infinite alternate;
@@ -5464,17 +4572,16 @@ https://github.com/yui/pure/blob/master/LICENSE.md
   -o-animation: changeOpacity 1s ease-in-out infinite alternate;
   animation: changeOpacity 1s ease-in-out infinite alternate;
 }
-/* line 23, ../sass/partials/pages/_home-page.scss */
-#home header .logo {
+/* line 25, ../sass/partials/pages/_home-page.scss */
+#home .brands .logo {
   position: absolute;
-  bottom: -100px;
+  bottom: -80px;
   left: 0px;
   width: 100%;
   text-align: center;
-  cursor: pointer;
-  font-size: 4em;
+  font-size: 3em;
 }
-/* line 33, ../sass/partials/pages/_home-page.scss */
+/* line 34, ../sass/partials/pages/_home-page.scss */
 #home footer {
   position: absolute;
   bottom: 0;

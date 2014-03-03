@@ -2,7 +2,7 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" ng-app  ng-controller="pageCtrl"> <!--<![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" ng-app  ng-controller="pageCtrl" id="home"> <!--<![endif]-->
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -31,8 +31,7 @@
     <!-- CSS link here -->
     <link rel="stylesheet" href="/css/main.css" />
 </head>
-<body id="home">
-
+<body>
     <!-- hidden input -->
     <div class="hidden-input">
         <input type="hidden" id="" name="" value="">
@@ -41,17 +40,17 @@
 
     <!-- html5 -->
     <div class="wrapper">
-        <header>
-            <div class="lightning"></div>
-            <a href="/simple/about" class="active logo">Simple</a>
-        </header>
+        <div class="brands">
+            <a class="lightning"></a>
+            <div class="logo" href="/simple/about">Simple</div>
+        </div>
         <footer id="footer">{{footer}}</footer>
     </div>
 
     <!-- Add your template content here -->
-    <div class="template"></div>
+    <div id="template"></div>
     <!-- script link here -->
-    <div class="script">
+    <div id="script">
         <script src="/js/common.js"></script>
     </div>
 
