@@ -1,0 +1,55 @@
+/* ==========================================================================
+   layout css
+   ========================================================================== */
+
+body {
+  background-color: $color-white;
+  color: $text-color-main;
+}
+.wrapper {
+  display: flex;
+}
+aside {
+  order: 1;
+  flex-basis: 180px;
+  background-color: $color-default;
+  &.full-screen {
+    margin-left: -180px;
+    .btn-nav-control {
+      left: 0;
+    }
+  }
+}
+main {
+  order: 2;
+  flex:1;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+/* header */
+header {
+  padding: $box-margin 0;
+  text-align: center;
+  border-bottom: solid 1px $box-border-color;
+  &.about {
+    padding: 150px 0;
+    .headline {
+      @extend .xxlarge;
+      color: $text-color-highlight;
+    }
+  }
+}
+/* main */
+article {
+  padding: $box-margin 0;
+  font-weight: bold;
+}
+/* footer */
+footer {
+  font-size: 0.8em;
+  padding: 15px 0;
+  text-align: center;
+  @include border-top();
+}

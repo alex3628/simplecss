@@ -29,9 +29,9 @@
     <!-- Place favicon.ico in the root directory -->
     <link rel="shortcut icon" href="/images/favicon.ico" />
     <!-- CSS link here -->
-    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/styles/main.css" />
 </head>
-<body id="home">
+<body>
     <!-- hidden input -->
     <div class="hidden-input">
         <input type="hidden" id="" name="" value="">
@@ -40,23 +40,18 @@
 
     <!-- html5 -->
     <div class="wrapper">
-        <header>
-            <a href="/examples/about">
-                <div class="lightning"></div>
-                <a href="/simple/about/" class="active logo">404</a>
-            </a>
-        </header>
-        <footer>
-            @ 2013 AKQA SH TECHNOLOGY
-        </footer>
+        <div class="brands">
+            <a href="/simple/about.html" class="lightning"></a>
+            <div class="logo">404</div>
+        </div>
+        <footer id="footer">{{footer}}</footer>
     </div>
 
     <!-- Add your template content here -->
-    <div class="template"></div>
-    <!-- id link here -->
+    <div id="template"></div>
+    <!-- script link here -->
     <div id="script">
-        <script src="/js/common.js"></script>
+        <script src="/scripts/common.js"></script>
     </div>
-
 </body>
 </html>

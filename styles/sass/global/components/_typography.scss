@@ -1,0 +1,236 @@
+/* ==========================================================================
+   typography css
+   ========================================================================== */
+
+/* default font size and line height */
+body {
+  font:16px/1.5 'omnes';
+}
+
+
+/* link */
+a {
+  color: $text-color-main;
+  text-decoration: none;
+  -webkit-tap-highlight-color:rgba(0,0,0,0);
+  &:hover,
+  &:focus,
+  &:active,
+  &.active,
+  &.link {
+    color: $text-color-highlight;
+  }
+  &.link {
+    text-decoration: underline;
+  }
+}
+
+
+/* text */
+p {
+  @extend .text-margin-bottom;
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+.text-margin-top {
+  margin-top: $text-margin;
+}
+.text-margin-bottom {
+  margin-bottom: $text-margin;
+}
+.text-shadow {
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+
+/* box */
+.box-margin {
+  margin: $box-margin 0;
+}
+.box-margin-top {
+  margin-top: $box-margin;
+}
+.box-margin-bottom {
+  margin-bottom: $box-margin;
+}
+
+
+
+
+
+/* font size */
+.xxlarge {
+  font-size: 6em;
+}
+.xlarge {
+  font-size: 3.6em;
+}
+.large {
+  font-size: 2em;
+}
+.medium {
+  font-size: 1.4em;
+}
+.regular {
+  font-size: 1em;
+}
+.small {
+  font-size: 0.8em;
+}
+.xsmall {
+  font-size: 0.6em;
+}
+
+
+
+
+/* font type */
+.headline {
+  @extend .xlarge;
+}
+.describe {
+  @extend .large;
+  font-size: 1.8em;
+  color: $text-color-describe;
+}
+.title {
+  @extend .medium;
+  font-weight: bold;
+  color: $text-color-stress;
+}
+.lead {
+  color: $text-color-stress;
+}
+
+
+/* font color */
+.color-stress {
+  color: $text-color-stress;
+}
+
+.color-primary {
+  color: #428bca;
+}
+.color-success {
+  color: #5cb85c;
+}
+.color-info {
+  color: #5bc0de;
+}
+.color-warning {
+  color: #f0ad4e;
+}
+.color-error {
+  color: #d9534f;
+}
+
+
+/* clear */
+.clearfix {
+  @include clearfix();
+}
+.clearboth {
+  font: 0px/0px sans-serif;
+  clear: both;
+  visibility: hidden;
+  display: block;
+}
+
+
+
+
+
+/* float */
+.float-l {
+  float: left;
+}
+.float-r {
+  float: right;
+}
+.float-n {
+  float: none;
+}
+
+
+
+
+
+
+/* text align */
+.align-l {
+  text-align: left;
+}
+.align-r {
+  text-align: right;
+}
+.align-c {
+  text-align: center;
+}
+.align-j {
+  text-align: justify;
+}
+
+
+
+
+
+
+/* hide and show */
+.hidden {
+  display: none;
+  visibility: hidden;
+}
+.shown {
+  display: block;
+  visibility: visible;
+}
+
+
+
+
+/* display table */
+.display-table {
+  display: table;
+  .display-table-cell {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+  }
+}
+
+
+
+
+/* list */
+ul, ol, dl {
+  > ul, ol {
+    padding: 10px 0 10px 20px;
+  }
+}
+ul.ordered, ol.ordered {
+  li {
+    list-style-type: decimal;
+    li {
+      list-style-type: lower-alpha;
+    }
+  }
+}
+ul.unordered, ol.unordered {
+  li {
+    list-style-type: disc;
+    li {
+      list-style-type: square;
+    }
+  }
+}
+ul.list-inline, ol.list-inline, dl.list-inline {
+  > li {
+    display: inline-block;
+  }
+
+  > dt, dd {
+    display: inline-block;
+  }
+}

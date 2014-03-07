@@ -1,0 +1,23 @@
+// bread crumb
+.breadcrumbs {
+  padding: 10px 15px;
+  @include border();
+  > li {
+    display: inline-block;
+    &:last-child {
+      em {
+        display: none;
+      }
+    }
+    em {
+      margin: 0 5px;
+      @extend .color-describe;
+    }
+  }
+}
+
+// dropDown list
+
+
+
+// paging nav
