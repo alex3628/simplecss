@@ -6,7 +6,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <title>Demo | AKQA</title>
+    <title>Icons | AKQA</title>
     <meta name="author" content="AKQA Shanghai technology Team" />
     <meta name="copyright" content="AKQA Inc." />
     <meta name="keywords" content="AKQA" />
@@ -32,44 +32,44 @@
     <link rel="stylesheet" href="/styles/main.css" />
 </head>
 <body>
-    <!-- hidden input -->
-    <div class="hidden-input">
-        <input type="hidden" id="" name="" value="">
-        <input type="hidden" id="" name="" value="">
-    </div>
+<!-- hidden input -->
+<div class="hidden-input">
+    <input type="hidden" id="" name="" value="">
+    <input type="hidden" id="" name="" value="">
+</div>
 
-    <!-- html5 -->
-    <div class="wrapper">
-        <aside id="aside">
-            <nav class="nav">
-                <a href="{{logo.link}}" class="logo nav-item" title="{{logo.name}}">{{logo.name}}</a>
-                <input type="text" ng-model="search.name" placeholder="search the ex." class="search">
-                <ul id="navigation">
-                    <li ng-repeat="nav in navs | filter:search:strict">
-                        <a class="nav-item" href="{{nav.link}}" title="{{nav.name}}">{{nav.name}}</a>
-                    </li>
-                </ul>
-            </nav>
-            <a class="btn-nav-control btn-hover fa fa-chevron-left fa-2x" id="nav-control" href="##"></a>
-        </aside>
-        <main>
-            <header>
-                <h1 class="headline">{{about.headline}}</h1>
-                <h3 class="describe">{{about.describe}}</h3>
-            </header>
-            <article class="container" id="page-content">
-                content
-            </article>
-            <footer id="footer">{{footer}}</footer>
-        </main>
-        <a class="btn-back-to-top btn-hover fa fa-chevron-up fa-2x" id="back-to-top" href="##"></a>
-    </div>
+<!-- html5 -->
+<div class="wrapper">
+    <aside id="aside">
+        <nav class="nav">
+            <a href="{{logo.link}}" class="logo nav-item" title="{{logo.name}}">{{logo.name}}</a>
+            <input type="text" ng-model="search.name" placeholder="search the ex." class="search">
+            <ul id="navigation">
+                <li ng-repeat="nav in navs | filter:search:strict">
+                    <a class="nav-item" href="{{nav.link}}" title="{{nav.name}}">{{nav.name}}</a>
+                </li>
+            </ul>
+        </nav>
+        <a class="btn-nav-control btn-hover fa fa-chevron-left fa-2x" id="nav-control" href="##"></a>
+    </aside>
+    <main>
+        <header>
+            <h1 class="headline">{{Icons.headline}}</h1>
+            <h3 class="describe">{{Icons.describe}}</h3>
+        </header>
+        <article class="container" id="page-content">
+            content
+        </article>
+        <footer id="footer">{{footer}}</footer>
+    </main>
+    <a class="btn-back-to-top btn-hover fa fa-chevron-up fa-2x" id="back-to-top" href="##"></a>
+</div>
 
-    <!-- Add your template content here -->
-    <div id="template"></div>
-    <!-- script link here -->
-    <div id="script">
-        <script src="/scripts/common.js"></script>
-    </div>
+<!-- Add your template content here -->
+<div id="template"></div>
+<!-- script link here -->
+<div id="script">
+    <script src="/scripts/common.js"></script>
+</div>
 </body>
 </html>

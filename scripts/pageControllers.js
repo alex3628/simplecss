@@ -17,12 +17,12 @@ function pageCtrl($scope) {
             "link": "/simple/buttons.html"
         },
         {
-            "name": "Forms",
-            "link": "/simple/icons.html"
-        },
-        {
             "name": "Menus",
             "link": "/simple/menus.html"
+        },
+        {
+            "name": "Icons",
+            "link": "/simple/icons.html"
         },
         {
             "name": "Carousel",
@@ -33,48 +33,37 @@ function pageCtrl($scope) {
             "link": "/simple/compass.html"
         }
     ];
-    $scope.pageContent = [
-        {
-            "headline": "Simple",
-            "describe": "A set of small, responsive CSS modules that you can use in every web project."
-        },
-        {
-            "name": "Grid",
-            "link": "/simple/grid"
-        },
-        {
-            "name": "Typography",
-            "link": "/simple/typography"
-        },
-        {
-            "name": "Menu",
-            "link": "/simple/menu"
-        },
-        {
-            "name": "Table",
-            "link": "/simple/table"
-        },
-        {
-            "name": "Icons",
-            "link": "/simple/icons"
-        },
-        {
-            "name": "Buttons",
-            "link": "/simple/buttons"
-        },
-        {
-            "name": "Carousel",
-            "link": "/simple/carousel"
-        },
-        {
-            "name": "Compass",
-            "link": "/simple/compass"
-        },
-        {
-            "name": "Blog",
-            "link": "/blog"
-        }
-    ];
+    $scope.about = {
+        "headline": "Simple",
+        "describe": "A set of small, responsive CSS modules that you can use in every web project."
+    };
+    $scope.base = {
+        "headline": "Base",
+        "describe": "Leveraging Normalize.css, an HTML5-ready alternative to CSS resets."
+    };
+    $scope.Typography = {
+        "headline": "Typography",
+        "describe": "Global CSS settings, fundamental HTML elements styled and enhanced with extensible classes."
+    };
+    $scope.Grids = {
+        "headline": "Grids",
+        "describe": "Global CSS settings, fundamental HTML elements styled and enhanced with extensible classes."
+    };
+    $scope.Buttons = {
+        "headline": "Buttons",
+        "describe": "Global CSS settings, fundamental HTML elements styled and enhanced with extensible classes."
+    };
+    $scope.Menus = {
+        "headline": "Menus",
+        "describe": "Global CSS settings, fundamental HTML elements styled and enhanced with extensible classes."
+    };
+    $scope.Icons = {
+        "headline": "Icons",
+        "describe": "Global CSS settings, fundamental HTML elements styled and enhanced with extensible classes."
+    };
+
+
+
 
     $scope.logo = {
         "name": "Simple Css",

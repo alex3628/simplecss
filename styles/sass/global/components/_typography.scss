@@ -94,11 +94,11 @@ p {
   @extend .large;
   font-size: 1.8em;
   color: $text-color-describe;
+  margin-top: $text-margin*3;
 }
 .title {
   @extend .medium;
   font-weight: bold;
-  color: $text-color-stress;
 }
 .lead {
   color: $text-color-stress;
