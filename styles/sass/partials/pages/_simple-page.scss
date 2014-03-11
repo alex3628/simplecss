@@ -8,19 +8,30 @@
   }
 }
 
-
-
-
-
-/* grid page style */
-.grid .pure-g > div {
-  background: green;
-  text-align: center;
-  color: #ffffff;
-  border-left: solid 1px #000;
-  border-bottom: solid 1px #000;
-  padding: 10px 0;
-  @include box-sizing(border-box);
+.grids-unit {
+  .pure-g {
+    background-color: $box-bg-color;
+    margin-bottom: $text-margin;
+  }
+  .grids-unit-bar {
+    background-color: darken($color-primary, 5%);
+    line-height: 36px;
+    color: $color-white;
+    text-indent: 20px;
+  }
+}
+.grid-example {
+  .pure-g-r {
+    margin: 0 auto;
+    width: 800px;
+    background-color: $box-bg-color;
+  }
+  .see-more {
+    text-align: right;
+    margin: 0 auto;
+    width: 800px;
+    margin-top: 20px;
+  }
 }
 
 
@@ -71,27 +82,5 @@
         }
       }
     }
-  }
-}
-
-
-
-
-
-
-
-
-/* layouts page style */
-.layouts-photo{}
-.billboard {
-  height: 400px;
-  background: url("/images/billboard/billboard.jpg") no-repeat;
-  background-size: cover;
-  position: relative;
-  .text{
-    position: absolute;
-    left: 15%;
-    top: 100px;
-    color: #ffffff;
   }
 }

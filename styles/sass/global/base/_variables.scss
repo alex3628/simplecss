@@ -32,7 +32,7 @@ $bg-color-info:             #e2f6f9;
 // box module
 // -------------------------
 $box-margin:                50px;
-$box-bg-color:              $color-default;
+$box-bg-color:              #eeeeee;
 $box-shadow-color:          $color-shadow;
 $box-border-width:          1px;
 $box-border-color:          #cccccc;
@@ -46,32 +46,27 @@ $box-border-radius:         0px;
 
 // Buttons
 // -------------------------
-$color-primary:             #428bca;
-$color-success:             #5cb85c;
-$color-info:                #5bc0de;
-$color-warning:             #f0ad4e;
-$color-error:               #d9534f;
+$color-primary:             #0078e7;
+$color-success:             #1CB841;
+$color-info:                #42B8DD;
+$color-error:               #CA3C3C;
+$color-warning:             #DF7514;
 
-$btn-default-text-color:               $color-default;
-$btn-default-bg-color:                 $color-white;
-$btn-default-border-color:             $box-border-color;
 
-$btn-primary-text-color:               $color-white;
-$btn-primary-bg-color:                 $color-primary;
-$btn-primary-border-color:             darken($color-primary, 5%);
+$btn-default-color-text:               $text-color-main;
+$btn-default-color-bg:                 #E6E6E6;
 
-$btn-success-text-color:               $color-white;
-$btn-success-bg-color:                 $color-success;
-$btn-success-border-color:             darken($color-success, 5%);
+$btn-primary-color-text:               $color-white;
+$btn-primary-color-bg:                 $color-primary;
 
-$btn-info-text-color:                  $color-white;
-$btn-info-bg-color:                    $color-info;
-$btn-info-border-color:                darken($color-info, 5%);
+$btn-success-color-text:               $color-white;
+$btn-success-color-bg:                 $color-success;
 
-$btn-warning-text-color:               $color-white;
-$btn-warning-bg-color:                 $color-warning;
-$btn-warning-border-color:             darken($color-warning, 5%);
+$btn-info-color-text:                  $color-white;
+$btn-info-color-bg:                    $color-info;
 
-$btn-error-text-color:                 $color-white;
-$btn-error-bg-color:                   $color-error;
-$btn-error-border-color:               darken($color-error, 5%);
+$btn-warning-color-text:               $color-white;
+$btn-warning-color-bg:                 $color-warning;
+
+$btn-error-color-text:                 $color-white;
+$btn-error-color-bg:                   $color-error;

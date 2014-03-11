@@ -1118,7 +1118,7 @@ p:last-child {
 }
 
 /* line 42, sass/global/components/_typography.scss */
-.text-shadow, .btn, .btn-primary, .btn-info, .btn-success, .btn-warning, .btn-error {
+.text-shadow {
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
 }
 
@@ -1341,6 +1341,31 @@ ul.list-inline > li, ol.list-inline > li, dl.list-inline > li {
 /* line 233, sass/global/components/_typography.scss */
 ul.list-inline > dt, ul.list-inline dd, ol.list-inline > dt, ol.list-inline dd, dl.list-inline > dt, dl.list-inline dd {
   display: inline-block;
+}
+
+/* progress */
+/* line 244, sass/global/components/_typography.scss */
+.progress {
+  width: 100%;
+  height: 20px;
+  overflow: hidden;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  -moz-box-sizing: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+/* line 250, sass/global/components/_typography.scss */
+.progress .bar {
+  color: white;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  background-color: #0078e7;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 /*
@@ -1797,386 +1822,116 @@ html, button, input, select, textarea,
 
 /* line 413, sass/global/components/_grids.scss */
 .l-box {
-  padding: 0 30px;
+  padding: 20px;
 }
 
 /* line 1, sass/global/components/_buttons.scss */
-.btn {
-  border: 1px solid #cccccc;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  border-radius: 2px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+.pure-button {
+  /* Structure */
   display: inline-block;
   *display: inline;
+  /*IE 6/7*/
   zoom: 1;
   line-height: normal;
   white-space: nowrap;
   vertical-align: baseline;
   text-align: center;
   cursor: pointer;
-  text-decoration: none;
-  padding: 0.5em 1.5em;
-}
-/* line 325, sass/global/base/_mixins.scss */
-.btn:hover, .btn.active, .btn:focus, .btn.focus {
-  color: black;
-  background-color: #f2f2f2;
-  border-color: #b3b3b3;
-}
-/* line 331, sass/global/base/_mixins.scss */
-.btn:active {
-  -webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15) inset;
-  -moz-box-sizing: 0 0 0 1px rgba(0, 0, 0, 0.15) inset;
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15) inset;
-  background-color: #ebebeb;
-  border-color: #b3b3b3;
-}
-/* line 338, sass/global/base/_mixins.scss */
-.btn.disabled, .btn[disabled] {
-  cursor: not-allowed;
-  opacity: 0.6;
-  filter: alpha(opacity=60);
-}
-/* line 345, sass/global/base/_mixins.scss */
-.btn.disabled, .btn.disabled:hover, .btn.disabled:focus, .btn.disabled:active, .btn.disabled.active, .btn[disabled], .btn[disabled]:hover, .btn[disabled]:focus, .btn[disabled]:active, .btn[disabled].active {
-  color: black;
-  background-color: white;
-  border-color: #cccccc;
-}
-/* line 352, sass/global/base/_mixins.scss */
-.btn.block {
-  display: block;
-  width: 100%;
-  padding-left: 0;
-  padding-right: 0;
-  text-align: center;
-}
-/* line 360, sass/global/base/_mixins.scss */
-.btn::-moz-focus-inner {
-  padding: 0;
-  border: 0;
-}
-
-/* line 4, sass/global/components/_buttons.scss */
-.btn-primary {
-  border: 1px solid #cccccc;
+  border: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   border-radius: 2px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  display: inline-block;
-  *display: inline;
-  zoom: 1;
-  line-height: normal;
-  white-space: nowrap;
-  vertical-align: baseline;
-  text-align: center;
-  cursor: pointer;
+  font-size: 100%;
+  padding: 0.5em 1em;
   text-decoration: none;
-  padding: 0.5em 1.5em;
 }
-/* line 325, sass/global/base/_mixins.scss */
-.btn-primary:hover, .btn-primary.active, .btn-primary:focus, .btn-primary.focus {
-  color: white;
-  background-color: #357ebd;
-  border-color: #2a6496;
-}
-/* line 331, sass/global/base/_mixins.scss */
-.btn-primary:active {
-  -webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15) inset;
-  -moz-box-sizing: 0 0 0 1px rgba(0, 0, 0, 0.15) inset;
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15) inset;
-  background-color: #3276b1;
-  border-color: #2a6496;
-}
-/* line 338, sass/global/base/_mixins.scss */
-.btn-primary.disabled, .btn-primary[disabled] {
-  cursor: not-allowed;
-  opacity: 0.6;
-  filter: alpha(opacity=60);
-}
-/* line 345, sass/global/base/_mixins.scss */
-.btn-primary.disabled, .btn-primary.disabled:hover, .btn-primary.disabled:focus, .btn-primary.disabled:active, .btn-primary.disabled.active, .btn-primary[disabled], .btn-primary[disabled]:hover, .btn-primary[disabled]:focus, .btn-primary[disabled]:active, .btn-primary[disabled].active {
-  color: white;
-  background-color: #428bca;
-  border-color: #357ebd;
-}
-/* line 352, sass/global/base/_mixins.scss */
-.btn-primary.block {
-  display: block;
-  width: 100%;
-  padding-left: 0;
-  padding-right: 0;
-  text-align: center;
-}
-/* line 360, sass/global/base/_mixins.scss */
-.btn-primary::-moz-focus-inner {
+/* line 17, sass/global/components/_buttons.scss */
+.pure-button::-moz-focus-inner {
   padding: 0;
   border: 0;
 }
-
-/* line 7, sass/global/components/_buttons.scss */
-.btn-info {
-  border: 1px solid #cccccc;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  border-radius: 2px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  display: inline-block;
-  *display: inline;
-  zoom: 1;
-  line-height: normal;
-  white-space: nowrap;
-  vertical-align: baseline;
-  text-align: center;
-  cursor: pointer;
-  text-decoration: none;
-  padding: 0.5em 1.5em;
+/* line 21, sass/global/components/_buttons.scss */
+.pure-button:focus {
+  outline: 0;
 }
-/* line 325, sass/global/base/_mixins.scss */
-.btn-info:hover, .btn-info.active, .btn-info:focus, .btn-info.focus {
-  color: white;
-  background-color: #46b8da;
-  border-color: #28a1c5;
-}
-/* line 331, sass/global/base/_mixins.scss */
-.btn-info:active {
-  -webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15) inset;
-  -moz-box-sizing: 0 0 0 1px rgba(0, 0, 0, 0.15) inset;
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15) inset;
-  background-color: #39b3d7;
-  border-color: #28a1c5;
-}
-/* line 338, sass/global/base/_mixins.scss */
-.btn-info.disabled, .btn-info[disabled] {
-  cursor: not-allowed;
-  opacity: 0.6;
-  filter: alpha(opacity=60);
-}
-/* line 345, sass/global/base/_mixins.scss */
-.btn-info.disabled, .btn-info.disabled:hover, .btn-info.disabled:focus, .btn-info.disabled:active, .btn-info.disabled.active, .btn-info[disabled], .btn-info[disabled]:hover, .btn-info[disabled]:focus, .btn-info[disabled]:active, .btn-info[disabled].active {
-  color: white;
-  background-color: #5bc0de;
-  border-color: #46b8da;
-}
-/* line 352, sass/global/base/_mixins.scss */
-.btn-info.block {
-  display: block;
-  width: 100%;
-  padding-left: 0;
-  padding-right: 0;
-  text-align: center;
-}
-/* line 360, sass/global/base/_mixins.scss */
-.btn-info::-moz-focus-inner {
-  padding: 0;
-  border: 0;
-}
-
-/* line 10, sass/global/components/_buttons.scss */
-.btn-success {
-  border: 1px solid #cccccc;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  border-radius: 2px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  display: inline-block;
-  *display: inline;
-  zoom: 1;
-  line-height: normal;
-  white-space: nowrap;
-  vertical-align: baseline;
-  text-align: center;
-  cursor: pointer;
-  text-decoration: none;
-  padding: 0.5em 1.5em;
-}
-/* line 325, sass/global/base/_mixins.scss */
-.btn-success:hover, .btn-success.active, .btn-success:focus, .btn-success.focus {
-  color: white;
-  background-color: #4cae4c;
-  border-color: #3d8b3d;
-}
-/* line 331, sass/global/base/_mixins.scss */
-.btn-success:active {
-  -webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15) inset;
-  -moz-box-sizing: 0 0 0 1px rgba(0, 0, 0, 0.15) inset;
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15) inset;
-  background-color: #47a447;
-  border-color: #3d8b3d;
-}
-/* line 338, sass/global/base/_mixins.scss */
-.btn-success.disabled, .btn-success[disabled] {
-  cursor: not-allowed;
-  opacity: 0.6;
-  filter: alpha(opacity=60);
-}
-/* line 345, sass/global/base/_mixins.scss */
-.btn-success.disabled, .btn-success.disabled:hover, .btn-success.disabled:focus, .btn-success.disabled:active, .btn-success.disabled.active, .btn-success[disabled], .btn-success[disabled]:hover, .btn-success[disabled]:focus, .btn-success[disabled]:active, .btn-success[disabled].active {
-  color: white;
-  background-color: #5cb85c;
-  border-color: #4cae4c;
-}
-/* line 352, sass/global/base/_mixins.scss */
-.btn-success.block {
-  display: block;
-  width: 100%;
-  padding-left: 0;
-  padding-right: 0;
-  text-align: center;
-}
-/* line 360, sass/global/base/_mixins.scss */
-.btn-success::-moz-focus-inner {
-  padding: 0;
-  border: 0;
-}
-
-/* line 13, sass/global/components/_buttons.scss */
-.btn-warning {
-  border: 1px solid #cccccc;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  border-radius: 2px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  display: inline-block;
-  *display: inline;
-  zoom: 1;
-  line-height: normal;
-  white-space: nowrap;
-  vertical-align: baseline;
-  text-align: center;
-  cursor: pointer;
-  text-decoration: none;
-  padding: 0.5em 1.5em;
-}
-/* line 325, sass/global/base/_mixins.scss */
-.btn-warning:hover, .btn-warning.active, .btn-warning:focus, .btn-warning.focus {
-  color: white;
-  background-color: #eea236;
-  border-color: #df8a13;
-}
-/* line 331, sass/global/base/_mixins.scss */
-.btn-warning:active {
-  -webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15) inset;
-  -moz-box-sizing: 0 0 0 1px rgba(0, 0, 0, 0.15) inset;
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15) inset;
-  background-color: #ed9c28;
-  border-color: #df8a13;
-}
-/* line 338, sass/global/base/_mixins.scss */
-.btn-warning.disabled, .btn-warning[disabled] {
-  cursor: not-allowed;
-  opacity: 0.6;
-  filter: alpha(opacity=60);
-}
-/* line 345, sass/global/base/_mixins.scss */
-.btn-warning.disabled, .btn-warning.disabled:hover, .btn-warning.disabled:focus, .btn-warning.disabled:active, .btn-warning.disabled.active, .btn-warning[disabled], .btn-warning[disabled]:hover, .btn-warning[disabled]:focus, .btn-warning[disabled]:active, .btn-warning[disabled].active {
-  color: white;
-  background-color: #f0ad4e;
-  border-color: #eea236;
-}
-/* line 352, sass/global/base/_mixins.scss */
-.btn-warning.block {
-  display: block;
-  width: 100%;
-  padding-left: 0;
-  padding-right: 0;
-  text-align: center;
-}
-/* line 360, sass/global/base/_mixins.scss */
-.btn-warning::-moz-focus-inner {
-  padding: 0;
-  border: 0;
-}
-
-/* line 16, sass/global/components/_buttons.scss */
-.btn-error {
-  border: 1px solid #cccccc;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  border-radius: 2px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  display: inline-block;
-  *display: inline;
-  zoom: 1;
-  line-height: normal;
-  white-space: nowrap;
-  vertical-align: baseline;
-  text-align: center;
-  cursor: pointer;
-  text-decoration: none;
-  padding: 0.5em 1.5em;
-}
-/* line 325, sass/global/base/_mixins.scss */
-.btn-error:hover, .btn-error.active, .btn-error:focus, .btn-error.focus {
-  color: white;
-  background-color: #d43f3a;
-  border-color: #b52b27;
-}
-/* line 331, sass/global/base/_mixins.scss */
-.btn-error:active {
-  -webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15) inset;
-  -moz-box-sizing: 0 0 0 1px rgba(0, 0, 0, 0.15) inset;
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15) inset;
-  background-color: #d2322d;
-  border-color: #b52b27;
-}
-/* line 338, sass/global/base/_mixins.scss */
-.btn-error.disabled, .btn-error[disabled] {
-  cursor: not-allowed;
-  opacity: 0.6;
-  filter: alpha(opacity=60);
-}
-/* line 345, sass/global/base/_mixins.scss */
-.btn-error.disabled, .btn-error.disabled:hover, .btn-error.disabled:focus, .btn-error.disabled:active, .btn-error.disabled.active, .btn-error[disabled], .btn-error[disabled]:hover, .btn-error[disabled]:focus, .btn-error[disabled]:active, .btn-error[disabled].active {
-  color: white;
-  background-color: #d9534f;
-  border-color: #d43f3a;
-}
-/* line 352, sass/global/base/_mixins.scss */
-.btn-error.block {
-  display: block;
-  width: 100%;
-  padding-left: 0;
-  padding-right: 0;
-  text-align: center;
-}
-/* line 360, sass/global/base/_mixins.scss */
-.btn-error::-moz-focus-inner {
-  padding: 0;
-  border: 0;
-}
-
 /* line 24, sass/global/components/_buttons.scss */
+.pure-button.pure-button-hidden {
+  display: none;
+}
+/* line 27, sass/global/components/_buttons.scss */
+.pure-button.pure-button-block {
+  display: block;
+}
+/* line 31, sass/global/components/_buttons.scss */
+.pure-button.pure-button-default {
+  background-color: #e6e6e6;
+  color: #333333;
+}
+/* line 35, sass/global/components/_buttons.scss */
+.pure-button.pure-button-primary {
+  background-color: #0078e7;
+  color: white;
+}
+/* line 42, sass/global/components/_buttons.scss */
+.pure-button.pure-button-hover, .pure-button.pure-button:hover, .pure-button.pure-button:focus {
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.05) 40%, rgba(0, 0, 0, 0.1));
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.05) 40%, rgba(0, 0, 0, 0.1));
+  background: -moz-linear-gradient(rgba(0, 0, 0, 0.05) 40%, rgba(0, 0, 0, 0.1));
+  background: linear-gradient(rgba(0, 0, 0, 0.05) 40%, rgba(0, 0, 0, 0.1));
+}
+/* line 49, sass/global/components/_buttons.scss */
+.pure-button.pure-button[disabled], .pure-button.pure-button-disabled, .pure-button.pure-button-disabled:hover, .pure-button.pure-button-disabled:focus, .pure-button.pure-button-disabled:active {
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+  cursor: not-allowed;
+}
+/* line 54, sass/global/components/_buttons.scss */
+.pure-button.pure-button-active, .pure-button.pure-button:active {
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15) inset, 0 0 6px rgba(0, 0, 0, 0.2) inset;
+}
+
+/*
+.btn {
+  @include button($btn-default-text-color, $btn-default-bg-color, $btn-default-border-color);
+}
+.btn-primary {
+  @include button($btn-primary-text-color, $btn-primary-bg-color, $btn-primary-border-color);
+}
+.btn-info {
+  @include button($btn-info-text-color, $btn-info-bg-color, $btn-info-border-color);
+}
+.btn-success {
+  @include button($btn-success-text-color, $btn-success-bg-color, $btn-success-border-color);
+}
+.btn-warning {
+  @include button($btn-warning-text-color, $btn-warning-bg-color, $btn-warning-border-color);
+}
+.btn-error {
+  @include button($btn-error-text-color, $btn-error-bg-color, $btn-error-border-color);
+}
+*/
+/* line 95, sass/global/components/_buttons.scss */
 .btn-hover {
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 26, sass/global/components/_buttons.scss */
+/* line 97, sass/global/components/_buttons.scss */
 .btn-hover:hover {
   opacity: 0.8;
 }
-/* line 29, sass/global/components/_buttons.scss */
+/* line 100, sass/global/components/_buttons.scss */
 .btn-hover.disabled {
   opacity: 0.2;
   filter: alpha(opacity=20);
   cursor: default;
 }
 
-/* line 35, sass/global/components/_buttons.scss */
+/* line 106, sass/global/components/_buttons.scss */
 .btn-nav-control {
   cursor: pointer;
   padding: 15px 10px;
@@ -2190,7 +1945,7 @@ html, button, input, select, textarea,
   color: white;
 }
 
-/* line 48, sass/global/components/_buttons.scss */
+/* line 119, sass/global/components/_buttons.scss */
 .btn-back-to-top {
   cursor: pointer;
   padding: 15px;
@@ -2205,23 +1960,73 @@ html, button, input, select, textarea,
 
 /* line 2, sass/global/components/_menus.scss */
 .breadcrumbs {
-  padding: 10px 15px;
+  padding: 5px 10px;
   border: 1px solid #cccccc;
-  -webkit-border-radius: 0px;
-  -moz-border-radius: 0px;
-  border-radius: 0px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background: -webkit-linear-gradient(white, whitesmoke);
+  background: -o-linear-gradient(white, whitesmoke);
+  background: -moz-linear-gradient(white, whitesmoke);
+  background: linear-gradient(#ffffff, #f5f5f5);
 }
-/* line 5, sass/global/components/_menus.scss */
-.breadcrumbs > li {
+/* line 6, sass/global/components/_menus.scss */
+.breadcrumbs .items {
   display: inline-block;
 }
 /* line 8, sass/global/components/_menus.scss */
-.breadcrumbs > li:last-child em {
+.breadcrumbs .items .separator {
+  margin: 0 10px;
+}
+/* line 13, sass/global/components/_menus.scss */
+.breadcrumbs .items:last-child .separator {
   display: none;
 }
-/* line 12, sass/global/components/_menus.scss */
-.breadcrumbs > li em {
-  margin: 0 5px;
+
+/* line 26, sass/global/components/_menus.scss */
+.menu.menu-horizontal li {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  vertical-align: middle;
+  position: relative;
+  margin: 5px 20px;
+}
+
+/* line 46, sass/global/components/_menus.scss */
+.paginator {
+  /* `pure-g` Grid styles */
+  letter-spacing: -0.31em;
+  /* Webkit: collapse white-space between units */
+  *letter-spacing: normal;
+  /* reset IE < 8 */
+  *word-spacing: -0.43em;
+  /* IE < 8: collapse white-space between units */
+  text-rendering: optimizespeed;
+  /* Webkit: fixes text-rendering: optimizeLegibility */
+  /* `pure-paginator` Specific styles */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 59, sass/global/components/_menus.scss */
+.opera-only :-o-prefocus,
+.paginator {
+  word-spacing: -0.43em;
+}
+
+/* `pure-u` Grid styles */
+/* line 63, sass/global/components/_menus.scss */
+.paginator li {
+  display: inline-block;
+  *display: inline;
+  /* IE < 8: fake inline-block */
+  zoom: 1;
+  letter-spacing: normal;
+  word-spacing: normal;
+  vertical-align: top;
+  text-rendering: auto;
 }
 
 /* ===============  vendor (3rd party css)  =============== */
@@ -4497,98 +4302,6 @@ html, button, input, select, textarea,
   margin-bottom: 15px;
 }
 
-/* code review */
-/* line 37, sass/partials/modules/_module.scss */
-.code {
-  border: 1px solid #cccccc;
-  -webkit-border-radius: 0px;
-  -moz-border-radius: 0px;
-  border-radius: 0px;
-  display: block;
-  text-align: center;
-  word-break: break-all;
-  line-height: 1.6em;
-  padding: 20px;
-}
-/* line 44, sass/partials/modules/_module.scss */
-.code.scrollable {
-  max-height: 360px;
-  overflow-y: scroll;
-}
-/* line 48, sass/partials/modules/_module.scss */
-.code ol, .code ul {
-  text-align: left;
-}
-/* line 51, sass/partials/modules/_module.scss */
-.code .tag {
-  color: #905fdb;
-}
-/* line 54, sass/partials/modules/_module.scss */
-.code .attr {
-  color: #080;
-}
-/* line 57, sass/partials/modules/_module.scss */
-.code .element {
-  color: #f42871;
-}
-/* line 60, sass/partials/modules/_module.scss */
-.code .tab-1 {
-  text-indent: 16px;
-}
-/* line 63, sass/partials/modules/_module.scss */
-.code .tab-2 {
-  text-indent: 32px;
-}
-/* line 66, sass/partials/modules/_module.scss */
-.code .tab-3 {
-  text-indent: 48px;
-}
-/* line 69, sass/partials/modules/_module.scss */
-.code .tab-4 {
-  text-indent: 64px;
-}
-
-/* progress */
-/* line 80, sass/partials/modules/_module.scss */
-.progress {
-  width: 100%;
-  height: 20px;
-  overflow: hidden;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
-  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
-  -moz-box-sizing: inset 0 1px 2px rgba(0, 0, 0, 0.1);
-  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
-}
-/* line 86, sass/partials/modules/_module.scss */
-.progress .bar {
-  float: left;
-  width: 0;
-  height: 100%;
-  background-color: #428bca;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
-  -moz-box-sizing: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
-  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
-  -webkit-transition: width 0.6s ease;
-  transition: width 0.6s ease;
-}
-/* line 95, sass/partials/modules/_module.scss */
-.progress.active .bar {
-  -webkit-background-size: 40px 40px;
-  -moz-background-size: 40px 40px;
-  -o-background-size: 40px 40px;
-  background-size: 40px 40px;
-  -webkit-animation: progress-active 2s linear infinite;
-  -moz-animation: progress-active 2s linear infinite;
-  -ms-animation: progress-active 2s linear infinite;
-  -o-animation: progress-active 2s linear infinite;
-  animation: progress-active 2s linear infinite;
-}
-
 /* ===============  pages (specific page css)  =============== */
 /* line 1, sass/partials/pages/_home-page.scss */
 #home {
@@ -4625,6 +4338,7 @@ html, button, input, select, textarea,
   text-align: center;
   font-size: 3em;
   color: #00dbff;
+  -webkit-user-drag: none;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -4652,26 +4366,39 @@ html, button, input, select, textarea,
   white-space: nowrap;
 }
 
-/* grid page style */
+/* line 12, sass/partials/pages/_simple-page.scss */
+.grids-unit .pure-g {
+  background-color: #eeeeee;
+  margin-bottom: 10px;
+}
 /* line 16, sass/partials/pages/_simple-page.scss */
-.grid .pure-g > div {
-  background: green;
-  text-align: center;
-  color: #ffffff;
-  border-left: solid 1px #000;
-  border-bottom: solid 1px #000;
-  padding: 10px 0;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+.grids-unit .grids-unit-bar {
+  background-color: #006bce;
+  line-height: 36px;
+  color: white;
+  text-indent: 20px;
+}
+
+/* line 24, sass/partials/pages/_simple-page.scss */
+.grid-example .pure-g-r {
+  margin: 0 auto;
+  width: 800px;
+  background-color: #eeeeee;
+}
+/* line 29, sass/partials/pages/_simple-page.scss */
+.grid-example .see-more {
+  text-align: right;
+  margin: 0 auto;
+  width: 800px;
+  margin-top: 20px;
 }
 
 /* carousel page style */
-/* line 30, sass/partials/pages/_simple-page.scss */
+/* line 41, sass/partials/pages/_simple-page.scss */
 .carousel {
   position: relative;
 }
-/* line 32, sass/partials/pages/_simple-page.scss */
+/* line 43, sass/partials/pages/_simple-page.scss */
 .carousel .slidesjs-previous {
   position: absolute;
   bottom: 0px;
@@ -4680,7 +4407,7 @@ html, button, input, select, textarea,
   line-height: 30px;
   color: #ffffff;
 }
-/* line 40, sass/partials/pages/_simple-page.scss */
+/* line 51, sass/partials/pages/_simple-page.scss */
 .carousel .slidesjs-next {
   position: absolute;
   bottom: 0px;
@@ -4689,7 +4416,7 @@ html, button, input, select, textarea,
   line-height: 30px;
   color: #ffffff;
 }
-/* line 48, sass/partials/pages/_simple-page.scss */
+/* line 59, sass/partials/pages/_simple-page.scss */
 .carousel .slidesjs-pagination {
   position: absolute;
   bottom: 0px;
@@ -4700,12 +4427,12 @@ html, button, input, select, textarea,
   background-color: rgba(0, 0, 0, 0.5);
   line-height: 30px;
 }
-/* line 57, sass/partials/pages/_simple-page.scss */
+/* line 68, sass/partials/pages/_simple-page.scss */
 .carousel .slidesjs-pagination > li {
   display: inline-block;
   margin: 0 5px;
 }
-/* line 60, sass/partials/pages/_simple-page.scss */
+/* line 71, sass/partials/pages/_simple-page.scss */
 .carousel .slidesjs-pagination > li a {
   width: 9px;
   height: 9px;
@@ -4720,23 +4447,7 @@ html, button, input, select, textarea,
   overflow: hidden;
   display: block;
 }
-/* line 69, sass/partials/pages/_simple-page.scss */
+/* line 80, sass/partials/pages/_simple-page.scss */
 .carousel .slidesjs-pagination > li a.active {
   background-color: white;
-}
-
-/* layouts page style */
-/* line 86, sass/partials/pages/_simple-page.scss */
-.billboard {
-  height: 400px;
-  background: url("/images/billboard/billboard.jpg") no-repeat;
-  background-size: cover;
-  position: relative;
-}
-/* line 91, sass/partials/pages/_simple-page.scss */
-.billboard .text {
-  position: absolute;
-  left: 15%;
-  top: 100px;
-  color: #ffffff;
 }

@@ -1,3 +1,73 @@
+.pure-button {
+  /* Structure */
+  display: inline-block;
+  *display: inline; /*IE 6/7*/
+  zoom: 1;
+  line-height: normal;
+  white-space: nowrap;
+  vertical-align: baseline;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  @include no-user-select();
+  @include border-radius(2px);
+  font-size: 100%;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  &::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+  }
+  &:focus {
+    outline: 0;
+  }
+  &.pure-button-hidden {
+    display: none;
+  }
+  &.pure-button-block {
+    display: block;
+  }
+
+  &.pure-button-default {
+    background-color: $btn-default-color-bg;
+    color: $btn-default-color-text;
+  }
+  &.pure-button-primary {
+    background-color: $btn-primary-color-bg;
+    color: $btn-primary-color-text;
+  }
+
+  &.pure-button-hover,
+  &.pure-button:hover,
+  &.pure-button:focus {
+    @include bg-v-linear(rgba(0,0,0, 0.05) 40%, rgba(0,0,0, 0.10));
+  }
+  &.pure-button[disabled],
+  &.pure-button-disabled,
+  &.pure-button-disabled:hover,
+  &.pure-button-disabled:focus,
+  &.pure-button-disabled:active {
+    @include opacity(0.4);
+    cursor: not-allowed;
+  }
+  &.pure-button-active,
+  &.pure-button:active {
+    box-shadow: 0 0 0 1px rgba(0,0,0, 0.15) inset, 0 0 6px rgba(0,0,0, 0.20) inset;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 .btn {
   @include button($btn-default-text-color, $btn-default-bg-color, $btn-default-border-color);
 }
@@ -16,6 +86,7 @@
 .btn-error {
   @include button($btn-error-text-color, $btn-error-bg-color, $btn-error-border-color);
 }
+*/
 
 
 
