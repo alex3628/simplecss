@@ -1984,16 +1984,86 @@ html, button, input, select, textarea,
 }
 
 /* line 26, sass/global/components/_menus.scss */
-.menu.menu-horizontal li {
+.menu .item {
+  position: relative;
+}
+/* line 28, sass/global/components/_menus.scss */
+.menu .item > a {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: block;
+  padding: 5px 20px;
+}
+/* line 34, sass/global/components/_menus.scss */
+.menu .item > a:hover {
+  background-color: #eeeeee;
+  color: #333333;
+}
+/* line 41, sass/global/components/_menus.scss */
+.menu .item.active > a, .menu .item:focus > a {
+  background-color: #eeeeee;
+  color: #333333;
+}
+/* line 48, sass/global/components/_menus.scss */
+.menu .item.disabled > a {
+  cursor: default;
+}
+/* line 50, sass/global/components/_menus.scss */
+.menu .item.disabled > a:hover {
+  background: none;
+}
+
+/* line 59, sass/global/components/_menus.scss */
+.menu-h > .item {
   display: inline-block;
   *display: inline;
   zoom: 1;
-  vertical-align: middle;
-  position: relative;
-  margin: 5px 20px;
+  margin-right: 20px;
+}
+/* line 64, sass/global/components/_menus.scss */
+.menu-h > .item:last-child {
+  margin-right: 0;
 }
 
-/* line 46, sass/global/components/_menus.scss */
+/* line 69, sass/global/components/_menus.scss */
+.menu-v {
+  border: 1px solid #cccccc;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  width: 200px;
+}
+
+/* line 77, sass/global/components/_menus.scss */
+.show-level-2-menu:hover .level-2-menu {
+  display: block;
+}
+/* line 81, sass/global/components/_menus.scss */
+.show-level-2-menu .level-2-menu {
+  display: none;
+  width: auto;
+  position: absolute;
+  left: 0;
+  top: 34px;
+  z-index: 2;
+}
+
+/* line 92, sass/global/components/_menus.scss */
+.show-level-3-menu:hover .level-3-menu {
+  display: block;
+}
+/* line 96, sass/global/components/_menus.scss */
+.show-level-3-menu .level-3-menu {
+  display: none;
+  width: auto;
+  position: absolute;
+  left: 111px;
+  top: -35px;
+  z-index: 3;
+}
+
+/* line 114, sass/global/components/_menus.scss */
 .paginator {
   /* `pure-g` Grid styles */
   letter-spacing: -0.31em;
@@ -2010,14 +2080,14 @@ html, button, input, select, textarea,
   padding: 0;
 }
 
-/* line 59, sass/global/components/_menus.scss */
+/* line 127, sass/global/components/_menus.scss */
 .opera-only :-o-prefocus,
 .paginator {
   word-spacing: -0.43em;
 }
 
 /* `pure-u` Grid styles */
-/* line 63, sass/global/components/_menus.scss */
+/* line 131, sass/global/components/_menus.scss */
 .paginator li {
   display: inline-block;
   *display: inline;

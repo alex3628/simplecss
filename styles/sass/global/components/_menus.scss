@@ -23,17 +23,85 @@
 
 // Menus and DropDown list
 .menu {
-  &.menu-horizontal li {
-    display: inline-block;
-    *display: inline;
-    zoom: 1;
-    vertical-align: middle;
+  .item {
     position: relative;
-    margin: 5px 20px;
+    > a {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      display: block;
+      padding: 5px 20px;
+      &:hover {
+        background-color: $bg-color-box;
+        color: $text-color-main;
+      }
+    }
+
+    &.active, &:focus {
+      > a {
+        background-color: $bg-color-box;
+        color: $text-color-main;
+      }
+    }
+
+    &.disabled {
+      > a {
+        cursor: default;
+        &:hover {
+          background: none;
+        }
+      }
+    }
   }
 }
 
+.menu-h {
+  > .item {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    margin-right: 20px;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+.menu-v {
+  @include border();
+  width: 200px;
+}
 
+
+.show-level-2-menu {
+  &:hover {
+    .level-2-menu {
+      display: block;
+    }
+  }
+  .level-2-menu {
+    display: none;
+    width: auto;
+    position: absolute;
+    left: 0;
+    top: 34px;
+    z-index: 2;
+  }
+}
+.show-level-3-menu {
+  &:hover {
+    .level-3-menu {
+      display: block;
+    }
+  }
+  .level-3-menu {
+    display: none;
+    width: auto;
+    position: absolute;
+    left: 111px;
+    top: -35px;
+    z-index: 3;
+  }
+}
 
 
 

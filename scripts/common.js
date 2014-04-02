@@ -7,7 +7,7 @@ document.write(
     '<script src="/scripts/3rdparty/jail.js"></script>' +
     '<script src="/scripts/3rdparty/require.js"></script>' +
     '<script src="/scripts/3rdparty/backToTop.js"></script>' +
-    '<script src="/scripts/pageControllers.js"><\/script>' +
+    '<script src="/scripts/pageControllers....js"><\/script>' +
     '<script src="/scripts/main.js"><\/script>'/* +
     '<script src="http://10.5.30.183:8080/target/target-script-min.js#anonymous"></script>'*/
 );

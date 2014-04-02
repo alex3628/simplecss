@@ -76,8 +76,81 @@
                 </ul>
             </div>
             <div class="box-margin-top">
+                <h3 class="title">Menus</h3>
+
+
+                <div class="box-margin-top">
+                    <p class="lead">Horizontal Menu</p>
+                    <ul class="menu menu-h">
+                        <li class="item"><a href="#">Home</a></li>
+                        <li class="item active"><a href="#">Flickr</a></li>
+                        <li class="item"><a href="#">Messenger</a></li>
+                        <li class="item"><a href="#">Sports</a></li>
+                        <li class="item"><a href="#">Finance</a></li>
+                    </ul>
+                </div>
+
+
+
+                <div class="box-margin-top">
+                    <p class="lead">Disabled Item</p>
+                    <ul class="menu menu-h">
+                        <li class="item"><a href="#">Home</a></li>
+                        <li class="item disabled"><a href="#">Flickr(disabled)</a></li>
+                        <li class="item"><a href="#">Messenger</a></li>
+                        <li class="item"><a href="#">Sports</a></li>
+                        <li class="item"><a href="#">Finance</a></li>
+                    </ul>
+                </div>
+
+
+
+                <div class="box-margin-top">
+                    <p class="lead box-margin-top">Vertical Menu</p>
+                    <ul class="menu menu-v">
+                        <li class="item"><a href="#">Home</a></li>
+                        <li class="item active"><a href="#">Flickr</a></li>
+                        <li class="item"><a href="#">Messenger</a></li>
+                        <li class="item"><a href="#">Sports</a></li>
+                        <li class="item"><a href="#">Finance</a></li>
+                        <li class="item disabled"><a href="javascript:void(0);">Second(disabled)</a></li>
+                        <li class="item"><a href="#">Finance</a></li>
+                    </ul>
+                </div>
+
+
+
+                <div class="box-margin-top">
+                    <p class="lead box-margin-top">Dropdown List</p>
+                    <ul class="menu menu-h">
+                        <li class="item"><a href="#">Home</a></li>
+                        <li class="item active"><a href="#">Flickr</a></li>
+                        <li class="item"><a href="#">Messenger</a></li>
+                        <li class="item show-level-2-menu">
+                            <a href="#">Sports <i class="fa fa-caret-down"></i></a>
+                            <ul class="level-2-menu menu-v">
+                                <li class="item"><a href="#">Home</a></li>
+                                <li class="item"><a href="#">Messenger</a></li>
+                                <li class="item show-level-3-menu">
+                                    <a href="#">Finance <i class="fa fa-caret-right"></i></a>
+                                    <ul class="level-3-menu menu-v">
+                                        <li class="item"><a href="#">Home1</a></li>
+                                        <li class="item"><a href="#">Messenger2</a></li>
+                                        <li class="item"><a href="#">Flickr3</a></li>
+                                    </ul>
+                                </li>
+                                <li class="item"><a href="#">Flickr</a></li>
+                            </ul>
+                        </li>
+                        <li class="item"><a href="#">Finance</a></li>
+                    </ul>
+                </div>
+
+
+            </div>
+            <div class="box-margin-top" style="margin-top: 200px">
                 <p class="title">Paginators</p>
-                <ul class="paginator">
+                <ul class="paginator align-c">
                     <li><a class="pure-button" href="#">&#171;</a></li>
                     <li><a class="pure-button" href="#">1</a></li>
                     <li><a class="pure-button pure-button-active" href="#">2</a></li>
@@ -86,18 +159,6 @@
                     <li><a class="pure-button" href="#">5</a></li>
                     <li><a class="pure-button" href="#">&#187;</a></li>
                 </ul>
-            </div>
-            <div class="box-margin-top">
-                <p class="title">Menus</p>
-                <div class="menu menu-horizontal">
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li class="pure-menu-selected"><a href="#">Flickr</a></li>
-                        <li><a href="#">Messenger</a></li>
-                        <li><a href="#">Sports</a></li>
-                        <li><a href="#">Finance</a></li>
-                    </ul>
-                </div>
             </div>
         </article>
         <footer id="footer">{{footer}}</footer>
