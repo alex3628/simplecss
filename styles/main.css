@@ -1,6 +1,6 @@
 /** _:IE6; *:IE6.7; \9:IE6.7.8; -ms-:Microsoft(Trident引擎); -moz-:Firfox(Gecko引擎); -webkit-:Chrome,Safari(Webkit引擎); -o-:Opera(Presto引擎); **/
-/* ==========================================================================   Global CSS   ========================================================================== */
-/* ===============  reset (Reset Different browsers classes)  =============== */
+/* =====================================   Global CSS   ===================================== */
+/* reset (Reset Different browsers classes) */
 /*
 YUI 3.15.0 (build 834026e)
 Copyright 2014 Yahoo! Inc. All rights reserved.
@@ -932,7 +932,7 @@ tt {
   font-style: normal;
 }
 
-/* ===============  base (declarations that don't produce any css)  =============== */
+/* base (declarations that don't produce any css) */
 /* ==========================================================================
    Global Variable
    ========================================================================== */
@@ -958,7 +958,7 @@ tt {
   background-position: 0 0;
 }
 
-/* ===============  layout (layout components can be re-used)  =============== */
+/* layout (layout components can be re-used) */
 /* ==========================================================================
    layout css
    ========================================================================== */
@@ -1075,7 +1075,7 @@ img.responsive {
     width: 90%;
   }
 }*/
-/* ===============  components (components css)  =============== */
+/* components (components css) */
 /* ==========================================================================
    typography css
    ========================================================================== */
@@ -2099,7 +2099,7 @@ html, button, input, select, textarea,
   text-rendering: auto;
 }
 
-/* ===============  vendor (3rd party css)  =============== */
+/* vendor (3rd party css) */
 /*
  *  Font Awesome 4.0.3 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
@@ -4205,8 +4205,8 @@ html, button, input, select, textarea,
   content: "\f196";
 }
 
-/* ==========================================================================   partials CSS   ========================================================================== */
-/* ===============  modules (common modules css)  =============== */
+/* =====================================   partials CSS   ===================================== */
+/* modules (common modules css) */
 @-webkit-keyframes changeOpacity {
   /* line 3, sass/partials/modules/_animation.scss */
   from {
@@ -4372,7 +4372,7 @@ html, button, input, select, textarea,
   margin-bottom: 15px;
 }
 
-/* ===============  pages (specific page css)  =============== */
+/* pages (specific page css) */
 /* line 1, sass/partials/pages/_home-page.scss */
 #home {
   width: 100%;
@@ -4428,7 +4428,7 @@ html, button, input, select, textarea,
   text-align: center;
 }
 /* line 4, sass/partials/pages/_simple-page.scss */
-.category .pure-u-1-8 {
+.category > div {
   padding: 1em 0;
   color: white;
   overflow: hidden;

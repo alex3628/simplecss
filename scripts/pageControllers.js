@@ -25,12 +25,8 @@ function pageCtrl($scope) {
             "link": "/simple/icons.html"
         },
         {
-            "name": "Carousel",
-            "link": "/simple/carousel.html"
-        },
-        {
-            "name": "Compass",
-            "link": "/simple/compass.html"
+            "name": "Component",
+            "link": "/simple/Component.html"
         }
     ];
     $scope.about = {
@@ -72,7 +68,3 @@ function pageCtrl($scope) {
 
     $scope.footer = '@ 2013 AKQA SH TECHNOLOGY';
 }
-// replace the sayHello method
-Student.prototype.sayHello = function(){
-    alert('hi, I am a student');
-};

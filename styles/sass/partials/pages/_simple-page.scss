@@ -1,7 +1,7 @@
 //  about page category style
 .category {
   text-align: center;
-  .pure-u-1-8 {
+  > div {
     padding: 1em 0;
     color: $color-white;
     @include text-overflow();
