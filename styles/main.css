@@ -958,7 +958,7 @@ tt {
   background-position: 0 0;
 }
 
-/* layout (layout components can be re-used) */
+/* layout (layout  can be re-used) */
 /* ==========================================================================
    layout css
    ========================================================================== */
@@ -1075,156 +1075,156 @@ img.responsive {
     width: 90%;
   }
 }*/
-/* components (components css) */
+/* simple (simple css) */
 /* ==========================================================================
    typography css
    ========================================================================== */
 /* default font size and line height */
-/* line 6, sass/global/components/_typography.scss */
+/* line 6, sass/global/simple/_typography.scss */
 body {
   font: 16px/1.5 'omnes';
 }
 
 /* link */
-/* line 12, sass/global/components/_typography.scss */
+/* line 12, sass/global/simple/_typography.scss */
 a {
   color: #333333;
   text-decoration: none;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
-/* line 20, sass/global/components/_typography.scss */
+/* line 20, sass/global/simple/_typography.scss */
 a:hover, a:focus, a:active, a.active, a.link {
   color: #00dbff;
 }
-/* line 23, sass/global/components/_typography.scss */
+/* line 23, sass/global/simple/_typography.scss */
 a.link {
   text-decoration: underline;
 }
 
 /* text */
-/* line 32, sass/global/components/_typography.scss */
+/* line 32, sass/global/simple/_typography.scss */
 p:last-child {
   margin-bottom: 0;
 }
 
-/* line 36, sass/global/components/_typography.scss */
+/* line 36, sass/global/simple/_typography.scss */
 .text-margin-top {
   margin-top: 10px;
 }
 
-/* line 39, sass/global/components/_typography.scss */
+/* line 39, sass/global/simple/_typography.scss */
 .text-margin-bottom, p {
   margin-bottom: 10px;
 }
 
-/* line 42, sass/global/components/_typography.scss */
+/* line 42, sass/global/simple/_typography.scss */
 .text-shadow {
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
 }
 
 /* box */
-/* line 49, sass/global/components/_typography.scss */
+/* line 49, sass/global/simple/_typography.scss */
 .box-margin {
   margin: 50px 0;
 }
 
-/* line 52, sass/global/components/_typography.scss */
+/* line 52, sass/global/simple/_typography.scss */
 .box-margin-top {
   margin-top: 50px;
 }
 
-/* line 55, sass/global/components/_typography.scss */
+/* line 55, sass/global/simple/_typography.scss */
 .box-margin-bottom {
   margin-bottom: 50px;
 }
 
 /* font size */
-/* line 64, sass/global/components/_typography.scss */
+/* line 64, sass/global/simple/_typography.scss */
 .xxlarge, header.about .headline {
   font-size: 6em;
 }
 
-/* line 67, sass/global/components/_typography.scss */
+/* line 67, sass/global/simple/_typography.scss */
 .xlarge, .headline {
   font-size: 3.6em;
 }
 
-/* line 70, sass/global/components/_typography.scss */
+/* line 70, sass/global/simple/_typography.scss */
 .large, .describe {
   font-size: 2em;
 }
 
-/* line 73, sass/global/components/_typography.scss */
+/* line 73, sass/global/simple/_typography.scss */
 .medium, .title {
   font-size: 1.4em;
 }
 
-/* line 76, sass/global/components/_typography.scss */
+/* line 76, sass/global/simple/_typography.scss */
 .regular {
   font-size: 1em;
 }
 
-/* line 79, sass/global/components/_typography.scss */
+/* line 79, sass/global/simple/_typography.scss */
 .small {
   font-size: 0.8em;
 }
 
-/* line 82, sass/global/components/_typography.scss */
+/* line 82, sass/global/simple/_typography.scss */
 .xsmall {
   font-size: 0.6em;
 }
 
 /* font type */
-/* line 93, sass/global/components/_typography.scss */
+/* line 93, sass/global/simple/_typography.scss */
 .describe {
   font-size: 1.8em;
   color: #999999;
   margin-top: 30px;
 }
 
-/* line 99, sass/global/components/_typography.scss */
+/* line 99, sass/global/simple/_typography.scss */
 .title {
   font-weight: bold;
 }
 
-/* line 103, sass/global/components/_typography.scss */
+/* line 103, sass/global/simple/_typography.scss */
 .lead {
   color: black;
 }
 
 /* font color */
-/* line 109, sass/global/components/_typography.scss */
+/* line 109, sass/global/simple/_typography.scss */
 .color-stress {
   color: black;
 }
 
-/* line 113, sass/global/components/_typography.scss */
+/* line 113, sass/global/simple/_typography.scss */
 .color-primary {
   color: #428bca;
 }
 
-/* line 116, sass/global/components/_typography.scss */
+/* line 116, sass/global/simple/_typography.scss */
 .color-success {
   color: #5cb85c;
 }
 
-/* line 119, sass/global/components/_typography.scss */
+/* line 119, sass/global/simple/_typography.scss */
 .color-info {
   color: #5bc0de;
 }
 
-/* line 122, sass/global/components/_typography.scss */
+/* line 122, sass/global/simple/_typography.scss */
 .color-warning {
   color: #f0ad4e;
 }
 
-/* line 125, sass/global/components/_typography.scss */
+/* line 125, sass/global/simple/_typography.scss */
 .color-error {
   color: #d9534f;
 }
 
 /* clear */
-/* line 131, sass/global/components/_typography.scss */
+/* line 131, sass/global/simple/_typography.scss */
 .clearfix {
   zoom: 1;
   *overflow: hidden;
@@ -1240,7 +1240,7 @@ p:last-child {
   visibility: hidden;
 }
 
-/* line 134, sass/global/components/_typography.scss */
+/* line 134, sass/global/simple/_typography.scss */
 .clearboth {
   font: 0px/0px sans-serif;
   clear: both;
@@ -1249,61 +1249,61 @@ p:last-child {
 }
 
 /* float */
-/* line 146, sass/global/components/_typography.scss */
+/* line 146, sass/global/simple/_typography.scss */
 .float-l {
   float: left;
 }
 
-/* line 149, sass/global/components/_typography.scss */
+/* line 149, sass/global/simple/_typography.scss */
 .float-r {
   float: right;
 }
 
-/* line 152, sass/global/components/_typography.scss */
+/* line 152, sass/global/simple/_typography.scss */
 .float-n {
   float: none;
 }
 
 /* text align */
-/* line 162, sass/global/components/_typography.scss */
+/* line 162, sass/global/simple/_typography.scss */
 .align-l {
   text-align: left;
 }
 
-/* line 165, sass/global/components/_typography.scss */
+/* line 165, sass/global/simple/_typography.scss */
 .align-r {
   text-align: right;
 }
 
-/* line 168, sass/global/components/_typography.scss */
+/* line 168, sass/global/simple/_typography.scss */
 .align-c {
   text-align: center;
 }
 
-/* line 171, sass/global/components/_typography.scss */
+/* line 171, sass/global/simple/_typography.scss */
 .align-j {
   text-align: justify;
 }
 
 /* hide and show */
-/* line 181, sass/global/components/_typography.scss */
+/* line 181, sass/global/simple/_typography.scss */
 .hidden {
   display: none;
   visibility: hidden;
 }
 
-/* line 185, sass/global/components/_typography.scss */
+/* line 185, sass/global/simple/_typography.scss */
 .shown {
   display: block;
   visibility: visible;
 }
 
 /* display table */
-/* line 194, sass/global/components/_typography.scss */
+/* line 194, sass/global/simple/_typography.scss */
 .display-table {
   display: table;
 }
-/* line 196, sass/global/components/_typography.scss */
+/* line 196, sass/global/simple/_typography.scss */
 .display-table .display-table-cell {
   display: table-cell;
   vertical-align: middle;
@@ -1311,40 +1311,40 @@ p:last-child {
 }
 
 /* list */
-/* line 208, sass/global/components/_typography.scss */
+/* line 208, sass/global/simple/_typography.scss */
 ul > ul, ul ol, ol > ul, ol ol, dl > ul, dl ol {
   padding: 10px 0 10px 20px;
 }
 
-/* line 213, sass/global/components/_typography.scss */
+/* line 213, sass/global/simple/_typography.scss */
 ul.ordered li, ol.ordered li {
   list-style-type: decimal;
 }
-/* line 215, sass/global/components/_typography.scss */
+/* line 215, sass/global/simple/_typography.scss */
 ul.ordered li li, ol.ordered li li {
   list-style-type: lower-alpha;
 }
 
-/* line 221, sass/global/components/_typography.scss */
+/* line 221, sass/global/simple/_typography.scss */
 ul.unordered li, ol.unordered li {
   list-style-type: disc;
 }
-/* line 223, sass/global/components/_typography.scss */
+/* line 223, sass/global/simple/_typography.scss */
 ul.unordered li li, ol.unordered li li {
   list-style-type: square;
 }
 
-/* line 229, sass/global/components/_typography.scss */
+/* line 229, sass/global/simple/_typography.scss */
 ul.list-inline > li, ol.list-inline > li, dl.list-inline > li {
   display: inline-block;
 }
-/* line 233, sass/global/components/_typography.scss */
+/* line 233, sass/global/simple/_typography.scss */
 ul.list-inline > dt, ul.list-inline dd, ol.list-inline > dt, ol.list-inline dd, dl.list-inline > dt, dl.list-inline dd {
   display: inline-block;
 }
 
 /* progress */
-/* line 244, sass/global/components/_typography.scss */
+/* line 244, sass/global/simple/_typography.scss */
 .progress {
   width: 100%;
   height: 20px;
@@ -1356,7 +1356,7 @@ ul.list-inline > dt, ul.list-inline dd, ol.list-inline > dt, ol.list-inline dd, 
   -moz-box-sizing: inset 0 1px 2px rgba(0, 0, 0, 0.1);
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
 }
-/* line 250, sass/global/components/_typography.scss */
+/* line 250, sass/global/simple/_typography.scss */
 .progress .bar {
   color: white;
   text-align: center;
@@ -1375,7 +1375,7 @@ Licensed under the BSD License.
 https://github.com/yui/pure/blob/master/LICENSE.md
 */
 /*csslint regex-selectors:false, known-properties:false, duplicate-properties:false*/
-/* line 9, sass/global/components/_grids.scss */
+/* line 9, sass/global/simple/_grids.scss */
 .pure-g {
   letter-spacing: -0.31em;
   /* Webkit: collapse white-space between units */
@@ -1419,13 +1419,13 @@ https://github.com/yui/pure/blob/master/LICENSE.md
    The ".opera-only" selector is used to prevent actual prefocus styling
    and is not required in markup.
 */
-/* line 53, sass/global/components/_grids.scss */
+/* line 53, sass/global/simple/_grids.scss */
 .opera-only :-o-prefocus,
 .pure-g {
   word-spacing: -0.43em;
 }
 
-/* line 57, sass/global/components/_grids.scss */
+/* line 57, sass/global/simple/_grids.scss */
 .pure-u {
   display: inline-block;
   *display: inline;
@@ -1441,12 +1441,12 @@ https://github.com/yui/pure/blob/master/LICENSE.md
 Resets the font family back to the OS/browser's default sans-serif font,
 this the same font stack that Normalize.css sets for the `body`.
 */
-/* line 71, sass/global/components/_grids.scss */
+/* line 71, sass/global/simple/_grids.scss */
 .pure-g [class*="pure-u"] {
   font-family: sans-serif;
 }
 
-/* line 120, sass/global/components/_grids.scss */
+/* line 120, sass/global/simple/_grids.scss */
 .pure-u-1,
 .pure-u-1-1,
 .pure-u-1-2,
@@ -1502,184 +1502,184 @@ this the same font stack that Normalize.css sets for the `body`.
   text-rendering: auto;
 }
 
-/* line 130, sass/global/components/_grids.scss */
+/* line 130, sass/global/simple/_grids.scss */
 .pure-u-1-24 {
   width: 4.1667%;
   *width: 4.1357%;
 }
 
-/* line 136, sass/global/components/_grids.scss */
+/* line 136, sass/global/simple/_grids.scss */
 .pure-u-1-12,
 .pure-u-2-24 {
   width: 8.3333%;
   *width: 8.3023%;
 }
 
-/* line 142, sass/global/components/_grids.scss */
+/* line 142, sass/global/simple/_grids.scss */
 .pure-u-1-8,
 .pure-u-3-24 {
   width: 12.5000%;
   *width: 12.4690%;
 }
 
-/* line 148, sass/global/components/_grids.scss */
+/* line 148, sass/global/simple/_grids.scss */
 .pure-u-1-6,
 .pure-u-4-24 {
   width: 16.6667%;
   *width: 16.6357%;
 }
 
-/* line 153, sass/global/components/_grids.scss */
+/* line 153, sass/global/simple/_grids.scss */
 .pure-u-1-5 {
   width: 20%;
   *width: 19.9690%;
 }
 
-/* line 158, sass/global/components/_grids.scss */
+/* line 158, sass/global/simple/_grids.scss */
 .pure-u-5-24 {
   width: 20.8333%;
   *width: 20.8023%;
 }
 
-/* line 164, sass/global/components/_grids.scss */
+/* line 164, sass/global/simple/_grids.scss */
 .pure-u-1-4,
 .pure-u-6-24 {
   width: 25%;
   *width: 24.9690%;
 }
 
-/* line 169, sass/global/components/_grids.scss */
+/* line 169, sass/global/simple/_grids.scss */
 .pure-u-7-24 {
   width: 29.1667%;
   *width: 29.1357%;
 }
 
-/* line 175, sass/global/components/_grids.scss */
+/* line 175, sass/global/simple/_grids.scss */
 .pure-u-1-3,
 .pure-u-8-24 {
   width: 33.3333%;
   *width: 33.3023%;
 }
 
-/* line 181, sass/global/components/_grids.scss */
+/* line 181, sass/global/simple/_grids.scss */
 .pure-u-3-8,
 .pure-u-9-24 {
   width: 37.5000%;
   *width: 37.4690%;
 }
 
-/* line 186, sass/global/components/_grids.scss */
+/* line 186, sass/global/simple/_grids.scss */
 .pure-u-2-5 {
   width: 40%;
   *width: 39.9690%;
 }
 
-/* line 192, sass/global/components/_grids.scss */
+/* line 192, sass/global/simple/_grids.scss */
 .pure-u-5-12,
 .pure-u-10-24 {
   width: 41.6667%;
   *width: 41.6357%;
 }
 
-/* line 197, sass/global/components/_grids.scss */
+/* line 197, sass/global/simple/_grids.scss */
 .pure-u-11-24 {
   width: 45.8333%;
   *width: 45.8023%;
 }
 
-/* line 203, sass/global/components/_grids.scss */
+/* line 203, sass/global/simple/_grids.scss */
 .pure-u-1-2,
 .pure-u-12-24 {
   width: 50%;
   *width: 49.9690%;
 }
 
-/* line 208, sass/global/components/_grids.scss */
+/* line 208, sass/global/simple/_grids.scss */
 .pure-u-13-24 {
   width: 54.1667%;
   *width: 54.1357%;
 }
 
-/* line 214, sass/global/components/_grids.scss */
+/* line 214, sass/global/simple/_grids.scss */
 .pure-u-7-12,
 .pure-u-14-24 {
   width: 58.3333%;
   *width: 58.3023%;
 }
 
-/* line 219, sass/global/components/_grids.scss */
+/* line 219, sass/global/simple/_grids.scss */
 .pure-u-3-5 {
   width: 60%;
   *width: 59.9690%;
 }
 
-/* line 225, sass/global/components/_grids.scss */
+/* line 225, sass/global/simple/_grids.scss */
 .pure-u-5-8,
 .pure-u-15-24 {
   width: 62.5000%;
   *width: 62.4690%;
 }
 
-/* line 231, sass/global/components/_grids.scss */
+/* line 231, sass/global/simple/_grids.scss */
 .pure-u-2-3,
 .pure-u-16-24 {
   width: 66.6667%;
   *width: 66.6357%;
 }
 
-/* line 236, sass/global/components/_grids.scss */
+/* line 236, sass/global/simple/_grids.scss */
 .pure-u-17-24 {
   width: 70.8333%;
   *width: 70.8023%;
 }
 
-/* line 242, sass/global/components/_grids.scss */
+/* line 242, sass/global/simple/_grids.scss */
 .pure-u-3-4,
 .pure-u-18-24 {
   width: 75%;
   *width: 74.9690%;
 }
 
-/* line 247, sass/global/components/_grids.scss */
+/* line 247, sass/global/simple/_grids.scss */
 .pure-u-19-24 {
   width: 79.1667%;
   *width: 79.1357%;
 }
 
-/* line 252, sass/global/components/_grids.scss */
+/* line 252, sass/global/simple/_grids.scss */
 .pure-u-4-5 {
   width: 80%;
   *width: 79.9690%;
 }
 
-/* line 258, sass/global/components/_grids.scss */
+/* line 258, sass/global/simple/_grids.scss */
 .pure-u-5-6,
 .pure-u-20-24 {
   width: 83.3333%;
   *width: 83.3023%;
 }
 
-/* line 264, sass/global/components/_grids.scss */
+/* line 264, sass/global/simple/_grids.scss */
 .pure-u-7-8,
 .pure-u-21-24 {
   width: 87.5000%;
   *width: 87.4690%;
 }
 
-/* line 270, sass/global/components/_grids.scss */
+/* line 270, sass/global/simple/_grids.scss */
 .pure-u-11-12,
 .pure-u-22-24 {
   width: 91.6667%;
   *width: 91.6357%;
 }
 
-/* line 275, sass/global/components/_grids.scss */
+/* line 275, sass/global/simple/_grids.scss */
 .pure-u-23-24 {
   width: 95.8333%;
   *width: 95.8023%;
 }
 
-/* line 283, sass/global/components/_grids.scss */
+/* line 283, sass/global/simple/_grids.scss */
 .pure-u-1,
 .pure-u-1-1,
 .pure-u-5-5,
@@ -1688,7 +1688,7 @@ this the same font stack that Normalize.css sets for the `body`.
 }
 
 /*csslint regex-selectors:false, known-properties:false, duplicate-properties:false*/
-/* line 288, sass/global/components/_grids.scss */
+/* line 288, sass/global/simple/_grids.scss */
 .pure-g-r {
   letter-spacing: -0.31em;
   *letter-spacing: normal;
@@ -1727,7 +1727,7 @@ this the same font stack that Normalize.css sets for the `body`.
    The ".opera-only" selector is used to prevent actual prefocus styling
    and is not required in markup.
 */
-/* line 331, sass/global/components/_grids.scss */
+/* line 331, sass/global/simple/_grids.scss */
 .opera-only :-o-prefocus,
 .pure-g-r {
   word-spacing: -0.43em;
@@ -1737,64 +1737,64 @@ this the same font stack that Normalize.css sets for the `body`.
 Resets the font family back to the OS/browser's default sans-serif font,
 this the same font stack that Normalize.css sets for the `body`.
 */
-/* line 339, sass/global/components/_grids.scss */
+/* line 339, sass/global/simple/_grids.scss */
 .pure-g-r [class*="pure-u"] {
   font-family: sans-serif;
 }
 
-/* line 343, sass/global/components/_grids.scss */
+/* line 343, sass/global/simple/_grids.scss */
 .pure-g-r img {
   max-width: 100%;
   height: auto;
 }
 
 @media (min-width: 980px) {
-  /* line 351, sass/global/components/_grids.scss */
+  /* line 351, sass/global/simple/_grids.scss */
   .pure-visible-phone {
     display: none;
   }
 
-  /* line 354, sass/global/components/_grids.scss */
+  /* line 354, sass/global/simple/_grids.scss */
   .pure-visible-tablet {
     display: none;
   }
 
-  /* line 357, sass/global/components/_grids.scss */
+  /* line 357, sass/global/simple/_grids.scss */
   .pure-hidden-desktop {
     display: none;
   }
 }
 @media (max-width: 480px) {
-  /* line 364, sass/global/components/_grids.scss */
+  /* line 364, sass/global/simple/_grids.scss */
   .pure-g-r > .pure-u,
   .pure-g-r > [class*="pure-u-"] {
     width: 100%;
   }
 }
 @media (max-width: 767px) {
-  /* line 371, sass/global/components/_grids.scss */
+  /* line 371, sass/global/simple/_grids.scss */
   .pure-g-r > .pure-u,
   .pure-g-r > [class*="pure-u-"] {
     width: 100%;
   }
 
-  /* line 374, sass/global/components/_grids.scss */
+  /* line 374, sass/global/simple/_grids.scss */
   .pure-hidden-phone {
     display: none;
   }
 
-  /* line 377, sass/global/components/_grids.scss */
+  /* line 377, sass/global/simple/_grids.scss */
   .pure-visible-desktop {
     display: none;
   }
 }
 @media (min-width: 768px) and (max-width: 979px) {
-  /* line 383, sass/global/components/_grids.scss */
+  /* line 383, sass/global/simple/_grids.scss */
   .pure-hidden-tablet {
     display: none;
   }
 
-  /* line 386, sass/global/components/_grids.scss */
+  /* line 386, sass/global/simple/_grids.scss */
   .pure-visible-desktop {
     display: none;
   }
@@ -1804,7 +1804,7 @@ When setting the primary font stack, apply it to the Pure grid units along
 with `html`, `button`, `input`, `select`, and `textarea`. Pure Grids use
 specific font stacks to ensure the greatest OS/browser compatibility.
 */
-/* line 400, sass/global/components/_grids.scss */
+/* line 400, sass/global/simple/_grids.scss */
 html, button, input, select, textarea,
 .pure-g [class*="pure-u"],
 .pure-g-r [class*="pure-u"] {
@@ -1813,19 +1813,19 @@ html, button, input, select, textarea,
   font-family: 'omnes';
 }
 
-/* line 408, sass/global/components/_grids.scss */
+/* line 408, sass/global/simple/_grids.scss */
 .pure-g > div {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 413, sass/global/components/_grids.scss */
+/* line 413, sass/global/simple/_grids.scss */
 .l-box {
   padding: 20px;
 }
 
-/* line 1, sass/global/components/_buttons.scss */
+/* line 1, sass/global/simple/_buttons.scss */
 .pure-button {
   /* Structure */
   display: inline-block;
@@ -1850,47 +1850,47 @@ html, button, input, select, textarea,
   padding: 0.5em 1em;
   text-decoration: none;
 }
-/* line 17, sass/global/components/_buttons.scss */
+/* line 17, sass/global/simple/_buttons.scss */
 .pure-button::-moz-focus-inner {
   padding: 0;
   border: 0;
 }
-/* line 21, sass/global/components/_buttons.scss */
+/* line 21, sass/global/simple/_buttons.scss */
 .pure-button:focus {
   outline: 0;
 }
-/* line 24, sass/global/components/_buttons.scss */
+/* line 24, sass/global/simple/_buttons.scss */
 .pure-button.pure-button-hidden {
   display: none;
 }
-/* line 27, sass/global/components/_buttons.scss */
+/* line 27, sass/global/simple/_buttons.scss */
 .pure-button.pure-button-block {
   display: block;
 }
-/* line 31, sass/global/components/_buttons.scss */
+/* line 31, sass/global/simple/_buttons.scss */
 .pure-button.pure-button-default {
   background-color: #e6e6e6;
   color: #333333;
 }
-/* line 35, sass/global/components/_buttons.scss */
+/* line 35, sass/global/simple/_buttons.scss */
 .pure-button.pure-button-primary {
   background-color: #0078e7;
   color: white;
 }
-/* line 42, sass/global/components/_buttons.scss */
+/* line 42, sass/global/simple/_buttons.scss */
 .pure-button.pure-button-hover, .pure-button.pure-button:hover, .pure-button.pure-button:focus {
   background: -webkit-linear-gradient(rgba(0, 0, 0, 0.05) 40%, rgba(0, 0, 0, 0.1));
   background: -o-linear-gradient(rgba(0, 0, 0, 0.05) 40%, rgba(0, 0, 0, 0.1));
   background: -moz-linear-gradient(rgba(0, 0, 0, 0.05) 40%, rgba(0, 0, 0, 0.1));
   background: linear-gradient(rgba(0, 0, 0, 0.05) 40%, rgba(0, 0, 0, 0.1));
 }
-/* line 49, sass/global/components/_buttons.scss */
+/* line 49, sass/global/simple/_buttons.scss */
 .pure-button.pure-button[disabled], .pure-button.pure-button-disabled, .pure-button.pure-button-disabled:hover, .pure-button.pure-button-disabled:focus, .pure-button.pure-button-disabled:active {
   opacity: 0.4;
   filter: alpha(opacity=40);
   cursor: not-allowed;
 }
-/* line 54, sass/global/components/_buttons.scss */
+/* line 54, sass/global/simple/_buttons.scss */
 .pure-button.pure-button-active, .pure-button.pure-button:active {
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15) inset, 0 0 6px rgba(0, 0, 0, 0.2) inset;
 }
@@ -1915,23 +1915,23 @@ html, button, input, select, textarea,
   @include button($btn-error-text-color, $btn-error-bg-color, $btn-error-border-color);
 }
 */
-/* line 95, sass/global/components/_buttons.scss */
+/* line 95, sass/global/simple/_buttons.scss */
 .btn-hover {
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 97, sass/global/components/_buttons.scss */
+/* line 97, sass/global/simple/_buttons.scss */
 .btn-hover:hover {
   opacity: 0.8;
 }
-/* line 100, sass/global/components/_buttons.scss */
+/* line 100, sass/global/simple/_buttons.scss */
 .btn-hover.disabled {
   opacity: 0.2;
   filter: alpha(opacity=20);
   cursor: default;
 }
 
-/* line 106, sass/global/components/_buttons.scss */
+/* line 106, sass/global/simple/_buttons.scss */
 .btn-nav-control {
   cursor: pointer;
   padding: 15px 10px;
@@ -1945,7 +1945,7 @@ html, button, input, select, textarea,
   color: white;
 }
 
-/* line 119, sass/global/components/_buttons.scss */
+/* line 119, sass/global/simple/_buttons.scss */
 .btn-back-to-top {
   cursor: pointer;
   padding: 15px;
@@ -1958,7 +1958,7 @@ html, button, input, select, textarea,
   color: white;
 }
 
-/* line 2, sass/global/components/_menus.scss */
+/* line 2, sass/global/simple/_menus.scss */
 .breadcrumbs {
   padding: 5px 10px;
   border: 1px solid #cccccc;
@@ -1970,24 +1970,24 @@ html, button, input, select, textarea,
   background: -moz-linear-gradient(white, whitesmoke);
   background: linear-gradient(#ffffff, #f5f5f5);
 }
-/* line 6, sass/global/components/_menus.scss */
+/* line 6, sass/global/simple/_menus.scss */
 .breadcrumbs .items {
   display: inline-block;
 }
-/* line 8, sass/global/components/_menus.scss */
+/* line 8, sass/global/simple/_menus.scss */
 .breadcrumbs .items .separator {
   margin: 0 10px;
 }
-/* line 13, sass/global/components/_menus.scss */
+/* line 13, sass/global/simple/_menus.scss */
 .breadcrumbs .items:last-child .separator {
   display: none;
 }
 
-/* line 26, sass/global/components/_menus.scss */
+/* line 26, sass/global/simple/_menus.scss */
 .menu .item {
   position: relative;
 }
-/* line 28, sass/global/components/_menus.scss */
+/* line 28, sass/global/simple/_menus.scss */
 .menu .item > a {
   overflow: hidden;
   text-overflow: ellipsis;
@@ -1995,38 +1995,38 @@ html, button, input, select, textarea,
   display: block;
   padding: 5px 20px;
 }
-/* line 34, sass/global/components/_menus.scss */
+/* line 34, sass/global/simple/_menus.scss */
 .menu .item > a:hover {
   background-color: #eeeeee;
   color: #333333;
 }
-/* line 41, sass/global/components/_menus.scss */
+/* line 41, sass/global/simple/_menus.scss */
 .menu .item.active > a, .menu .item:focus > a {
   background-color: #eeeeee;
   color: #333333;
 }
-/* line 48, sass/global/components/_menus.scss */
+/* line 48, sass/global/simple/_menus.scss */
 .menu .item.disabled > a {
   cursor: default;
 }
-/* line 50, sass/global/components/_menus.scss */
+/* line 50, sass/global/simple/_menus.scss */
 .menu .item.disabled > a:hover {
   background: none;
 }
 
-/* line 59, sass/global/components/_menus.scss */
+/* line 59, sass/global/simple/_menus.scss */
 .menu-h > .item {
   display: inline-block;
   *display: inline;
   zoom: 1;
   margin-right: 20px;
 }
-/* line 64, sass/global/components/_menus.scss */
+/* line 64, sass/global/simple/_menus.scss */
 .menu-h > .item:last-child {
   margin-right: 0;
 }
 
-/* line 69, sass/global/components/_menus.scss */
+/* line 69, sass/global/simple/_menus.scss */
 .menu-v {
   border: 1px solid #cccccc;
   -webkit-border-radius: 0px;
@@ -2035,11 +2035,11 @@ html, button, input, select, textarea,
   width: 200px;
 }
 
-/* line 77, sass/global/components/_menus.scss */
+/* line 77, sass/global/simple/_menus.scss */
 .show-level-2-menu:hover .level-2-menu {
   display: block;
 }
-/* line 81, sass/global/components/_menus.scss */
+/* line 81, sass/global/simple/_menus.scss */
 .show-level-2-menu .level-2-menu {
   display: none;
   width: auto;
@@ -2049,11 +2049,11 @@ html, button, input, select, textarea,
   z-index: 2;
 }
 
-/* line 92, sass/global/components/_menus.scss */
+/* line 92, sass/global/simple/_menus.scss */
 .show-level-3-menu:hover .level-3-menu {
   display: block;
 }
-/* line 96, sass/global/components/_menus.scss */
+/* line 96, sass/global/simple/_menus.scss */
 .show-level-3-menu .level-3-menu {
   display: none;
   width: auto;
@@ -2063,7 +2063,7 @@ html, button, input, select, textarea,
   z-index: 3;
 }
 
-/* line 114, sass/global/components/_menus.scss */
+/* line 114, sass/global/simple/_menus.scss */
 .paginator {
   /* `pure-g` Grid styles */
   letter-spacing: -0.31em;
@@ -2080,14 +2080,14 @@ html, button, input, select, textarea,
   padding: 0;
 }
 
-/* line 127, sass/global/components/_menus.scss */
+/* line 127, sass/global/simple/_menus.scss */
 .opera-only :-o-prefocus,
 .paginator {
   word-spacing: -0.43em;
 }
 
 /* `pure-u` Grid styles */
-/* line 131, sass/global/components/_menus.scss */
+/* line 131, sass/global/simple/_menus.scss */
 .paginator li {
   display: inline-block;
   *display: inline;

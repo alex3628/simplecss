@@ -19,17 +19,17 @@
 @import "global/base/compass";
 
 
-/* layout (layout components can be re-used) */
+/* layout (layout can be re-used) */
 @import "global/layout/layout";
 @import "global/layout/responsive";
 
 
-/* components (components css) */
-@import "global/components/typography";
-@import "global/components/grids";
-@import "global/components/buttons";
-@import "global/components/forms";
-@import "global/components/menus";
+/* simple (simple css) */
+@import "global/simple/typography";
+@import "global/simple/grids";
+@import "global/simple/buttons";
+@import "global/simple/forms";
+@import "global/simple/menus";
 
 
 /* vendor (3rd party css) */

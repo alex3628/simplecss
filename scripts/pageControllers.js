@@ -21,19 +21,19 @@ function pageCtrl($scope) {
             "link": "/simple/menus.html"
         },
         {
-            "name": "Icons",
-            "link": "/simple/icons.html"
+            "name": "Components",
+            "link": "/simple/components.html"
         },
         {
-            "name": "Component",
-            "link": "/simple/Component.html"
+            "name": "Icons",
+            "link": "/simple/icons.html"
         }
     ];
-    $scope.about = {
+    $scope.About = {
         "headline": "Simple",
         "describe": "A set of small, responsive CSS modules that you can use in every web project."
     };
-    $scope.base = {
+    $scope.Base = {
         "headline": "Base",
         "describe": "Leveraging Normalize.css, an HTML5-ready alternative to CSS resets."
     };
@@ -52,6 +52,10 @@ function pageCtrl($scope) {
     $scope.Menus = {
         "headline": "Menus",
         "describe": "Global CSS settings, fundamental HTML elements styled and enhanced with extensible classes."
+    };
+    $scope.Components = {
+        "headline": "Components",
+        "describe": "Components"
     };
     $scope.Icons = {
         "headline": "Icons",
