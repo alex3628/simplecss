@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en" xmlns="http://www.w3.org/1999/html"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+  <!-- Set the viewport width to device width for mobile -->
+  <meta name="viewport" content="width=device-width" />
+  <title>Audio Test</title>
+  <!--[if lte IE 8]>
+  <script src="./modernizr.min.js" type="text/javascript"></script>
+  <![endif]-->
+</head>
+<body>
+
+  <div>
+      <input type="hidden" id="audio-url" value="beyond.mp3" />
+      <button type="button" id="play" class="button round">Load Audio</button>
+      <span id="engine"></span>
+      <span id="loaded"></span>
+      <span id="time"></span>
+  </div>
+  
+  <script src="./audio5.min.js"></script>
+  <script>
+    (function () {
+      var audio5;
+      var btn = document.getElementById('play');
+      var loaded = document.getElementById('loaded');
+      var time = document.getElementById('time');
+      var engine = document.getElementById('engine');
+
+      function listen(evnt, elem, func) {
+        if (elem.addEventListener)  // W3C DOM
+          elem.addEventListener(evnt, func, false);
+        else if (elem.attachEvent) { // IE DOM
+          var r = elem.attachEvent("on" + evnt, func);
+          return r;
+        }
+      }
+
+      function unlisten(evnt, elem, func) {
+        if (elem.removeEventListener)  // W3C DOM
+          elem.removeEventListener(evnt, func, false);
+        else if (elem.detachEvent) { // IE DOM
+          var r = elem.detachEvent("on" + evnt, func);
+          return r;
+        }
+      }
+
+      function loadAudio () {
+        var audioUrl = document.getElementById("audio-url").value;
+        unlisten('click', btn, loadAudio);
+        btn.innerHTML = 'Loading...';
+        listen('click', btn, playPause.bind(audio5));
+        audio5.load(audioUrl);
+      }
+
+      function playPause () {
+        if (this.playing) {
+          this.pause();
+          btn.innerHTML = 'Play';
+        } else {
+          this.play();
+          btn.innerHTML = 'Pause';
+        }
+      }
+
+      function audioEnded () {
+        this.seek(0);
+        this.pause();
+        btn.innerHTML = 'Play';
+      }
+
+      audio5 = new Audio5js({
+        swf_path: './swf/audio5js.swf',
+        ready: function (player) {
+          engine.innerHTML = 'Engine: <strong>' + player.engine + '</strong>. Codec: <strong>' + player.codec + '</strong>';
+          this.on('canplay', playPause, this);
+          this.on('ended', audioEnded, this);
+          this.on('progress', function(load_percent) {
+            loaded.innerHTML = 'Loaded <strong>' + load_percent + '%</strong>';
+          }, this);
+          this.on('timeupdate', function(position, duration) {
+            time.innerHTML = position + '/' + duration;
+          }, this);
+
+          listen('click', btn, loadAudio);
+        }
+      });
+    }());
+  </script>
+</body>
+</html>
