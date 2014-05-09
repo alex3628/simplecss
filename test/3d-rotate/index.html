@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>3D ROTATE | AKQA</title>
+    <meta name="author" content="AKQA Shanghai technology Team" />
+    <meta name="copyright" content="AKQA Inc." />
+    <meta name="keywords" content="AKQA" />
+    <meta name="description" content="AKQA is an independent, ideas-led agency and we work with the world’s leading consumer brands." />
+    <meta name="viewport" content="user-scalable=no" />
+
+
+    <!-- for window 8 -->
+    <meta name="msapplication-TileImage" content="/images/touch/apple-touch-icon.png" />
+    <meta name="msapplication-TileColor" content="#000000" />
+
+
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="shortcut icon" href="/images/favicon.ico" />
+
+
+    <style>
+        body {
+            margin: 0;
+        }
+        .scene3d
+        {
+            -webkit-perspective: 1000px;
+            width: 600px;
+            height: 340px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .object3d
+        {
+            position: absolute;
+            width: inherit;
+            height: inherit;
+            /*top: 20px;*/
+            -webkit-transform-style: preserve-3d;
+        }
+        .face3d
+        {
+            position: absolute;
+            left: 165px;
+            top: 15px;
+        }
+    </style>
+    <style>
+        #obj6.style > #img1 {-webkit-transform: translateX(0px) translateY(0px) translateZ(135px); }
+        #obj6.style > #img2 {-webkit-transform: translateX(0px) translateY(0px) translateZ(-135px); }
+        #obj6.style > #img3 {-webkit-transform: translateX(135px) translateY(0px) translateZ(0px) rotateY(90deg);}
+        #obj6.style > #img4 {-webkit-transform: translateX(-135px) translateY(0px) translateZ(0px) rotateY(-90deg);}
+        #obj6.style > #img5 {-webkit-transform: translateX(0px) translateY(135px) translateZ(0px) rotateX(90deg);}
+        #obj6.style > #img6 {-webkit-transform: translateX(0px) translateY(-135px) translateZ(0px) rotateX(-90deg);}
+
+        .style .img-1 {
+            display: block;
+        }
+        .style .img-2, .style .img-3, .style .img-4, .style .img-5{
+            display: none;
+        }
+
+
+        #obj6.style1 > #img1 {-webkit-transform: translateX(0px) translateY(0px) translateZ(250px); }
+        #obj6.style1 > #img2 {-webkit-transform: translateX(0px) translateY(0px) translateZ(-250px); }
+        #obj6.style1 > #img3 {-webkit-transform: translateX(250px) translateY(0px) translateZ(0px) rotateY(90deg);}
+        #obj6.style1 > #img4 {-webkit-transform: translateX(-250px) translateY(0px) translateZ(0px) rotateY(-90deg);}
+        #obj6.style1 > #img5 {-webkit-transform: translateX(0px) translateY(250px) translateZ(0px) rotateX(90deg);}
+        #obj6.style1 > #img6 {-webkit-transform: translateX(0px) translateY(-250px) translateZ(0px) rotateX(-90deg);}
+
+        #obj6.style1 > #img1-1 {-webkit-transform: translateX(0px) translateY(0px) translateZ(135px); }
+        #obj6.style1 > #img2-1 {-webkit-transform: translateX(0px) translateY(0px) translateZ(-135px); }
+        #obj6.style1 > #img3-1 {-webkit-transform: translateX(135px) translateY(0px) translateZ(0px) rotateY(90deg);}
+        #obj6.style1 > #img4-1 {-webkit-transform: translateX(-135px) translateY(0px) translateZ(0px) rotateY(-90deg);}
+        #obj6.style1 > #img5-1 {-webkit-transform: translateX(0px) translateY(135px) translateZ(0px) rotateX(90deg);}
+        #obj6.style1 > #img6-1 {-webkit-transform: translateX(0px) translateY(-135px) translateZ(0px) rotateX(-90deg);}
+
+        #obj6.style1 > #img1-2 {-webkit-transform: translateX(0px) translateY(0px) translateZ(135px); }
+        #obj6.style1 > #img2-2 {-webkit-transform: translateX(0px) translateY(0px) translateZ(-135px); }
+        #obj6.style1 > #img3-2 {-webkit-transform: translateX(135px) translateY(0px) translateZ(0px) rotateY(90deg);}
+        #obj6.style1 > #img4-2 {-webkit-transform: translateX(-135px) translateY(0px) translateZ(0px) rotateY(-90deg);}
+        #obj6.style1 > #img5-2 {-webkit-transform: translateX(0px) translateY(135px) translateZ(0px) rotateX(90deg);}
+        #obj6.style1 > #img6-2 {-webkit-transform: translateX(0px) translateY(-135px) translateZ(0px) rotateX(-90deg);}
+
+        #obj6.style1 > #img1-3 {-webkit-transform: translateX(0px) translateY(0px) translateZ(135px); }
+        #obj6.style1 > #img2-3 {-webkit-transform: translateX(0px) translateY(0px) translateZ(-135px); }
+        #obj6.style1 > #img3-3 {-webkit-transform: translateX(135px) translateY(0px) translateZ(0px) rotateY(90deg);}
+        #obj6.style1 > #img4-3 {-webkit-transform: translateX(-135px) translateY(0px) translateZ(0px) rotateY(-90deg);}
+        #obj6.style1 > #img5-3 {-webkit-transform: translateX(0px) translateY(135px) translateZ(0px) rotateX(90deg);}
+        #obj6.style1 > #img6-3 {-webkit-transform: translateX(0px) translateY(-135px) translateZ(0px) rotateX(-90deg);}
+
+        #obj6.style1 > #img1-4 {-webkit-transform: translateX(0px) translateY(0px) translateZ(135px); }
+        #obj6.style1 > #img2-4 {-webkit-transform: translateX(0px) translateY(0px) translateZ(-135px); }
+        #obj6.style1 > #img3-4 {-webkit-transform: translateX(135px) translateY(0px) translateZ(0px) rotateY(90deg);}
+        #obj6.style1 > #img4-4 {-webkit-transform: translateX(-135px) translateY(0px) translateZ(0px) rotateY(-90deg);}
+        #obj6.style1 > #img5-4 {-webkit-transform: translateX(0px) translateY(135px) translateZ(0px) rotateX(90deg);}
+        #obj6.style1 > #img6-4 {-webkit-transform: translateX(0px) translateY(-135px) translateZ(0px) rotateX(-90deg);}
+
+        .style1 .img-1 {
+            display: block;
+        }
+        .style1 .img-2 {
+            display: block;
+        }
+        .style1 .img-3, .style1 .img-4, .style1 .img-5{
+            display: none;
+        }
+
+        #obj6.style2 > #img1 {-webkit-transform: translateX(0px) translateY(0px) translateZ(450px); }
+        #obj6.style2 > #img2 {-webkit-transform: translateX(0px) translateY(0px) translateZ(-450px); }
+        #obj6.style2 > #img3 {-webkit-transform: translateX(450px) translateY(0px) translateZ(0px) rotateY(90deg);}
+        #obj6.style2 > #img4 {-webkit-transform: translateX(-450px) translateY(0px) translateZ(0px) rotateY(-90deg);}
+        #obj6.style2 > #img5 {-webkit-transform: translateX(0px) translateY(450px) translateZ(0px) rotateX(90deg);}
+        #obj6.style2 > #img6 {-webkit-transform: translateX(0px) translateY(-450px) translateZ(0px) rotateX(-90deg);}
+
+        #obj6.style2 > #img1-1 {-webkit-transform: translateX(0px) translateY(300px) translateZ(450px); }
+        #obj6.style2 > #img2-1 {-webkit-transform: translateX(0px) translateY(300px) translateZ(-450px); }
+        #obj6.style2 > #img3-1 {-webkit-transform: translateX(450px) translateY(300px) translateZ(0px) rotateY(90deg);}
+        #obj6.style2 > #img4-1 {-webkit-transform: translateX(-450px) translateY(300px) translateZ(0px) rotateY(-90deg);}
+        #obj6.style2 > #img5-1 {-webkit-transform: translateX(300px) translateY(450px) translateZ(0px) rotateX(90deg);}
+        #obj6.style2 > #img6-1 {-webkit-transform: translateX(300px) translateY(-450px) translateZ(0px) rotateX(-90deg);}
+
+        #obj6.style2 > #img1-2 {-webkit-transform: translateX(0px) translateY(-300px) translateZ(450px); }
+        #obj6.style2 > #img2-2 {-webkit-transform: translateX(0px) translateY(-300px) translateZ(-450px); }
+        #obj6.style2 > #img3-2 {-webkit-transform: translateX(450px) translateY(-300px) translateZ(0px) rotateY(90deg);}
+        #obj6.style2 > #img4-2 {-webkit-transform: translateX(-450px) translateY(-300px) translateZ(0px) rotateY(-90deg);}
+        #obj6.style2 > #img5-2 {-webkit-transform: translateX(-300px) translateY(450px) translateZ(0px) rotateX(90deg);}
+        #obj6.style2 > #img6-2 {-webkit-transform: translateX(-300px) translateY(-450px) translateZ(0px) rotateX(-90deg);}
+
+        #obj6.style2 > #img1-3 {-webkit-transform: translateX(300px) translateY(0px) translateZ(450px); }
+        #obj6.style2 > #img2-3 {-webkit-transform: translateX(300px) translateY(0px) translateZ(-450px); }
+        #obj6.style2 > #img3-3 {-webkit-transform: translateX(450px) translateY(0px) translateZ(300px) rotateY(90deg);}
+        #obj6.style2 > #img4-3 {-webkit-transform: translateX(-450px) translateY(0px) translateZ(300px) rotateY(-90deg);}
+        #obj6.style2 > #img5-3 {-webkit-transform: translateX(0px) translateY(450px) translateZ(300px) rotateX(90deg);}
+        #obj6.style2 > #img6-3 {-webkit-transform: translateX(0px) translateY(-450px) translateZ(300px) rotateX(-90deg);}
+
+        #obj6.style2 > #img1-4 {-webkit-transform: translateX(-300px) translateY(0px) translateZ(450px); }
+        #obj6.style2 > #img2-4 {-webkit-transform: translateX(-300px) translateY(0px) translateZ(-450px); }
+        #obj6.style2 > #img3-4 {-webkit-transform: translateX(450px) translateY(0px) translateZ(-300px) rotateY(90deg);}
+        #obj6.style2 > #img4-4 {-webkit-transform: translateX(-450px) translateY(0px) translateZ(-300px) rotateY(-90deg);}
+        #obj6.style2 > #img5-4 {-webkit-transform: translateX(0px) translateY(450px) translateZ(-300px) rotateX(90deg);}
+        #obj6.style2 > #img6-4 {-webkit-transform: translateX(0px) translateY(-450px) translateZ(-300px) rotateX(-90deg);}
+
+
+        #obj6{
+            -webkit-animation: rotate3d7 linear infinite 14s;
+        }
+        @-webkit-keyframes rotate3d7
+        {
+            from { -webkit-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg); }
+            to   { -webkit-transform: rotateX(360deg) rotateY(720deg) rotateZ(1080deg); }
+        }
+        #obj6 img {-webkit-transition: 0.5s linear;}
+
+    </style>
+</head>
+<body>
+    <!--[if lt IE 8]>
+        <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+    <![endif]-->
+
+    <!-- hidden input -->
+    <div class="hidden-input">
+        <input type="hidden" id="" name="" value="">
+        <input type="hidden" id="" name="" value="">
+    </div>
+
+    <!-- html5 template -->
+    <div class="wrapper">
+        <header>
+            <div class="container" style="font-size: 60px; margin-top: 50px; text-align: center">CSS 3D: animations, transitions and transforms can be combined</div>
+        </header>
+        <div class="scene3d" style="margin-top: 360px" id="sce6">
+            <div class="object3d style" id="obj6">
+                <img class="face3d img-1" src="1.png" id="img1">
+                <img class="face3d img-1" src="2.png" id="img2">
+                <img class="face3d img-1" src="3.png" id="img3">
+                <img class="face3d img-1" src="4.png" id="img4">
+                <img class="face3d img-1" src="5.png" id="img5">
+                <img class="face3d img-1" src="6.png" id="img6">
+
+                <img class="face3d img-2" src="6.png" id="img1-1">
+                <img class="face3d img-2" src="5.png" id="img2-1">
+                <img class="face3d img-2" src="4.png" id="img3-1">
+                <img class="face3d img-2" src="3.png" id="img4-1">
+                <img class="face3d img-2" src="2.png" id="img5-1">
+                <img class="face3d img-2" src="1.png" id="img6-1">
+
+                <img class="face3d img-3" src="1.png" id="img1-2">
+                <img class="face3d img-3" src="2.png" id="img2-2">
+                <img class="face3d img-3" src="3.png" id="img3-2">
+                <img class="face3d img-3" src="4.png" id="img4-2">
+                <img class="face3d img-3" src="5.png" id="img5-2">
+                <img class="face3d img-3" src="6.png" id="img6-2">
+
+                <img class="face3d img-4" src="6.png" id="img1-3">
+                <img class="face3d img-4" src="5.png" id="img2-3">
+                <img class="face3d img-4" src="4.png" id="img3-3">
+                <img class="face3d img-4" src="3.png" id="img4-3">
+                <img class="face3d img-4" src="2.png" id="img5-3">
+                <img class="face3d img-4" src="1.png" id="img6-3">
+
+                <img class="face3d img-5" src="1.png" id="img1-4">
+                <img class="face3d img-5" src="2.png" id="img2-4">
+                <img class="face3d img-5" src="3.png" id="img3-4">
+                <img class="face3d img-5" src="4.png" id="img4-4">
+                <img class="face3d img-5" src="5.png" id="img5-4">
+                <img class="face3d img-5" src="6.png" id="img6-4">
+            </div>
+        </div>
+    </div>
+
+    <!-- Add your template content here -->
+    <div class="template"></div>
+    <!-- script link here -->
+    <div class="script">
+        <script src="/scripts/common.js"></script>
+    </div>
+
+    <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="//code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+    <script>
+        $(function(){
+            $("#obj6").bind("tap", function (event){
+                event.stopPropagation();
+                if ($(this).hasClass('style')) {
+                    $(this).addClass('style1').removeClass('style');
+                } else if ($(this).hasClass('style1')) {
+                    $(this).addClass('style2').removeClass('style1');
+                } else if ($(this).hasClass('style2')) {
+                    $(this).addClass('style').removeClass('style2');
+                }
+                return false;
+            });
+        });
+    </script>
+</body>
+</html>

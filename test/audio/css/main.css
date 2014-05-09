@@ -1,0 +1,128 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  width: 100%;
+  height: 100%;
+}
+body {
+  -webkit-tap-highlight-color: transparent;
+  background: no-repeat center top;
+  background-size: cover;
+}
+
+.page-1 {
+  background-image: url("../imgs/bg-page-1-1.jpg");
+}
+.page-2 {
+  background-image: url("../imgs/bg-page-2-1.jpg");
+}
+.page-3 {
+  background-image: url("../imgs/bg-page-3-1.jpg");
+}
+.page-4 {
+  background-image: url("../imgs/bg-page-4-1.jpg");
+}
+.page-5 {
+  background-image: url("../imgs/bg-page-5-1.jpg");
+}
+.page-6 {
+  background-image: url("../imgs/bg-page-6-1.jpg");
+}
+
+.logo {
+  position: absolute;
+  left: 50%;
+  margin-left: -30px;
+  top: 50px;
+}
+.logo img {
+  width: 60px;
+  height: auto;
+}
+.position {
+  position: absolute;
+  left: 50%;
+  margin-left: -164px;
+  bottom: 10%;
+}
+.control {
+  text-align: center;
+  margin-top: 20px;
+}
+.text img {
+  width: 327px;
+  height: 118px;
+}
+#play {
+  width: 80px;
+  height: 80px;
+}
+
+@media screen and (max-width: 480px) {
+  .page-1 {
+    background-image: url("../imgs/bg-page-1-2.jpg");
+  }
+  .page-2 {
+    background-image: url("../imgs/bg-page-2-2.jpg");
+  }
+  .page-3 {
+    background-image: url("../imgs/bg-page-3-2.jpg");
+  }
+  .page-4 {
+    background-image: url("../imgs/bg-page-4-2.jpg");
+  }
+  .page-5 {
+    background-image: url("../imgs/bg-page-5-2.jpg");
+  }
+  .page-6 {
+    background-image: url("../imgs/bg-page-6-2.jpg");
+  }
+  .logo {
+    position: absolute;
+    left: 50%;
+    margin-left: -35px;
+    top: 30px;
+  }
+  .logo img {
+    width: 35px;
+    height: auto;
+  }
+  .position {
+    position: absolute;
+    bottom: 6%;
+    margin-left: -80px;
+    left: 50%;
+  }
+  .control {
+    margin-top: 10px;
+  }
+  .text img {
+    width: 160px;
+    height: 59px;
+  }
+  #play {
+    width: 50px;
+    height: 50px;
+  }
+}
+/*@media screen and (orientation: landscape) {
+  .position {
+    position: absolute;
+    bottom: 2%;
+    margin-left: -80px;
+    left: 50%;
+  }
+  .control {
+    margin-top: 0px;
+  }
+  .text img {
+    width: 160px;
+    height: 59px;
+  }
+  #play {
+    width: 50px;
+    height: 50px;
+  }
+}*/
