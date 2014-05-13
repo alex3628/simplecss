@@ -2,74 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3e51502-753b-459d-97fc-468273d245d3" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/audio5js-master/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/audio5js-master/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/audio5js-master/Gruntfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/audio5js-master/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/audio5js-master/audio-simplify/audio5.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/audio5js-master/audio-simplify/beyond.mp3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/audio5js-master/audio-simplify/modernizr.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/audio5js-master/audio-simplify/swf/audio5js.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/audio5js-master/audio-simplify/test.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/audio5js-master/audio5.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/audio5js-master/audio5.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/audio5js-master/component.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/audio5js-master/demos/angular/ngAudio5-example.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/audio5js-master/demos/angular/ngAudio5.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/audio5js-master/demos/angular/ngAudio5Directive-example.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/audio5js-master/demos/angular/ngAudio5Directive.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/audio5js-master/demos/soundcloud/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/audio5js-master/demos/soundcloud/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/audio5js-master/flash/audio5js.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/audio5js-master/flash/audio5js.fla" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/audio5js-master/make/build.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/audio5js-master/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/audio5js-master/src/audio5.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/audio5js-master/src/ender.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/audio5js-master/swf/audio5js.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/audio5js-master/tests/assets/sample.mp3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/audio5js-master/tests/functional/audio5_callbacks_spec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/audio5js-master/tests/functional/audio5_object_spec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/audio5js-master/tests/functional/audio5_playback_spec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/audio5js-master/tests/functional/audio5_requirejs_spec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/audio5js-master/tests/mocha.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/audio5js-master/tests/mocha.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/audio5js-master/tests/tests.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/audio5js-master/tests/tests_requirejs.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/elevatezoom-master/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/elevatezoom-master/demo.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/elevatezoom-master/elevatezoom.jquery.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/elevatezoom-master/images/large/image1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/elevatezoom-master/images/large/image2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/elevatezoom-master/images/large/image3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/elevatezoom-master/images/large/image4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/elevatezoom-master/images/small/image1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/elevatezoom-master/images/small/image2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/elevatezoom-master/images/small/image3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/elevatezoom-master/images/small/image4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/elevatezoom-master/images/thumb/image1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/elevatezoom-master/images/thumb/image2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/elevatezoom-master/images/thumb/image3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/elevatezoom-master/images/thumb/image4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/elevatezoom-master/images/window-positions.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/elevatezoom-master/jquery-1.8.3.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/elevatezoom-master/jquery.elevateZoom-3.0.8.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/elevatezoom-master/jquery.elevatezoom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/nike-football/indexWithTracking.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/test-html5-shark/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/test-html5-shark/meizi/meizi-0.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/test-html5-shark/meizi/meizi-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/test-html5-shark/meizi/meizi-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/test-html5-shark/meizi/meizi-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/test-html5-shark/meizi/meizi-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/test-html5-shark/meizi/meizi-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/test-html5-shark/meizi/meizi-6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/test-html5-shark/meizi/meizi-7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/test-html5-shark/meizi/meizi-8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/test-html5-shark/meizi/meizi-9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/test-svg/index.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template-mobile.html" afterPath="$PROJECT_DIR$/template-mobile.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mustache/index.html" afterPath="$PROJECT_DIR$/test/mustache/index.html" />
     </list>
     <ignored path="simpleCss.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -149,7 +82,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/mustache/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1800">
+            <state line="62" column="20" selection-start="2162" selection-end="2162" vertical-scroll-proportion="0.42898974" vertical-offset="637" max-vertical-offset="1320">
               <folding />
             </state>
           </provider>
@@ -202,7 +135,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/test-svg/index.html" />
         <option value="$PROJECT_DIR$/scripts/common.js" />
         <option value="$PROJECT_DIR$/styles/sass/partials/pages/_simple-page.scss" />
         <option value="$PROJECT_DIR$/styles/sass/main.scss" />
@@ -218,6 +150,7 @@
         <option value="$PROJECT_DIR$/test/3d-rotate/index.html" />
         <option value="$PROJECT_DIR$/template-mobile.html" />
         <option value="$PROJECT_DIR$/../audio/index.html" />
+        <option value="$PROJECT_DIR$/test/mustache/index.html" />
       </list>
     </option>
   </component>
@@ -676,7 +609,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/mustache/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1800">
+        <state line="62" column="20" selection-start="2162" selection-end="2162" vertical-scroll-proportion="0.42898974" vertical-offset="637" max-vertical-offset="1320">
           <folding />
         </state>
       </provider>

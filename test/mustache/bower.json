@@ -1,0 +1,10 @@
+{
+    "company": "Apple",
+    "address": {
+        "street": "1 Infinite Loop Cupertino</br>",
+        "city": "California ",
+        "state": "CA ",
+        "zip": "95014 "
+    },
+    "product": ["Macbook ","iPhone ","iPod ","iPad "]
+}
